@@ -20,7 +20,7 @@ provide a fully useful reference of all provided ViewHelpers by TYPO3 CMS.
 
 Right now this might look ugly in some places, e.g. ``= EXAMPLE =`` and rendered
 HTML markup like ``<code>``. This will be polished in the future.  The current
-state still is much better then nothing.
+state still is much better than nothing.
 
 Also notice that package names are not 1:1 Composer packages. ``cms-`` is
 stripped.
