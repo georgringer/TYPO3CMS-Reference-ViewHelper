@@ -1,60 +1,101 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-be-pagerenderer:
+
 ===============
 be.pageRenderer
 ===============
 
 
-View helper which allows you to create extbase based modules in the style of TYPO3 default modules.
+ViewHelper which allows you to create extbase based modules in the style of TYPO3 default modules.
 
-= Examples =
+Examples
+========
 
-<code title="All options">
-<f:be.pageRenderer pageTitle="foo" includeCssFiles="0: '{f:uri.resource(path:\'Css/Styles.css\')}'" includeJsFiles="0: '{f:uri.resource(path:\'JavaScript/Library1.js\')}', 1: '{f:uri.resource(path:\'JavaScript/Library2.js\')}'" addJsInlineLabels="{0: 'label1', 1: 'label2'}" />
-</code>
-<output>
+All options::
 
-Custom CSS file EXT:your_extension/Resources/Public/Css/styles.css and
-JavaScript files EXT:your_extension/Resources/Public/JavaScript/Library1.js and EXT:your_extension/Resources/Public/JavaScript/Library2.js
+   <f:be.pageRenderer pageTitle="foo"
+       includeCssFiles="{0: '{f:uri.resource(path:\'Css/Styles.css\')}'}"
+       includeJsFiles="{0: '{f:uri.resource(path:\'JavaScript/Library1.js\')}', 1: '{f:uri.resource(path:\'JavaScript/Library2.js\')}'}"
+       addJsInlineLabels="{0: 'label1', 1: 'label2'}" />
+
+Custom CSS file :file:`EXT:your_extension/Resources/Public/Css/styles.css` and
+JavaScript files :file:`EXT:your_extension/Resources/Public/JavaScript/Library1.js` and
+:file:`EXT:your_extension/Resources/Public/JavaScript/Library2.js`
 will be loaded, plus some inline labels for usage in JS code.
-</output>
 
 Arguments
 =========
 
 
-pageTitle (string)
-------------------
+.. _be.pagerenderer_pagetitle:
+pageTitle
+---------
 
+:aspect:`DataType`
+   string
 
-title tag of the module. Not required by default, as BE modules are shown in a frame
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Title tag of the module. Not required by default, as BE modules are shown in a frame
 
-includeCssFiles (anySimpleType)
--------------------------------
+.. _be.pagerenderer_includecssfiles:
+includeCssFiles
+---------------
 
+:aspect:`DataType`
+   mixed
 
-List of custom CSS file to be loaded
+:aspect:`Required`
+   false
+:aspect:`Description`
+   List of custom CSS file to be loaded
 
-includeJsFiles (anySimpleType)
-------------------------------
+.. _be.pagerenderer_includejsfiles:
+includeJsFiles
+--------------
 
+:aspect:`DataType`
+   mixed
 
-List of custom JavaScript file to be loaded
+:aspect:`Required`
+   false
+:aspect:`Description`
+   List of custom JavaScript file to be loaded
 
-addJsInlineLabels (anySimpleType)
----------------------------------
+.. _be.pagerenderer_addjsinlinelabels:
+addJsInlineLabels
+-----------------
 
+:aspect:`DataType`
+   mixed
 
-Custom labels to add to JavaScript inline labels
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Custom labels to add to JavaScript inline labels
 
-includeRequireJsModules (anySimpleType)
----------------------------------------
+.. _be.pagerenderer_includerequirejsmodules:
+includeRequireJsModules
+-----------------------
 
+:aspect:`DataType`
+   mixed
 
-List of RequireJS modules to be loaded
+:aspect:`Required`
+   false
+:aspect:`Description`
+   List of RequireJS modules to be loaded
 
-addInlineSettings (anySimpleType)
----------------------------------
+.. _be.pagerenderer_addinlinesettings:
+addInlineSettings
+-----------------
 
+:aspect:`DataType`
+   mixed
 
-Adds Javascript Inline Setting
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Adds Javascript Inline Setting

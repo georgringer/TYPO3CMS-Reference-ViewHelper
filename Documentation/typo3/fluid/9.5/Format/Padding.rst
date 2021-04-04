@@ -1,63 +1,103 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-format-padding:
+
 ==============
 format.padding
 ==============
 
 
-Formats a string using PHPs str_pad function.
+Formats a string using PHPs :php:`str_pad` function.
+See https://www.php.net/manual/function.str_pad.php.
 
-= Examples =
+Examples
+========
 
-<code title="Defaults">
-<f:format.padding padLength="10">TYPO3</f:format.padding>
-</code>
-<output>
-TYPO3     (note the trailing whitespace)
-<output>
+Defaults
+--------
 
-<code title="Specify padding string">
-<f:format.padding padLength="10" padString="-=">TYPO3</f:format.padding>
-</code>
-<output>
-TYPO3-=-=-
-</output>
+::
 
-<code title="Specify padding type">
-<f:format.padding padLength="10" padString="-" padType="both">TYPO3</f:format.padding>
-</code>
-<output>
---TYPO3---
-</output>
+   <f:format.padding padLength="10">TYPO3</f:format.padding>
+
+Output::
+
+    TYPO3
+
+``TYPO3``
+
+Specify padding string
+----------------------
+
+::
+
+   <f:format.padding padLength="10" padString="-=">TYPO3</f:format.padding>
+
+``TYPO3-=-=-``
+
+Specify padding type
+--------------------
+
+::
+
+   <f:format.padding padLength="10" padString="-" padType="both">TYPO3</f:format.padding>
+
+``--TYPO3---``
 
 Arguments
 =========
 
 
-value (string)
---------------
+.. _format.padding_value:
+value
+-----
 
+:aspect:`DataType`
+   string
 
-string to format
+:aspect:`Required`
+   false
+:aspect:`Description`
+   String to format
 
-padLength (anySimpleType)
--------------------------
+.. _format.padding_padlength:
+padLength
+---------
 
+:aspect:`DataType`
+   mixed
 
-Length of the resulting string. If the value of pad_length is negative or less than the length of the input string, no padding takes place.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Length of the resulting string. If the value of pad_length is negative or less than the length of the input string, no padding takes place.
 
-padString (string)
-------------------
+.. _format.padding_padstring:
+padString
+---------
 
+:aspect:`DataType`
+   string
 
-Default: &#039; &#039;
+:aspect:`Default`
+   ' '
 
-The padding string
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The padding string
 
-padType (string)
-----------------
+.. _format.padding_padtype:
+padType
+-------
 
+:aspect:`DataType`
+   string
 
-Default: &#039;right&#039;
+:aspect:`Default`
+   'right'
 
-Append the padding at this site (Possible values: right,left,both. Default: right)
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Append the padding at this site (Possible values: right,left,both. Default: right)

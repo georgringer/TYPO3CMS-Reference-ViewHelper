@@ -1,5 +1,7 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-link-typolink:
+
 =============
 link.typolink
 =============
@@ -7,108 +9,191 @@ link.typolink
 
 A ViewHelper to create links from fields supported by the link wizard
 
-== Example ==
+Example
+=======
 
-{link} contains "19 _blank - "testtitle with whitespace" &X=y"
+``{link}`` contains: ``t3://page?uid=2&arg1=val1#9 _blank some-css-class "Title containing Whitespace"``.
 
-<code title="minimal usage">
-<f:link.typolink parameter="{link}">
-Linktext
-</f:link.typolink>
-<output>
-<a href="index.php?id=19&X=y" title="testtitle with whitespace" target="_blank">
-Linktext
-</a>
-</output>
-</code>
+Or a legacy version from older TYPO3 versions:
+``{link}`` contains: ``9 _blank - "testtitle with whitespace" &X=y``.
 
-<code title="Full parameter usage">
-<f:link.typolink parameter="{link}" target="_blank" class="ico-class" title="some title" additionalParams="&u=b" additionalAttributes="{type:'button'}" useCacheHash="true">
-Linktext
-</f:link.typolink>
-</code>
-<output>
-<a href="index.php?id=19&X=y&u=b" title="some title" target="_blank" class="ico-class" type="button">
-Linktext
-</a>
-</output>
+Minimal usage
+-------------
+
+::
+
+   <f:link.typolink parameter="{link}">
+      Linktext
+   </f:link.typolink>
+
+Output::
+
+   <a href="/page/path/name.html?X=y" title="testtitle with whitespace" target="_blank">
+      Linktext
+   </a>
+
+Depending on current page, routing and page path configuration.
+
+Full parameter usage
+--------------------
+
+::
+
+   <f:link.typolink parameter="{link}" additionalParams="&u=b"
+       target="_blank"
+       class="ico-class" title="some title"
+       additionalAttributes="{type:'button'}"
+       useCacheHash="true"
+   >
+      Linktext
+   </f:link.typolink>
+
+Output::
+
+   <a href="/page/path/name.html?X=y&u=b" title="some title" target="_blank" class="ico-class" type="button">
+       Linktext
+   </a>
+
+Depending on routing and page path configuration.
 
 Arguments
 =========
 
 
-parameter (string)
-------------------
+.. _link.typolink_parameter:
+parameter
+---------
 
+:aspect:`DataType`
+   string
 
-stdWrap.typolink style parameter string
+:aspect:`Required`
+   false
+:aspect:`Description`
+   StdWrap.typolink style parameter string
 
-target (string)
----------------
+.. _link.typolink_target:
+target
+------
 
+:aspect:`DataType`
+   string
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   
 
+.. _link.typolink_class:
+class
+-----
 
-class (string)
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   
+
+.. _link.typolink_title:
+title
+-----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   
+
+.. _link.typolink_additionalparams:
+additionalParams
+----------------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   
+
+.. _link.typolink_additionalattributes:
+additionalAttributes
+--------------------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Default`
+   array ()
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   
+
+.. _link.typolink_usecachehash:
+useCacheHash
+------------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   
+
+.. _link.typolink_addquerystring:
+addQueryString
 --------------
 
+:aspect:`DataType`
+   mixed
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   
 
+.. _link.typolink_addquerystringmethod:
+addQueryStringMethod
+--------------------
 
-title (string)
---------------
+:aspect:`DataType`
+   string
 
+:aspect:`Default`
+   'GET'
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   
 
+.. _link.typolink_addquerystringexclude:
+addQueryStringExclude
+---------------------
 
-additionalParams (string)
--------------------------
+:aspect:`DataType`
+   string
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   
 
+.. _link.typolink_absolute:
+absolute
+--------
 
+:aspect:`DataType`
+   mixed
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Default: array ()
-
-
-
-useCacheHash (anySimpleType)
-----------------------------
-
-
-Default: false
-
-
-
-addQueryString (anySimpleType)
-------------------------------
-
-
-Default: false
-
-
-
-addQueryStringMethod (string)
------------------------------
-
-
-Default: &#039;GET&#039;
-
-
-
-addQueryStringExclude (string)
-------------------------------
-
-
-
-
-absolute (anySimpleType)
-------------------------
-
-
-Default: false
-
-Ensure the resulting URL is an absolute URL
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Ensure the resulting URL is an absolute URL

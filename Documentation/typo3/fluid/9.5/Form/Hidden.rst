@@ -1,108 +1,196 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-form-hidden:
+
 ===========
 form.hidden
 ===========
 
 
-Renders an <input type="hidden" ...> tag.
+Renders an :html:`<input type="hidden" ...>` tag.
 
-= Examples =
+Examples
+========
 
-<code title="Example">
-<f:form.hidden name="myHiddenValue" value="42" />
-</code>
-<output>
-<input type="hidden" name="myHiddenValue" value="42" />
-</output>
+Example::
+
+   <f:form.hidden name="myHiddenValue" value="42" />
+
+Output::
+
+   <input type="hidden" name="myHiddenValue" value="42" />
 
 You can also use the "property" attribute if you have bound an object to the form.
-See <f:form> for more documentation.
+See :ref:`<f:form> <typo3-fluid-form>` for more documentation.
 
 Arguments
 =========
 
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Additional tag attributes. They will be added directly to the resulting HTML tag.
-
-data (anySimpleType)
+.. _form.hidden_additionalattributes:
+additionalAttributes
 --------------------
 
+:aspect:`DataType`
+   mixed
 
-Additional data-* attributes. They will each be added with a &quot;data-&quot; prefix.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-name (string)
--------------
+.. _form.hidden_data:
+data
+----
 
+:aspect:`DataType`
+   mixed
 
-Name of input tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional data-* attributes. They will each be added with a "data-" prefix.
 
-value (anySimpleType)
----------------------
+.. _form.hidden_name:
+name
+----
 
+:aspect:`DataType`
+   string
 
-Value of input tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of input tag
 
-property (string)
------------------
+.. _form.hidden_value:
+value
+-----
 
+:aspect:`DataType`
+   mixed
 
-Name of Object Property. If used in conjunction with &lt;f:form object=&quot;...&quot;&gt;, &quot;name&quot; and &quot;value&quot; properties will be ignored.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Value of input tag
 
-class (string)
---------------
+.. _form.hidden_property:
+property
+--------
 
+:aspect:`DataType`
+   string
 
-CSS class(es) for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of Object Property. If used in conjunction with <f:form object="...">, "name" and "value" properties will be ignored.
 
-dir (string)
-------------
+.. _form.hidden_class:
+class
+-----
 
+:aspect:`DataType`
+   string
 
-Text direction for this HTML element. Allowed strings: &quot;ltr&quot; (left to right), &quot;rtl&quot; (right to left)
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class(es) for this element
 
-id (string)
------------
+.. _form.hidden_dir:
+dir
+---
 
+:aspect:`DataType`
+   string
 
-Unique (in this file) identifier for this HTML element.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-lang (string)
--------------
+.. _form.hidden_id:
+id
+--
 
+:aspect:`DataType`
+   string
 
-Language for this element. Use short names specified in RFC 1766
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Unique (in this file) identifier for this HTML element.
 
-style (string)
---------------
+.. _form.hidden_lang:
+lang
+----
 
+:aspect:`DataType`
+   string
 
-Individual CSS styles for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Language for this element. Use short names specified in RFC 1766
 
-title (string)
---------------
+.. _form.hidden_style:
+style
+-----
 
+:aspect:`DataType`
+   string
 
-Tooltip text of element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Individual CSS styles for this element
 
-accesskey (string)
-------------------
+.. _form.hidden_title:
+title
+-----
 
+:aspect:`DataType`
+   string
 
-Keyboard shortcut to access this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Tooltip text of element
 
-tabindex (integer)
-------------------
+.. _form.hidden_accesskey:
+accesskey
+---------
 
+:aspect:`DataType`
+   string
 
-Specifies the tab order of this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Keyboard shortcut to access this element
 
-onclick (string)
-----------------
+.. _form.hidden_tabindex:
+tabindex
+--------
 
+:aspect:`DataType`
+   integer
 
-JavaScript evaluated for the onclick event
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the tab order of this element
+
+.. _form.hidden_onclick:
+onclick
+-------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   JavaScript evaluated for the onclick event

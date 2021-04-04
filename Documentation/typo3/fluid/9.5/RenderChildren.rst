@@ -1,5 +1,7 @@
 .. include:: ../../../Includes.txt
 
+.. _typo3-fluid-renderchildren:
+
 ==============
 renderChildren
 ==============
@@ -15,10 +17,17 @@ Arguments
 =========
 
 
-arguments (anySimpleType)
--------------------------
+.. _renderchildren_arguments:
+arguments
+---------
 
+:aspect:`DataType`
+   mixed
 
-Default: array ()
+:aspect:`Default`
+   array ()
 
-Arguments to assign as template variables
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Arguments to assign as template variables

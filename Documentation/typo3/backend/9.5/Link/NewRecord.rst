@@ -1,5 +1,7 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-backend-link-newrecord:
+
 ==============
 link.newRecord
 ==============
@@ -10,7 +12,7 @@ The ViewHelper will pass the command to FormEngine.
 
 The table argument is mandatory, it decides what record is to be created.
 
-The pid argument will put the new record on this page, if 0 given it will
+The pid argument will put the new record on this page, if ``0`` given it will
 be placed to the root page.
 
 The uid argument accepts only negative values. If this is given, the new
@@ -21,124 +23,225 @@ be given explicitly by pid argument.
 An exception will be thrown, if both uid and pid are given.
 An exception will be thrown, if the uid argument is not a negative integer.
 
-To edit records, use the editRecordViewHelper
+To edit records, use the :ref:`<be:link.editRecordViewHelper> <typo3-backend-link-editrecord>`.
 
-= Examples =
+Examples
+========
 
-<code title="Link to create a new record of a_table after record 17 on the same pid">
-<be:link.newRecord table="a_table" returnUrl="foo/bar" uid="-17"/>
-</code>
-<output>
-<a href="/typo3/index.php?route=/record/edit&edit[a_table][-17]=new&returnUrl=foo/bar">
-  Edit record
-</a>
-</output>
+Link to create a new record of a_table after record 17 on the same pid::
 
-<code title="Link to create a new record of a_table on root page">
-<be:link.newRecord table="a_table" returnUrl="foo/bar""/>
-</code>
-<output>
-<a href="/typo3/index.php?route=/record/edit&edit[a_table][]=new&returnUrl=foo/bar">
-  Edit record
-</a>
-</output>
+   <be:link.newRecord table="a_table" returnUrl="foo/bar" uid="-17"/>
 
-<code title="Link to create a new record of a_table on page 17">
-<be:link.newRecord table="a_table" returnUrl="foo/bar" pid="17"/>
-</code>
-<output>
-<a href="/typo3/index.php?route=/record/edit&edit[a_table][-17]=new&returnUrl=foo/bar">
-  Edit record
-</a>
-</output>
+Output::
+
+   <a href="/typo3/index.php?route=/record/edit&edit[a_table][-17]=new&returnUrl=foo/bar">
+       Edit record
+   </a>
+
+Link to create a new record of a_table on root page::
+
+   <be:link.newRecord table="a_table" returnUrl="foo/bar""/>
+
+Output::
+
+   <a href="/typo3/index.php?route=/record/edit&edit[a_table][]=new&returnUrl=foo/bar">
+       Edit record
+   </a>
+
+Link to create a new record of a_table on page 17::
+
+   <be:link.newRecord table="a_table" returnUrl="foo/bar" pid="17"/>
+
+Output::
+
+   <a href="/typo3/index.php?route=/record/edit&edit[a_table][-17]=new&returnUrl=foo/bar">
+       Edit record
+   </a>
+
+Link to create a new record then return back to the BE module "web_MyextensionList"::
+
+   <be:link.newRecord table="a_table" returnUrl="{f:be.uri(route: 'web_MyextensionList')}" pid="17">
 
 Arguments
 =========
 
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Additional tag attributes. They will be added directly to the resulting HTML tag.
-
-data (anySimpleType)
+.. _link.newrecord_additionalattributes:
+additionalAttributes
 --------------------
 
+:aspect:`DataType`
+   mixed
 
-Additional data-* attributes. They will each be added with a &quot;data-&quot; prefix.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-class (string)
---------------
+.. _link.newrecord_data:
+data
+----
 
+:aspect:`DataType`
+   mixed
 
-CSS class(es) for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional data-* attributes. They will each be added with a "data-" prefix.
 
-dir (string)
-------------
+.. _link.newrecord_class:
+class
+-----
 
+:aspect:`DataType`
+   string
 
-Text direction for this HTML element. Allowed strings: &quot;ltr&quot; (left to right), &quot;rtl&quot; (right to left)
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class(es) for this element
 
-id (string)
------------
+.. _link.newrecord_dir:
+dir
+---
 
+:aspect:`DataType`
+   string
 
-Unique (in this file) identifier for this HTML element.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-lang (string)
--------------
+.. _link.newrecord_id:
+id
+--
 
+:aspect:`DataType`
+   string
 
-Language for this element. Use short names specified in RFC 1766
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Unique (in this file) identifier for this HTML element.
 
-style (string)
---------------
+.. _link.newrecord_lang:
+lang
+----
 
+:aspect:`DataType`
+   string
 
-Individual CSS styles for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Language for this element. Use short names specified in RFC 1766
 
-title (string)
---------------
+.. _link.newrecord_style:
+style
+-----
 
+:aspect:`DataType`
+   string
 
-Tooltip text of element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Individual CSS styles for this element
 
-accesskey (string)
-------------------
+.. _link.newrecord_title:
+title
+-----
 
+:aspect:`DataType`
+   string
 
-Keyboard shortcut to access this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Tooltip text of element
 
-tabindex (integer)
-------------------
+.. _link.newrecord_accesskey:
+accesskey
+---------
 
+:aspect:`DataType`
+   string
 
-Specifies the tab order of this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Keyboard shortcut to access this element
 
-onclick (string)
-----------------
+.. _link.newrecord_tabindex:
+tabindex
+--------
 
+:aspect:`DataType`
+   integer
 
-JavaScript evaluated for the onclick event
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the tab order of this element
 
-uid (anySimpleType)
--------------------
+.. _link.newrecord_onclick:
+onclick
+-------
 
+:aspect:`DataType`
+   string
 
-uid &lt; 0 will insert the record after the given uid
+:aspect:`Required`
+   false
+:aspect:`Description`
+   JavaScript evaluated for the onclick event
 
-pid (anySimpleType)
--------------------
+.. _link.newrecord_uid:
+uid
+---
 
+:aspect:`DataType`
+   mixed
 
-the page id where the record will be created
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Uid < 0 will insert the record after the given uid
 
-table (string)
---------------
+.. _link.newrecord_pid:
+pid
+---
 
+:aspect:`DataType`
+   mixed
 
-target database table
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The page id where the record will be created
 
-returnUrl (string)
-------------------
+.. _link.newrecord_table:
+table
+-----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Target database table
+
+.. _link.newrecord_returnurl:
+returnUrl
+---------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Return to this URL after closing the edit dialog

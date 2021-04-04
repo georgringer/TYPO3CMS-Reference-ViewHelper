@@ -1,34 +1,51 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-format-urlencode:
+
 ================
 format.urlencode
 ================
 
 
-Encodes the given string according to http://www.faqs.org/rfcs/rfc3986.html (applying PHPs rawurlencode() function)
-Note: The output is not escaped. You may have to ensure proper escaping on your own.
+Encodes the given string according to http://www.faqs.org/rfcs/rfc3986.html
+Applying PHPs :php:`rawurlencode()` function.
+See https://www.php.net/manual/function.rawurlencode.php.
 
-= Examples =
+.. note::
+   The output is not escaped. You may have to ensure proper escaping on your own.
 
-<code title="default notation">
-</code>
-<output>
-foo%20%40%2B%25%2F (rawurlencode() applied)
-</output>
+Examples
+========
 
-<code title="inline notation">
-{text -> f:format.urlencode()}
-</code>
-<output>
-Url encoded text (rawurlencode() applied)
-</output>
+Default notation
+----------------
+
+::
+
+
+``foo%20%40%2B%25%2F`` :php:`rawurlencode()` applied.
+
+Inline notation
+---------------
+
+::
+
+   {text -> f:format.urlencode()}
+
+Url encoded text :php:`rawurlencode()` applied.
 
 Arguments
 =========
 
 
-value (string)
---------------
+.. _format.urlencode_value:
+value
+-----
 
+:aspect:`DataType`
+   string
 
-string to format
+:aspect:`Required`
+   false
+:aspect:`Description`
+   String to format

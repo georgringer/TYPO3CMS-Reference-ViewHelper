@@ -1,149 +1,273 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-form-checkbox:
+
 =============
 form.checkbox
 =============
 
 
-View Helper which creates a simple checkbox (<input type="checkbox">).
+ViewHelper which creates a simple checkbox :html:`<input type="checkbox">`.
 
-= Examples =
+Examples
+========
 
-<code title="Example">
-<f:form.checkbox name="myCheckBox" value="someValue" />
-</code>
-<output>
-<input type="checkbox" name="myCheckBox" value="someValue" />
-</output>
+Simple one
+----------
 
-<code title="Preselect">
-<f:form.checkbox name="myCheckBox" value="someValue" checked="{object.value} == 5" />
-</code>
-<output>
-<input type="checkbox" name="myCheckBox" value="someValue" checked="checked" />
-(depending on $object)
-</output>
+::
 
-<code title="Bind to object property">
-<f:form.checkbox property="interests" value="TYPO3" />
-</code>
-<output>
-<input type="checkbox" name="user[interests][]" value="TYPO3" checked="checked" />
-(depending on property "interests")
-</output>
+   <f:form.checkbox name="myCheckBox" value="someValue" />
+
+Output::
+
+   <input type="checkbox" name="myCheckBox" value="someValue" />
+
+Preselect
+---------
+
+::
+
+   <f:form.checkbox name="myCheckBox" value="someValue" checked="{object.value} == 5" />
+
+Output::
+
+   <input type="checkbox" name="myCheckBox" value="someValue" checked="checked" />
+
+Depending on bound ``object`` to surrounding :ref:`f:form <typo3-fluid-form>`.
+
+Bind to object property
+-----------------------
+
+::
+
+   <f:form.checkbox property="interests" value="TYPO3" />
+
+Output::
+
+   <input type="checkbox" name="user[interests][]" value="TYPO3" checked="checked" />
+
+Depending on property ``interests``.
 
 Arguments
 =========
 
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Additional tag attributes. They will be added directly to the resulting HTML tag.
-
-data (anySimpleType)
+.. _form.checkbox_additionalattributes:
+additionalAttributes
 --------------------
 
+:aspect:`DataType`
+   mixed
 
-Additional data-* attributes. They will each be added with a &quot;data-&quot; prefix.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-name (string)
--------------
+.. _form.checkbox_data:
+data
+----
 
+:aspect:`DataType`
+   mixed
 
-Name of input tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional data-* attributes. They will each be added with a "data-" prefix.
 
-value (string)
---------------
+.. _form.checkbox_name:
+name
+----
 
+:aspect:`DataType`
+   string
 
-Value of input tag. Required for checkboxes
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of input tag
 
-property (string)
------------------
+.. _form.checkbox_value:
+value
+-----
 
+:aspect:`DataType`
+   string
 
-Name of Object Property. If used in conjunction with &lt;f:form object=&quot;...&quot;&gt;, &quot;name&quot; and &quot;value&quot; properties will be ignored.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Value of input tag. Required for checkboxes
 
-disabled (string)
------------------
+.. _form.checkbox_property:
+property
+--------
 
+:aspect:`DataType`
+   string
 
-Specifies that the input element should be disabled when the page loads
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of Object Property. If used in conjunction with <f:form object="...">, "name" and "value" properties will be ignored.
 
-errorClass (string)
--------------------
+.. _form.checkbox_disabled:
+disabled
+--------
 
+:aspect:`DataType`
+   string
 
-Default: &#039;f3-form-error&#039;
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies that the input element should be disabled when the page loads
 
-CSS class to set if there are errors for this view helper
+.. _form.checkbox_errorclass:
+errorClass
+----------
 
-class (string)
---------------
+:aspect:`DataType`
+   string
 
+:aspect:`Default`
+   'f3-form-error'
 
-CSS class(es) for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class to set if there are errors for this ViewHelper
 
-dir (string)
-------------
+.. _form.checkbox_class:
+class
+-----
 
+:aspect:`DataType`
+   string
 
-Text direction for this HTML element. Allowed strings: &quot;ltr&quot; (left to right), &quot;rtl&quot; (right to left)
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class(es) for this element
 
-id (string)
------------
+.. _form.checkbox_dir:
+dir
+---
 
+:aspect:`DataType`
+   string
 
-Unique (in this file) identifier for this HTML element.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-lang (string)
--------------
+.. _form.checkbox_id:
+id
+--
 
+:aspect:`DataType`
+   string
 
-Language for this element. Use short names specified in RFC 1766
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Unique (in this file) identifier for this HTML element.
 
-style (string)
---------------
+.. _form.checkbox_lang:
+lang
+----
 
+:aspect:`DataType`
+   string
 
-Individual CSS styles for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Language for this element. Use short names specified in RFC 1766
 
-title (string)
---------------
+.. _form.checkbox_style:
+style
+-----
 
+:aspect:`DataType`
+   string
 
-Tooltip text of element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Individual CSS styles for this element
 
-accesskey (string)
-------------------
+.. _form.checkbox_title:
+title
+-----
 
+:aspect:`DataType`
+   string
 
-Keyboard shortcut to access this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Tooltip text of element
 
-tabindex (integer)
-------------------
+.. _form.checkbox_accesskey:
+accesskey
+---------
 
+:aspect:`DataType`
+   string
 
-Specifies the tab order of this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Keyboard shortcut to access this element
 
-onclick (string)
-----------------
+.. _form.checkbox_tabindex:
+tabindex
+--------
 
+:aspect:`DataType`
+   integer
 
-JavaScript evaluated for the onclick event
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the tab order of this element
 
-checked (anySimpleType)
------------------------
+.. _form.checkbox_onclick:
+onclick
+-------
 
+:aspect:`DataType`
+   string
 
-Specifies that the input element should be preselected
+:aspect:`Required`
+   false
+:aspect:`Description`
+   JavaScript evaluated for the onclick event
 
-multiple (anySimpleType)
-------------------------
+.. _form.checkbox_checked:
+checked
+-------
 
+:aspect:`DataType`
+   mixed
 
-Default: false
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies that the input element should be preselected
 
-Specifies whether this checkbox belongs to a multivalue (is part of a checkbox group)
+.. _form.checkbox_multiple:
+multiple
+--------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies whether this checkbox belongs to a multivalue (is part of a checkbox group)

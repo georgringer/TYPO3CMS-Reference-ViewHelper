@@ -1,45 +1,75 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-format-htmlentitiesdecode:
+
 =========================
 format.htmlentitiesDecode
 =========================
 
 
-Applies html_entity_decode() to a value
+Applies :php:`html_entity_decode()` to a value.
+See https://www.php.net/html_entity_decode.
 
-= Examples =
+Examples
+========
 
-<code title="default notation">
-<f:format.htmlentitiesDecode>{text}</f:format.htmlentitiesDecode>
-</code>
-<output>
-Text with &amp; &quot; &lt; &gt; replaced by unescaped entities (html_entity_decode applied).
-</output>
+Default notation
+----------------
 
-<code title="inline notation">
-{text -> f:format.htmlentitiesDecode(encoding: 'ISO-8859-1')}
-</code>
-<output>
-Text with &amp; &quot; &lt; &gt; replaced by unescaped entities (html_entity_decode applied).
-</output>
+::
+
+   <f:format.htmlentitiesDecode>{text}</f:format.htmlentitiesDecode>
+
+Text containing the following escaped signs: ``&amp;`` ``&quot;`` ``&#039;`` ``&lt;`` ``&gt;``, will be processed by :php:`html_entity_decode()`.
+These will result in: ``&`` ``"`` ``'`` ``<`` ``>``.
+
+Inline notation
+---------------
+
+::
+
+   {text -> f:format.htmlentitiesDecode(encoding: 'ISO-8859-1')}
+
+Text containing the following escaped signs: ``&amp;`` ``&quot;`` ``&#039;`` ``&lt;`` ``&gt;``, will be processed by :php:`html_entity_decode()`.
+These will result in: ``&`` ``"`` ``'`` ``<`` ``>``.
+
+But encoded as ISO-8859-1.
 
 Arguments
 =========
 
 
-value (string)
---------------
+.. _format.htmlentitiesdecode_value:
+value
+-----
 
+:aspect:`DataType`
+   string
 
-string to format
+:aspect:`Required`
+   false
+:aspect:`Description`
+   String to format
 
-keepQuotes (anySimpleType)
---------------------------
+.. _format.htmlentitiesdecode_keepquotes:
+keepQuotes
+----------
 
+:aspect:`DataType`
+   mixed
 
-Default: false
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If TRUE, single and double quotes won't be replaced (sets ENT_NOQUOTES flag).
 
-If TRUE, single and double quotes won&#039;t be replaced (sets ENT_NOQUOTES flag).
+.. _format.htmlentitiesdecode_encoding:
+encoding
+--------
 
-encoding (string)
------------------
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`

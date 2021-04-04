@@ -1,56 +1,91 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-format-htmlentities:
+
 ===================
 format.htmlentities
 ===================
 
 
-Applies htmlentities() escaping to a value
+Applies :php:`htmlentities()` escaping to a value.
+See https://www.php.net/manual/function.htmlentities.php.
 
-= Examples =
+Examples
+========
 
-<code title="default notation">
-<f:format.htmlentities>{text}</f:format.htmlentities>
-</code>
-<output>
-Text with & " ' < > * replaced by HTML entities (htmlentities applied).
-</output>
+Default notation
+----------------
 
-<code title="inline notation">
-{text -> f:format.htmlentities(encoding: 'ISO-8859-1')}
-</code>
-<output>
-Text with & " ' < > * replaced by HTML entities (htmlentities applied).
-</output>
+::
+
+   <f:format.htmlentities>{text}</f:format.htmlentities>
+
+Text containing the following signs ``&`` ``"`` ``'`` ``<`` ``>`` will be processed by :php:`htmlentities()`.
+These will result in: ``&amp;`` ``&quot;`` ``&#039;`` ``&lt;`` ``&gt;``.
+
+Inline notation
+---------------
+
+::
+
+   {text -> f:format.htmlentities(encoding: 'ISO-8859-1')}
+
+Text containing the following signs ``&`` ``"`` ``'`` ``<`` ``>`` will be processed by :php:`htmlentities()`.
+These will result in: ``&amp;`` ``&quot;`` ``&#039;`` ``&lt;`` ``&gt;``.
+
+But encoded as ISO-8859-1.
 
 Arguments
 =========
 
 
-value (string)
---------------
+.. _format.htmlentities_value:
+value
+-----
 
+:aspect:`DataType`
+   string
 
-string to format
+:aspect:`Required`
+   false
+:aspect:`Description`
+   String to format
 
-keepQuotes (anySimpleType)
---------------------------
+.. _format.htmlentities_keepquotes:
+keepQuotes
+----------
 
+:aspect:`DataType`
+   mixed
 
-Default: false
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If TRUE, single and double quotes won't be replaced (sets ENT_NOQUOTES flag).
 
-If TRUE, single and double quotes won&#039;t be replaced (sets ENT_NOQUOTES flag).
+.. _format.htmlentities_encoding:
+encoding
+--------
 
-encoding (string)
------------------
+:aspect:`DataType`
+   string
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   
 
+.. _format.htmlentities_doubleencode:
+doubleEncode
+------------
 
+:aspect:`DataType`
+   mixed
 
-doubleEncode (anySimpleType)
-----------------------------
+:aspect:`Default`
+   true
 
-
-Default: true
-
-If FALSE existing html entities won&#039;t be encoded, the default is to convert everything.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If FALSE existing html entities won't be encoded, the default is to convert everything.

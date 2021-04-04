@@ -1,69 +1,112 @@
 .. include:: ../../../../../Includes.txt
 
+.. _typo3-backend-modulelayout-button-linkbutton:
+
 ==============================
 moduleLayout.button.linkButton
 ==============================
 
 
-A view helper for adding a link button to the doc header area.
-It must be a child of <be:moduleLayout>
-= Examples =
-<code>
-<be:moduleLayout>
-     <be:moduleLayout.button.linkButton
-         icon="actions-add"
-         title="Add record')}"
-         link="{be:uri.newRecord(table: 'tx_my_table')}"
-     />
-</be:moduleLayout>
-</code>
+A ViewHelper for adding a link button to the doc header area.
+It must be a child of :ref:`<be:moduleLayout> <typo3-backend-modulelayout>`.
+
+Examples
+--------
+
+Default::
+
+   <be:moduleLayout>
+       <be:moduleLayout.button.linkButton
+           icon="actions-add"
+           title="Add record')}"
+           link="{be:uri.newRecord(table: 'tx_my_table')}"
+       />
+   </be:moduleLayout>
 
 Arguments
 =========
 
 
-icon (string)
--------------
+.. _modulelayout.button.linkbutton_icon:
+icon
+----
 
+:aspect:`DataType`
+   string
 
-Icon identifier for the button
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Icon identifier for the button
 
-title (string)
---------------
+.. _modulelayout.button.linkbutton_title:
+title
+-----
 
+:aspect:`DataType`
+   string
 
-Title of the button
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Title of the button
 
-disabled (anySimpleType)
-------------------------
+.. _modulelayout.button.linkbutton_disabled:
+disabled
+--------
 
+:aspect:`DataType`
+   mixed
 
-Default: false
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Whether the button is disabled
 
-Whether the button is disabled
+.. _modulelayout.button.linkbutton_showlabel:
+showLabel
+---------
 
-showLabel (anySimpleType)
--------------------------
+:aspect:`DataType`
+   mixed
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Defines whether to show the title as a label within the button
 
-Default: false
+.. _modulelayout.button.linkbutton_position:
+position
+--------
 
-Defines whether to show the title as a label within the button
+:aspect:`DataType`
+   string
 
-position (string)
------------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Position of the button (left or right)
 
+.. _modulelayout.button.linkbutton_group:
+group
+-----
 
-Position of the button (left or right)
+:aspect:`DataType`
+   integer
 
-group (integer)
----------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Button group of the button
 
+.. _modulelayout.button.linkbutton_link:
+link
+----
 
-Button group of the button
+:aspect:`DataType`
+   string
 
-link (string)
--------------
-
-
-Link for the button
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Link for the button

@@ -1,219 +1,402 @@
 .. include:: ../../../Includes.txt
 
+.. _typo3-fluid-image:
+
 =====
 image
 =====
 
 
-Resizes a given image (if required) and renders the respective img tag
+Resizes a given image (if required) and renders the respective img tag.
 
-= Examples =
+Examples
+========
 
-<code title="Default">
-<f:image src="EXT:myext/Resources/Public/typo3_logo.png" alt="alt text" />
-</code>
-<output>
-<img alt="alt text" src="typo3conf/ext/myext/Resources/Public/typo3_logo.png" width="396" height="375" />
-or (in BE mode):
-<img alt="alt text" src="../typo3conf/ext/viewhelpertest/Resources/Public/typo3_logo.png" width="396" height="375" />
-</output>
+Default
+-------
 
-<code title="Image Object">
-<f:image image="{imageObject}" />
-</code>
-<output>
-<img alt="alt set in image record" src="fileadmin/_processed_/323223424.png" width="396" height="375" />
-</output>
+::
 
-<code title="Inline notation">
-{f:image(src: 'EXT:viewhelpertest/Resources/Public/typo3_logo.png', alt: 'alt text', minWidth: 30, maxWidth: 40)}
-</code>
-<output>
-<img alt="alt text" src="../typo3temp/assets/images/f13d79a526.png" width="40" height="38" />
-(depending on your TYPO3s encryption key)
-</output>
+   <f:image src="EXT:myext/Resources/Public/typo3_logo.png" alt="alt text" />
 
-<code title="Other resource type (e.g. PDF)">
-<f:image src="fileadmin/user_upload/example.pdf" alt="foo" />
-</code>
-<output>
-If your graphics processing library is set up correctly then it will output a thumbnail of the first page of your PDF document.
-<img src="fileadmin/_processed_/1/2/csm_example_aabbcc112233.gif" width="200" height="284" alt="foo">
-</output>
+Output in frontend::
 
-<code title="Non-existent image">
-<f:image src="NonExistingImage.png" alt="foo" />
-</code>
-<output>
-Could not get image resource for "NonExistingImage.png".
-</output>
+   <img alt="alt text" src="typo3conf/ext/myext/Resources/Public/typo3_logo.png" width="396" height="375" />
+
+or in backend::
+
+   <img alt="alt text" src="../typo3conf/ext/viewhelpertest/Resources/Public/typo3_logo.png" width="396" height="375" />
+
+Image Object
+------------
+
+::
+
+   <f:image image="{imageObject}" />
+
+Output::
+
+   <img alt="alt set in image record" src="fileadmin/_processed_/323223424.png" width="396" height="375" />
+
+Inline notation
+---------------
+
+::
+
+   {f:image(src: 'EXT:viewhelpertest/Resources/Public/typo3_logo.png', alt: 'alt text', minWidth: 30, maxWidth: 40)}
+
+Output::
+
+   <img alt="alt text" src="../typo3temp/assets/images/f13d79a526.png" width="40" height="38" />
+
+Depending on your TYPO3s encryption key.
+
+Other resource type (e.g. PDF)
+------------------------------
+
+::
+
+   <f:image src="fileadmin/user_upload/example.pdf" alt="foo" />
+
+If your graphics processing library is set up correctly then it will output a thumbnail of the first page of your PDF document:
+``<img src="fileadmin/_processed_/1/2/csm_example_aabbcc112233.gif" width="200" height="284" alt="foo">``
+
+Non-existent image
+------------------
+
+::
+
+   <f:image src="NonExistingImage.png" alt="foo" />
+
+``Could not get image resource for "NonExistingImage.png".``
 
 Arguments
 =========
 
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Additional tag attributes. They will be added directly to the resulting HTML tag.
-
-data (anySimpleType)
+.. _image_additionalattributes:
+additionalAttributes
 --------------------
 
+:aspect:`DataType`
+   mixed
 
-Additional data-* attributes. They will each be added with a &quot;data-&quot; prefix.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-class (string)
---------------
+.. _image_data:
+data
+----
 
+:aspect:`DataType`
+   mixed
 
-CSS class(es) for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional data-* attributes. They will each be added with a "data-" prefix.
 
-dir (string)
-------------
+.. _image_class:
+class
+-----
 
+:aspect:`DataType`
+   string
 
-Text direction for this HTML element. Allowed strings: &quot;ltr&quot; (left to right), &quot;rtl&quot; (right to left)
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class(es) for this element
 
-id (string)
+.. _image_dir:
+dir
+---
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
+
+.. _image_id:
+id
+--
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Unique (in this file) identifier for this HTML element.
+
+.. _image_lang:
+lang
+----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Language for this element. Use short names specified in RFC 1766
+
+.. _image_style:
+style
+-----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Individual CSS styles for this element
+
+.. _image_title:
+title
+-----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Tooltip text of element
+
+.. _image_accesskey:
+accesskey
+---------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Keyboard shortcut to access this element
+
+.. _image_tabindex:
+tabindex
+--------
+
+:aspect:`DataType`
+   integer
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the tab order of this element
+
+.. _image_onclick:
+onclick
+-------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   JavaScript evaluated for the onclick event
+
+.. _image_alt:
+alt
+---
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies an alternate text for an image
+
+.. _image_ismap:
+ismap
+-----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies an image as a server-side image-map. Rarely used. Look at usemap instead
+
+.. _image_longdesc:
+longdesc
+--------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the URL to a document that contains a long description of an image
+
+.. _image_usemap:
+usemap
+------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies an image as a client-side image-map
+
+.. _image_src:
+src
+---
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   A path to a file, a combined FAL identifier or an uid (int). If $treatIdAsReference is set, the integer is considered the uid of the sys_file_reference record. If you already got a FAL object, consider using the $image parameter instead
+
+.. _image_treatidasreference:
+treatIdAsReference
+------------------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Given src argument is a sys_file_reference record
+
+.. _image_image:
+image
+-----
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   A FAL object
+
+.. _image_crop:
+crop
+----
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Overrule cropping of image (setting to FALSE disables the cropping set in FileReference)
+
+.. _image_cropvariant:
+cropVariant
 -----------
 
-
-Unique (in this file) identifier for this HTML element.
-
-lang (string)
--------------
-
-
-Language for this element. Use short names specified in RFC 1766
-
-style (string)
---------------
-
-
-Individual CSS styles for this element
-
-title (string)
---------------
-
-
-Tooltip text of element
-
-accesskey (string)
-------------------
-
-
-Keyboard shortcut to access this element
-
-tabindex (integer)
-------------------
-
-
-Specifies the tab order of this element
-
-onclick (string)
-----------------
-
-
-JavaScript evaluated for the onclick event
-
-alt (string)
-------------
-
-
-Specifies an alternate text for an image
-
-ismap (string)
---------------
-
-
-Specifies an image as a server-side image-map. Rarely used. Look at usemap instead
-
-longdesc (string)
------------------
-
-
-Specifies the URL to a document that contains a long description of an image
-
-usemap (string)
----------------
-
-
-Specifies an image as a client-side image-map
-
-src (string)
-------------
-
-
-a path to a file, a combined FAL identifier or an uid (int). If $treatIdAsReference is set, the integer is considered the uid of the sys_file_reference record. If you already got a FAL object, consider using the $image parameter instead
-
-treatIdAsReference (anySimpleType)
-----------------------------------
-
-
-given src argument is a sys_file_reference record
-
-image (anySimpleType)
----------------------
-
-
-a FAL object
-
-crop (anySimpleType)
---------------------
-
-
-overrule cropping of image (setting to FALSE disables the cropping set in FileReference)
-
-cropVariant (string)
---------------------
-
-
-Default: &#039;default&#039;
-
-select a cropping variant, in case multiple croppings have been specified or stored in FileReference
-
-width (string)
---------------
-
-
-width of the image. This can be a numeric value representing the fixed width of the image in pixels. But you can also perform simple calculations by adding &quot;m&quot; or &quot;c&quot; to the value. See imgResource.width for possible options.
-
-height (string)
----------------
-
-
-height of the image. This can be a numeric value representing the fixed height of the image in pixels. But you can also perform simple calculations by adding &quot;m&quot; or &quot;c&quot; to the value. See imgResource.width for possible options.
-
-minWidth (anySimpleType)
-------------------------
-
-
-minimum width of the image
-
-minHeight (anySimpleType)
--------------------------
-
-
-minimum width of the image
-
-maxWidth (anySimpleType)
-------------------------
-
-
-minimum width of the image
-
-maxHeight (anySimpleType)
--------------------------
-
-
-minimum width of the image
-
-absolute (anySimpleType)
-------------------------
-
-
-Default: false
-
-Force absolute URL
+:aspect:`DataType`
+   string
+
+:aspect:`Default`
+   'default'
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Select a cropping variant, in case multiple croppings have been specified or stored in FileReference
+
+.. _image_width:
+width
+-----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Width of the image. This can be a numeric value representing the fixed width of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
+
+.. _image_height:
+height
+------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Height of the image. This can be a numeric value representing the fixed height of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
+
+.. _image_minwidth:
+minWidth
+--------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Minimum width of the image
+
+.. _image_minheight:
+minHeight
+---------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Minimum height of the image
+
+.. _image_maxwidth:
+maxWidth
+--------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Maximum width of the image
+
+.. _image_maxheight:
+maxHeight
+---------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Maximum height of the image
+
+.. _image_absolute:
+absolute
+--------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Force absolute URL

@@ -1,80 +1,128 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-format-crop:
+
 ===========
 format.crop
 ===========
 
 
-Use this view helper to crop the text between its opening and closing tags.
+Use this ViewHelper to crop the text between its opening and closing tags.
 
-= Examples =
+Examples
+========
 
-<code title="Defaults">
-<f:format.crop maxCharacters="10">This is some very long text</f:format.crop>
-</code>
-<output>
-This is
-</output>
+Defaults
+--------
 
-<code title="Custom suffix">
-<f:format.crop maxCharacters="17" append="&nbsp;[more]">This is some very long text</f:format.crop>
-</code>
-<output>
-This is some&nbsp;[more]
-</output>
+::
 
-<code title="Don't respect word boundaries">
-<f:format.crop maxCharacters="10" respectWordBoundaries="false">This is some very long text</f:format.crop>
-</code>
-<output>
-This is so
-</output>
+   <f:format.crop maxCharacters="10">
+       This is some very long text
+   </f:format.crop>
 
-<code title="Don't respect HTML tags">
-<f:format.crop maxCharacters="28" respectWordBoundaries="false" respectHtml="false">This is some text with <strong>HTML</strong> tags</f:format.crop>
-</code>
-<output>
-This is some text with <stro
-</output>
+``This is``
 
-<code title="Inline notation">
-{someLongText -> f:format.crop(maxCharacters: 10)}
-</code>
-<output>
-someLongText cropped after 10 characters
-(depending on the value of {someLongText})
-</output>
+Custom suffix
+-------------
+
+::
+
+   <f:format.crop maxCharacters="17" append="&nbsp;[more]">
+       This is some very long text
+   </f:format.crop>
+
+``This is some&nbsp;[more]``
+
+Don't respect word boundaries
+-----------------------------
+
+::
+
+   <f:format.crop maxCharacters="10" respectWordBoundaries="false">
+       This is some very long text
+   </f:format.crop>
+
+``This is so``
+
+Don't respect HTML tags
+-----------------------
+
+::
+
+   <f:format.crop maxCharacters="28" respectWordBoundaries="false" respectHtml="false">
+       This is some text with <strong>HTML</strong> tags
+   </f:format.crop>
+
+``This is some text with <stro``
+
+Inline notation
+---------------
+
+::
+
+   {someLongText -> f:format.crop(maxCharacters: 10)}
+
+``someLongText cropped after 10 characters``
+Depending on the value of ``{someLongText}``.
 
 Arguments
 =========
 
 
-maxCharacters (anySimpleType)
------------------------------
+.. _format.crop_maxcharacters:
+maxCharacters
+-------------
 
+:aspect:`DataType`
+   mixed
 
-Place where to truncate the string
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Place where to truncate the string
 
-append (string)
----------------
+.. _format.crop_append:
+append
+------
 
+:aspect:`DataType`
+   string
 
-Default: &#039;&amp;hellip;&#039;
+:aspect:`Default`
+   '&hellip;'
 
-What to append, if truncation happened
+:aspect:`Required`
+   false
+:aspect:`Description`
+   What to append, if truncation happened
 
-respectWordBoundaries (anySimpleType)
--------------------------------------
+.. _format.crop_respectwordboundaries:
+respectWordBoundaries
+---------------------
 
+:aspect:`DataType`
+   mixed
 
-Default: true
+:aspect:`Default`
+   true
 
-If TRUE and division is in the middle of a word, the remains of that word is removed.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If TRUE and division is in the middle of a word, the remains of that word is removed.
 
-respectHtml (anySimpleType)
----------------------------
+.. _format.crop_respecthtml:
+respectHtml
+-----------
 
+:aspect:`DataType`
+   mixed
 
-Default: true
+:aspect:`Default`
+   true
 
-If TRUE the cropped string will respect HTML tags and entities. Technically that means, that cropHTML() is called rather than crop()
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If TRUE the cropped string will respect HTML tags and entities. Technically that means, that cropHTML() is called rather than crop()

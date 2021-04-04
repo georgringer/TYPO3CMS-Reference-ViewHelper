@@ -1,75 +1,115 @@
 .. include:: ../../../../../Includes.txt
 
+.. _typo3-fluid-be-menus-actionmenuitem:
+
 =======================
 be.menus.actionMenuItem
 =======================
 
 
-View helper which returns an option tag.
-This view helper only works in conjunction with \TYPO3\CMS\Fluid\ViewHelpers\Be\Menus\ActionMenuViewHelper
-Note: This view helper is experimental!
+ViewHelper which returns an option tag.
+This ViewHelper only works in conjunction with :php:`\TYPO3\CMS\Fluid\ViewHelpers\Be\Menus\ActionMenuViewHelper`.
 
-= Examples =
+.. note::
+   This ViewHelper is experimental!
 
-<code title="Simple">
-<f:be.menus.actionMenu>
-<f:be.menus.actionMenuItem label="Overview" controller="Blog" action="index" />
-<f:be.menus.actionMenuItem label="Create new Blog" controller="Blog" action="new" />
-<f:be.menus.actionMenuItem label="List Posts" controller="Post" action="index" arguments="{blog: blog}" />
-</f:be.menus.actionMenu>
-</code>
-<output>
-Selectbox with the options "Overview", "Create new Blog" and "List Posts"
-</output>
+Examples
+========
 
-<code title="Localized">
-<f:be.menus.actionMenu>
-<f:be.menus.actionMenuItem label="{f:translate(key='overview')}" controller="Blog" action="index" />
-<f:be.menus.actionMenuItem label="{f:translate(key='create_blog')}" controller="Blog" action="new" />
-</f:be.menus.actionMenu>
-</code>
-<output>
-localized selectbox
-<output>
+Simple::
+
+   <f:be.menus.actionMenu>
+      <f:be.menus.actionMenuItem label="Overview" controller="Blog" action="index" />
+      <f:be.menus.actionMenuItem label="Create new Blog" controller="Blog" action="new" />
+      <f:be.menus.actionMenuItem label="List Posts" controller="Post" action="index" arguments="{blog: blog}" />
+   </f:be.menus.actionMenu>
+
+Selectbox with the options "Overview", "Create new Blog" and "List Posts".
+
+Localized::
+
+   <f:be.menus.actionMenu>
+      <f:be.menus.actionMenuItem label="{f:translate(key='overview')}" controller="Blog" action="index" />
+      <f:be.menus.actionMenuItem label="{f:translate(key='create_blog')}" controller="Blog" action="new" />
+   </f:be.menus.actionMenu>
+
+Localized selectbox.
 
 Arguments
 =========
 
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Additional tag attributes. They will be added directly to the resulting HTML tag.
-
-data (anySimpleType)
+.. _be.menus.actionmenuitem_additionalattributes:
+additionalAttributes
 --------------------
 
+:aspect:`DataType`
+   mixed
 
-Additional data-* attributes. They will each be added with a &quot;data-&quot; prefix.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-label (string)
---------------
+.. _be.menus.actionmenuitem_data:
+data
+----
 
+:aspect:`DataType`
+   mixed
 
-label of the option tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional data-* attributes. They will each be added with a "data-" prefix.
 
-controller (string)
--------------------
+.. _be.menus.actionmenuitem_label:
+label
+-----
 
+:aspect:`DataType`
+   string
 
-controller to be associated with this ActionMenuItem
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Label of the option tag
 
-action (string)
----------------
+.. _be.menus.actionmenuitem_controller:
+controller
+----------
 
+:aspect:`DataType`
+   string
 
-the action to be associated with this ActionMenuItem
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Controller to be associated with this ActionMenuItem
 
-arguments (anySimpleType)
--------------------------
+.. _be.menus.actionmenuitem_action:
+action
+------
 
+:aspect:`DataType`
+   string
 
-Default: array ()
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The action to be associated with this ActionMenuItem
 
-additional controller arguments to be passed to the action when this ActionMenuItem is selected
+.. _be.menus.actionmenuitem_arguments:
+arguments
+---------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Default`
+   array ()
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional controller arguments to be passed to the action when this ActionMenuItem is selected

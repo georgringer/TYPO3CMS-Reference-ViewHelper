@@ -1,5 +1,7 @@
 .. include:: ../../../../../Includes.txt
 
+.. _typo3-fluid-be-widget-paginate:
+
 ==================
 be.widget.paginate
 ==================
@@ -7,26 +9,29 @@ be.widget.paginate
 
 This ViewHelper renders a Pagination of objects for the TYPO3 Backend.
 
-= Examples =
+Examples
+========
 
-<code title="required arguments">
-<f:be.widget.paginate objects="{blogs}" as="paginatedBlogs">
-use {paginatedBlogs} as you used {blogs} before, most certainly inside
-a <f:for> loop.
-</f:be.widget.paginate>
-</code>
+Minimum call with required arguments only::
 
-<code title="full configuration">
-<f:be.widget.paginate objects="{blogs}" as="paginatedBlogs" configuration="{itemsPerPage: 5, insertAbove: 1, insertBelow: 0, recordsLabel: 'MyRecords'}">
-use {paginatedBlogs} as you used {blogs} before, most certainly inside
-a <f:for> loop.
-</f:be.widget.paginate>
-The recordsLabel can be used to replace the text in "Records 1 - 99" with a label of your own choice
-</code>
+   <f:be.widget.paginate objects="{blogs}" as="paginatedBlogs">
+      use {paginatedBlogs} as you used {blogs} before, most certainly inside
+      a <f:for> loop.
+   </f:be.widget.paginate>
 
-= Performance characteristics =
+Full example with all configuration options::
 
-In the above examples, it looks like {blogs} contains all Blog objects, thus
+   <f:be.widget.paginate objects="{blogs}" as="paginatedBlogs" configuration="{itemsPerPage: 5, insertAbove: 1, insertBelow: 0, recordsLabel: 'MyRecords'}">
+      use {paginatedBlogs} as you used {blogs} before, most certainly inside
+      a <f:for> loop.
+   </f:be.widget.paginate>
+
+The ``recordsLabel`` option can be used to replace the text in "Records 1 - 99" with a custom label.
+
+Performance characteristics
+===========================
+
+In the above examples, it looks like ``{blogs}`` contains all Blog objects, thus
 you might wonder if all objects were fetched from the database.
 However, the blogs are NOT fetched from the database until you actually use them,
 so the paginate ViewHelper will adjust the query sent to the database and receive
@@ -37,28 +42,53 @@ Arguments
 =========
 
 
-customWidgetId (string)
------------------------
+.. _be.widget.paginate_customwidgetid:
+customWidgetId
+--------------
 
+:aspect:`DataType`
+   string
 
-extend the widget identifier with a custom widget id
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Extend the widget identifier with a custom widget id
 
-objects (anySimpleType)
------------------------
+.. _be.widget.paginate_objects:
+objects
+-------
 
+:aspect:`DataType`
+   mixed
 
-The QueryResult containing all objects.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The QueryResult containing all objects.
 
-as (string)
------------
-
-
+.. _be.widget.paginate_as:
 as
+--
 
-configuration (anySimpleType)
------------------------------
+:aspect:`DataType`
+   string
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   As
 
-Default: array (  &#039;itemsPerPage&#039; =&gt; 10,  &#039;insertAbove&#039; =&gt; false,  &#039;insertBelow&#039; =&gt; true,  &#039;maximumNumberOfLinks&#039; =&gt; 99,)
-
+.. _be.widget.paginate_configuration:
 configuration
+-------------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Default`
+   array (  'itemsPerPage' => 10,  'insertAbove' => false,  'insertBelow' => true,  'maximumNumberOfLinks' => 99,)
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Configuration

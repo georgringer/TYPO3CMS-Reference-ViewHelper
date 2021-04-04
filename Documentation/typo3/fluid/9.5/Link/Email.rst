@@ -1,124 +1,236 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-link-email:
+
 ==========
 link.email
 ==========
 
 
-Email link view helper.
-Generates an email link incorporating TYPO3s spamProtectEmailAddresses-settings.
+Email link ViewHelper.
+Generates an email link incorporating TYPO3s `spamProtectEmailAddresses`_ TypoScript setting.
 
-= Examples
+.. _spamProtectEmailAddresses: https://docs.typo3.org/m/typo3/reference-typoscript/master/en-us/Setup/Config/Index.html#spamprotectemailaddresses
 
-<code title="basic email link">
-</code>
-<output>
-<a href="javascript:linkTo_UnCryptMailto('ocknvq,hqqBdct0vnf');">foo(at)bar.tld</a>
-(depending on your spamProtectEmailAddresses-settings)
-</output>
+Examples
+========
 
-<code title="Email link with custom linktext">
-</code>
-<output>
-<a href="javascript:linkTo_UnCryptMailto('ocknvq,hqqBdct0vnf');">some custom content</a>
-</output>
+Basic email link
+----------------
+
+::
+
+
+Output::
+
+   <a href="javascript:linkTo_UnCryptMailto('ocknvq,hqqBdct0vnf');">foo(at)bar.tld</a>
+
+Depending on `spamProtectEmailAddresses`_ setting.
+
+Email link with custom linktext
+-------------------------------
+
+::
+
+
+Output::
+
+   <a href="javascript:linkTo_UnCryptMailto('ocknvq,hqqBdct0vnf');">some custom content</a>
+
+Depending on `spamProtectEmailAddresses`_ setting.
 
 Arguments
 =========
 
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Additional tag attributes. They will be added directly to the resulting HTML tag.
-
-data (anySimpleType)
+.. _link.email_additionalattributes:
+additionalAttributes
 --------------------
 
+:aspect:`DataType`
+   mixed
 
-Additional data-* attributes. They will each be added with a &quot;data-&quot; prefix.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-email (string)
---------------
+.. _link.email_data:
+data
+----
 
+:aspect:`DataType`
+   mixed
 
-The email address to be turned into a link
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional data-* attributes. They will each be added with a "data-" prefix.
 
-class (string)
---------------
+.. _link.email_email:
+email
+-----
 
+:aspect:`DataType`
+   string
 
-CSS class(es) for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The email address to be turned into a link
 
-dir (string)
-------------
+.. _link.email_class:
+class
+-----
 
+:aspect:`DataType`
+   string
 
-Text direction for this HTML element. Allowed strings: &quot;ltr&quot; (left to right), &quot;rtl&quot; (right to left)
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class(es) for this element
 
-id (string)
------------
+.. _link.email_dir:
+dir
+---
 
+:aspect:`DataType`
+   string
 
-Unique (in this file) identifier for this HTML element.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-lang (string)
--------------
+.. _link.email_id:
+id
+--
 
+:aspect:`DataType`
+   string
 
-Language for this element. Use short names specified in RFC 1766
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Unique (in this file) identifier for this HTML element.
 
-style (string)
---------------
+.. _link.email_lang:
+lang
+----
 
+:aspect:`DataType`
+   string
 
-Individual CSS styles for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Language for this element. Use short names specified in RFC 1766
 
-title (string)
---------------
+.. _link.email_style:
+style
+-----
 
+:aspect:`DataType`
+   string
 
-Tooltip text of element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Individual CSS styles for this element
 
-accesskey (string)
-------------------
+.. _link.email_title:
+title
+-----
 
+:aspect:`DataType`
+   string
 
-Keyboard shortcut to access this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Tooltip text of element
 
-tabindex (integer)
-------------------
+.. _link.email_accesskey:
+accesskey
+---------
 
+:aspect:`DataType`
+   string
 
-Specifies the tab order of this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Keyboard shortcut to access this element
 
-onclick (string)
-----------------
+.. _link.email_tabindex:
+tabindex
+--------
 
+:aspect:`DataType`
+   integer
 
-JavaScript evaluated for the onclick event
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the tab order of this element
 
-name (string)
--------------
+.. _link.email_onclick:
+onclick
+-------
 
+:aspect:`DataType`
+   string
 
-Specifies the name of an anchor
+:aspect:`Required`
+   false
+:aspect:`Description`
+   JavaScript evaluated for the onclick event
 
-rel (string)
-------------
+.. _link.email_name:
+name
+----
 
+:aspect:`DataType`
+   string
 
-Specifies the relationship between the current document and the linked document
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the name of an anchor
 
-rev (string)
-------------
+.. _link.email_rel:
+rel
+---
 
+:aspect:`DataType`
+   string
 
-Specifies the relationship between the linked document and the current document
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the relationship between the current document and the linked document
 
-target (string)
----------------
+.. _link.email_rev:
+rev
+---
 
+:aspect:`DataType`
+   string
 
-Specifies where to open the linked document
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the relationship between the linked document and the current document
+
+.. _link.email_target:
+target
+------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies where to open the linked document

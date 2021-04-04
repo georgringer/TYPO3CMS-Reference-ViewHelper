@@ -1,93 +1,171 @@
 .. include:: ../../../../../Includes.txt
 
+.. _typo3-fluid-form-select-optgroup:
+
 ====================
 form.select.optgroup
 ====================
 
 
-Adds custom `<optgroup>` tags inside an `<f:form.select>`,
-supports further child `<f:form.select.option>` tags.
+Adds custom :html:`<optgroup>` tags inside an :ref:`<f:form.select> <typo3-fluid-form-select>`,
+supports further child :ref:`<f:form.select.option> <typo3-fluid-form-select-option>` tags.
 
 Arguments
 =========
 
 
-class (string)
---------------
+.. _form.select.optgroup_class:
+class
+-----
 
+:aspect:`DataType`
+   string
 
-CSS class(es) for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class(es) for this element
 
-dir (string)
-------------
+.. _form.select.optgroup_dir:
+dir
+---
 
+:aspect:`DataType`
+   string
 
-Text direction for this HTML element. Allowed strings: &quot;ltr&quot; (left to right), &quot;rtl&quot; (right to left)
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-id (string)
------------
+.. _form.select.optgroup_id:
+id
+--
 
+:aspect:`DataType`
+   string
 
-Unique (in this file) identifier for this HTML element.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Unique (in this file) identifier for this HTML element.
 
-lang (string)
--------------
+.. _form.select.optgroup_lang:
+lang
+----
 
+:aspect:`DataType`
+   string
 
-Language for this element. Use short names specified in RFC 1766
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Language for this element. Use short names specified in RFC 1766
 
-style (string)
---------------
+.. _form.select.optgroup_style:
+style
+-----
 
+:aspect:`DataType`
+   string
 
-Individual CSS styles for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Individual CSS styles for this element
 
-title (string)
---------------
+.. _form.select.optgroup_title:
+title
+-----
 
+:aspect:`DataType`
+   string
 
-Tooltip text of element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Tooltip text of element
 
-accesskey (string)
-------------------
+.. _form.select.optgroup_accesskey:
+accesskey
+---------
 
+:aspect:`DataType`
+   string
 
-Keyboard shortcut to access this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Keyboard shortcut to access this element
 
-tabindex (integer)
-------------------
+.. _form.select.optgroup_tabindex:
+tabindex
+--------
 
+:aspect:`DataType`
+   integer
 
-Specifies the tab order of this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the tab order of this element
 
-onclick (string)
-----------------
+.. _form.select.optgroup_onclick:
+onclick
+-------
 
+:aspect:`DataType`
+   string
 
-JavaScript evaluated for the onclick event
+:aspect:`Required`
+   false
+:aspect:`Description`
+   JavaScript evaluated for the onclick event
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Additional tag attributes. They will be added directly to the resulting HTML tag.
-
-data (anySimpleType)
+.. _form.select.optgroup_additionalattributes:
+additionalAttributes
 --------------------
 
+:aspect:`DataType`
+   mixed
 
-Additional data-* attributes. They will each be added with a &quot;data-&quot; prefix.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-label (string)
---------------
+.. _form.select.optgroup_data:
+data
+----
 
+:aspect:`DataType`
+   mixed
 
-Human-readable label property for the generated optgroup tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional data-* attributes. They will each be added with a "data-" prefix.
 
-disabled (boolean)
-------------------
+.. _form.select.optgroup_label:
+label
+-----
 
+:aspect:`DataType`
+   string
 
-Default: false
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Human-readable label property for the generated optgroup tag
 
-If true, option group is rendered as disabled
+.. _form.select.optgroup_disabled:
+disabled
+--------
+
+:aspect:`DataType`
+   boolean
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If true, option group is rendered as disabled

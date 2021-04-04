@@ -1,73 +1,123 @@
 .. include:: ../../../../../Includes.txt
 
+.. _typo3-backend-modulelayout-button-shortcutbutton:
+
 ==================================
 moduleLayout.button.shortcutButton
 ==================================
 
 
-A view helper for adding a shortcut button to the doc header area.
-It must be a child of <be:moduleLayout>
-= Examples =
-<code>
-<be:moduleLayout>
-     <be:moduleLayout.button.shortcutButton displayName="Shortcut label" />
-</be:moduleLayout>
-</code>
+A ViewHelper for adding a shortcut button to the doc header area.
+It must be a child of :ref:`<be:moduleLayout> <typo3-backend-modulelayout>`.
+
+Examples
+--------
+
+Default::
+
+   <be:moduleLayout>
+       <be:moduleLayout.button.shortcutButton displayName="Shortcut label" />
+   </be:moduleLayout>
 
 Arguments
 =========
 
 
-icon (string)
--------------
+.. _modulelayout.button.shortcutbutton_icon:
+icon
+----
 
+:aspect:`DataType`
+   string
 
-Icon identifier for the button
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Icon identifier for the button
 
-title (string)
---------------
+.. _modulelayout.button.shortcutbutton_title:
+title
+-----
 
+:aspect:`DataType`
+   string
 
-Title of the button
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Title of the button
 
-disabled (anySimpleType)
-------------------------
+.. _modulelayout.button.shortcutbutton_disabled:
+disabled
+--------
 
+:aspect:`DataType`
+   mixed
 
-Default: false
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Whether the button is disabled
 
-Whether the button is disabled
+.. _modulelayout.button.shortcutbutton_showlabel:
+showLabel
+---------
 
-showLabel (anySimpleType)
--------------------------
+:aspect:`DataType`
+   mixed
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Defines whether to show the title as a label within the button
 
-Default: false
+.. _modulelayout.button.shortcutbutton_position:
+position
+--------
 
-Defines whether to show the title as a label within the button
+:aspect:`DataType`
+   string
 
-position (string)
------------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Position of the button (left or right)
 
+.. _modulelayout.button.shortcutbutton_group:
+group
+-----
 
-Position of the button (left or right)
+:aspect:`DataType`
+   integer
 
-group (integer)
----------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Button group of the button
 
+.. _modulelayout.button.shortcutbutton_displayname:
+displayName
+-----------
 
-Button group of the button
+:aspect:`DataType`
+   string
 
-displayName (string)
---------------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name for the shortcut
 
+.. _modulelayout.button.shortcutbutton_getvars:
+getVars
+-------
 
-Name for the shortcut
+:aspect:`DataType`
+   mixed
 
-getVars (anySimpleType)
------------------------
+:aspect:`Default`
+   array ()
 
-
-Default: array ()
-
-List of additional GET variables to store. The current id, module and all module arguments will always be stored
+:aspect:`Required`
+   false
+:aspect:`Description`
+   List of additional GET variables to store. The current id, module and all module arguments will always be stored

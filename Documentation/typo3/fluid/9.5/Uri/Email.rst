@@ -1,28 +1,41 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-uri-email:
+
 =========
 uri.email
 =========
 
 
-Email URI view helper.
-Generates an email URI incorporating TYPO3s spamProtectEmailAddresses-settings.
+Email URI ViewHelper.
+Generates an email URI incorporating TYPO3s `spamProtectEmailAddresses`_ TypoScript setting.
 
-= Examples
+.. _spamProtectEmailAddresses: https://docs.typo3.org/m/typo3/reference-typoscript/master/en-us/Setup/Config/Index.html#spamprotectemailaddresses
 
-<code title="basic email URI">
-</code>
-<output>
-javascript:linkTo_UnCryptMailto('ocknvq,hqqBdct0vnf');
-(depending on your spamProtectEmailAddresses-settings)
-</output>
+Example
+=======
+
+Basic email URI::
+
+
+Output::
+
+   javascript:linkTo_UnCryptMailto('ocknvq,hqqBdct0vnf');
+
+Depending on `spamProtectEmailAddresses`_ setting.
 
 Arguments
 =========
 
 
-email (string)
---------------
+.. _uri.email_email:
+email
+-----
 
+:aspect:`DataType`
+   string
 
-The email address to be turned into a URI
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The email address to be turned into a URI

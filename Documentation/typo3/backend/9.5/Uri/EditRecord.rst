@@ -1,5 +1,7 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-backend-uri-editrecord:
+
 ==============
 uri.editRecord
 ==============
@@ -9,32 +11,52 @@ Use this ViewHelper to provide edit links (only the uri) to records. The ViewHel
 pass the uid and table to FormEngine.
 
 The uid must be given as a positive integer.
-For new records, use the newRecordViewHelper
+For new records, use the :ref:`<be:uri.newRecord> <typo3-backend-uri-newrecord>`.
 
-= Examples =
+Examples
+========
 
-<code title="URI to the record-edit action passed to FormEngine">
-<be:uri.editRecord uid="42" table="a_table" returnUrl="foo/bar" />
-</code>
-<output>
-/typo3/index.php?route=/record/edit&edit[a_table][42]=edit&returnUrl=foo/bar
-</output>
+URI to the record-edit action passed to FormEngine::
+
+   <be:uri.editRecord uid="42" table="a_table" returnUrl="foo/bar" />
+
+``/typo3/index.php?route=/record/edit&edit[a_table][42]=edit&returnUrl=foo/bar``
 
 Arguments
 =========
 
 
-uid (anySimpleType)
--------------------
+.. _uri.editrecord_uid:
+uid
+---
 
+:aspect:`DataType`
+   mixed
 
-uid of record to be edited, 0 for creation
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Uid of record to be edited, 0 for creation
 
-table (string)
---------------
+.. _uri.editrecord_table:
+table
+-----
 
+:aspect:`DataType`
+   string
 
-target database table
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Target database table
 
-returnUrl (string)
-------------------
+.. _uri.editrecord_returnurl:
+returnUrl
+---------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`

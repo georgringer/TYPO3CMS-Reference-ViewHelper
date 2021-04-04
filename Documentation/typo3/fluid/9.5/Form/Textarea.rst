@@ -1,158 +1,294 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-form-textarea:
+
 =============
 form.textarea
 =============
 
 
-Textarea view helper.
-The value of the text area needs to be set via the "value" attribute, as with all other form ViewHelpers.
+Generates an :html:`<textarea>`.
 
-= Examples =
+The value of the text area needs to be set via the ``value`` attribute, as with all other form ViewHelpers.
 
-<code title="Example">
-<f:form.textarea name="myTextArea" value="This is shown inside the textarea" />
-</code>
-<output>
-<textarea name="myTextArea">This is shown inside the textarea</textarea>
-</output>
+Examples
+========
+
+Example::
+
+   <f:form.textarea name="myTextArea" value="This is shown inside the textarea" />
+
+Output::
+
+   <textarea name="myTextArea">This is shown inside the textarea</textarea>
 
 Arguments
 =========
 
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Additional tag attributes. They will be added directly to the resulting HTML tag.
-
-data (anySimpleType)
+.. _form.textarea_additionalattributes:
+additionalAttributes
 --------------------
 
+:aspect:`DataType`
+   mixed
 
-Additional data-* attributes. They will each be added with a &quot;data-&quot; prefix.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-name (string)
--------------
+.. _form.textarea_data:
+data
+----
 
+:aspect:`DataType`
+   mixed
 
-Name of input tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional data-* attributes. They will each be added with a "data-" prefix.
 
-value (anySimpleType)
----------------------
+.. _form.textarea_name:
+name
+----
 
+:aspect:`DataType`
+   string
 
-Value of input tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of input tag
 
-property (string)
------------------
+.. _form.textarea_value:
+value
+-----
 
+:aspect:`DataType`
+   mixed
 
-Name of Object Property. If used in conjunction with &lt;f:form object=&quot;...&quot;&gt;, &quot;name&quot; and &quot;value&quot; properties will be ignored.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Value of input tag
 
-autofocus (string)
-------------------
+.. _form.textarea_property:
+property
+--------
 
+:aspect:`DataType`
+   string
 
-Specifies that a text area should automatically get focus when the page loads
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of Object Property. If used in conjunction with <f:form object="...">, "name" and "value" properties will be ignored.
 
-rows (anySimpleType)
---------------------
+.. _form.textarea_autofocus:
+autofocus
+---------
 
+:aspect:`DataType`
+   string
 
-The number of rows of a text area
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies that a text area should automatically get focus when the page loads
 
-cols (anySimpleType)
---------------------
+.. _form.textarea_rows:
+rows
+----
 
+:aspect:`DataType`
+   mixed
 
-The number of columns of a text area
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The number of rows of a text area
 
-disabled (string)
------------------
+.. _form.textarea_cols:
+cols
+----
 
+:aspect:`DataType`
+   mixed
 
-Specifies that the input element should be disabled when the page loads
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The number of columns of a text area
 
-placeholder (string)
---------------------
+.. _form.textarea_disabled:
+disabled
+--------
 
+:aspect:`DataType`
+   string
 
-The placeholder of the textarea
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies that the input element should be disabled when the page loads
 
-errorClass (string)
--------------------
-
-
-Default: &#039;f3-form-error&#039;
-
-CSS class to set if there are errors for this view helper
-
-readonly (string)
------------------
-
-
-The readonly attribute of the textarea
-
-required (anySimpleType)
-------------------------
-
-
-Default: false
-
-Specifies whether the textarea is required
-
-class (string)
---------------
-
-
-CSS class(es) for this element
-
-dir (string)
-------------
-
-
-Text direction for this HTML element. Allowed strings: &quot;ltr&quot; (left to right), &quot;rtl&quot; (right to left)
-
-id (string)
+.. _form.textarea_placeholder:
+placeholder
 -----------
 
+:aspect:`DataType`
+   string
 
-Unique (in this file) identifier for this HTML element.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The placeholder of the textarea
 
-lang (string)
--------------
+.. _form.textarea_errorclass:
+errorClass
+----------
 
+:aspect:`DataType`
+   string
 
-Language for this element. Use short names specified in RFC 1766
+:aspect:`Default`
+   'f3-form-error'
 
-style (string)
---------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class to set if there are errors for this ViewHelper
 
+.. _form.textarea_readonly:
+readonly
+--------
 
-Individual CSS styles for this element
+:aspect:`DataType`
+   string
 
-title (string)
---------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The readonly attribute of the textarea
 
+.. _form.textarea_required:
+required
+--------
 
-Tooltip text of element
+:aspect:`DataType`
+   mixed
 
-accesskey (string)
-------------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies whether the textarea is required
 
+.. _form.textarea_class:
+class
+-----
 
-Keyboard shortcut to access this element
+:aspect:`DataType`
+   string
 
-tabindex (integer)
-------------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class(es) for this element
 
+.. _form.textarea_dir:
+dir
+---
 
-Specifies the tab order of this element
+:aspect:`DataType`
+   string
 
-onclick (string)
-----------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
+.. _form.textarea_id:
+id
+--
 
-JavaScript evaluated for the onclick event
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Unique (in this file) identifier for this HTML element.
+
+.. _form.textarea_lang:
+lang
+----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Language for this element. Use short names specified in RFC 1766
+
+.. _form.textarea_style:
+style
+-----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Individual CSS styles for this element
+
+.. _form.textarea_title:
+title
+-----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Tooltip text of element
+
+.. _form.textarea_accesskey:
+accesskey
+---------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Keyboard shortcut to access this element
+
+.. _form.textarea_tabindex:
+tabindex
+--------
+
+:aspect:`DataType`
+   integer
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the tab order of this element
+
+.. _form.textarea_onclick:
+onclick
+-------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   JavaScript evaluated for the onclick event

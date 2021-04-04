@@ -1,5 +1,7 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-form-submit:
+
 ===========
 form.submit
 ===========
@@ -7,112 +9,211 @@ form.submit
 
 Creates a submit button.
 
-= Examples =
+Examples
+========
 
-<code title="Defaults">
-<f:form.submit value="Send Mail" />
-</code>
-<output>
-<input type="submit" />
-</output>
+Defaults
+--------
 
-<code title="Dummy content for template preview">
-<f:submit name="mySubmit" value="Send Mail"><button>dummy button</button></f:submit>
-</code>
-<output>
-<input type="submit" name="mySubmit" value="Send Mail" />
-</output>
+::
+
+   <f:form.submit value="Send Mail" />
+
+Output::
+
+   <input type="submit" />
+
+Dummy content for template preview
+----------------------------------
+
+::
+
+   <f:form.submit name="mySubmit" value="Send Mail"><button>dummy button</button></f:form.submit>
+
+Output::
+
+   <input type="submit" name="mySubmit" value="Send Mail" />
 
 Arguments
 =========
 
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Additional tag attributes. They will be added directly to the resulting HTML tag.
-
-data (anySimpleType)
+.. _form.submit_additionalattributes:
+additionalAttributes
 --------------------
 
+:aspect:`DataType`
+   mixed
 
-Additional data-* attributes. They will each be added with a &quot;data-&quot; prefix.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-name (string)
--------------
+.. _form.submit_data:
+data
+----
 
+:aspect:`DataType`
+   mixed
 
-Name of input tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional data-* attributes. They will each be added with a "data-" prefix.
 
-value (anySimpleType)
----------------------
+.. _form.submit_name:
+name
+----
 
+:aspect:`DataType`
+   string
 
-Value of input tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of input tag
 
-property (string)
------------------
+.. _form.submit_value:
+value
+-----
 
+:aspect:`DataType`
+   mixed
 
-Name of Object Property. If used in conjunction with &lt;f:form object=&quot;...&quot;&gt;, &quot;name&quot; and &quot;value&quot; properties will be ignored.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Value of input tag
 
-disabled (string)
------------------
+.. _form.submit_property:
+property
+--------
 
+:aspect:`DataType`
+   string
 
-Specifies that the input element should be disabled when the page loads
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of Object Property. If used in conjunction with <f:form object="...">, "name" and "value" properties will be ignored.
 
-class (string)
---------------
+.. _form.submit_disabled:
+disabled
+--------
 
+:aspect:`DataType`
+   string
 
-CSS class(es) for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies that the input element should be disabled when the page loads
 
-dir (string)
-------------
+.. _form.submit_class:
+class
+-----
 
+:aspect:`DataType`
+   string
 
-Text direction for this HTML element. Allowed strings: &quot;ltr&quot; (left to right), &quot;rtl&quot; (right to left)
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class(es) for this element
 
-id (string)
------------
+.. _form.submit_dir:
+dir
+---
 
+:aspect:`DataType`
+   string
 
-Unique (in this file) identifier for this HTML element.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-lang (string)
--------------
+.. _form.submit_id:
+id
+--
 
+:aspect:`DataType`
+   string
 
-Language for this element. Use short names specified in RFC 1766
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Unique (in this file) identifier for this HTML element.
 
-style (string)
---------------
+.. _form.submit_lang:
+lang
+----
 
+:aspect:`DataType`
+   string
 
-Individual CSS styles for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Language for this element. Use short names specified in RFC 1766
 
-title (string)
---------------
+.. _form.submit_style:
+style
+-----
 
+:aspect:`DataType`
+   string
 
-Tooltip text of element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Individual CSS styles for this element
 
-accesskey (string)
-------------------
+.. _form.submit_title:
+title
+-----
 
+:aspect:`DataType`
+   string
 
-Keyboard shortcut to access this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Tooltip text of element
 
-tabindex (integer)
-------------------
+.. _form.submit_accesskey:
+accesskey
+---------
 
+:aspect:`DataType`
+   string
 
-Specifies the tab order of this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Keyboard shortcut to access this element
 
-onclick (string)
-----------------
+.. _form.submit_tabindex:
+tabindex
+--------
 
+:aspect:`DataType`
+   integer
 
-JavaScript evaluated for the onclick event
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the tab order of this element
+
+.. _form.submit_onclick:
+onclick
+-------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   JavaScript evaluated for the onclick event

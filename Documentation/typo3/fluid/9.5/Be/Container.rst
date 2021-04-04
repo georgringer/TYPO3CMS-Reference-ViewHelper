@@ -1,62 +1,100 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-be-container:
+
 ============
 be.container
 ============
 
 
-View helper which allows you to create extbase based modules in the style of TYPO3 default modules.
+ViewHelper which allows you to create extbase based modules in the style of TYPO3 default modules.
 
-= Examples =
+Examples
+========
 
-<code title="Simple">
-<f:be.container>your module content</f:be.container>
-</code>
-<output>
+Simple::
+
+   <f:be.container>your module content</f:be.container>
+
 "your module content" wrapped with proper head & body tags.
-Default backend CSS styles and JavaScript will be included
-</output>
+Default backend CSS styles and JavaScript will be included.
 
-<code title="All options">
-<f:be.container pageTitle="foo" includeCssFiles="{0: '{f:uri.resource(path:\'Css/Styles.css\')}'}" includeJsFiles="{0: '{f:uri.resource(path:\'JavaScript/Library1.js\')}', 1: '{f:uri.resource(path:\'JavaScript/Library2.js\')}'}" addJsInlineLabels="{0: 'label1', 1: 'label2'}">your module content</f:be.container>
-</code>
-<output>
+All options::
+
+   <f:be.container pageTitle="foo"
+       includeCssFiles="{0: '{f:uri.resource(path:\'Css/Styles.css\')}'}"
+       includeJsFiles="{0: '{f:uri.resource(path:\'JavaScript/Library1.js\')}', 1: '{f:uri.resource(path:\'JavaScript/Library2.js\')}'}"
+       addJsInlineLabels="{0: 'label1', 1: 'label2'}"
+   >
+       your module content
+   </f:be.container>
+
 "your module content" wrapped with proper head & body tags.
-Custom CSS file EXT:your_extension/Resources/Public/Css/styles.css and
-JavaScript files EXT:your_extension/Resources/Public/JavaScript/Library1.js and EXT:your_extension/Resources/Public/JavaScript/Library2.js
+Custom CSS file :file:`EXT:your_extension/Resources/Public/Css/styles.css` and
+JavaScript files :file:`EXT:your_extension/Resources/Public/JavaScript/Library1.js` and
+:file:`EXT:your_extension/Resources/Public/JavaScript/Library2.js`
 will be loaded, plus some inline labels for usage in JS code.
-</output>
 
 Arguments
 =========
 
 
-pageTitle (string)
-------------------
+.. _be.container_pagetitle:
+pageTitle
+---------
 
+:aspect:`DataType`
+   string
 
-Title tag of the module. Not required by default, as BE modules are shown in a frame
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Title tag of the module. Not required by default, as BE modules are shown in a frame
 
-includeCssFiles (anySimpleType)
--------------------------------
+.. _be.container_includecssfiles:
+includeCssFiles
+---------------
 
+:aspect:`DataType`
+   mixed
 
-List of custom CSS file to be loaded
+:aspect:`Required`
+   false
+:aspect:`Description`
+   List of custom CSS file to be loaded
 
-includeJsFiles (anySimpleType)
-------------------------------
+.. _be.container_includejsfiles:
+includeJsFiles
+--------------
 
+:aspect:`DataType`
+   mixed
 
-List of custom JavaScript file to be loaded
+:aspect:`Required`
+   false
+:aspect:`Description`
+   List of custom JavaScript file to be loaded
 
-addJsInlineLabels (anySimpleType)
----------------------------------
+.. _be.container_addjsinlinelabels:
+addJsInlineLabels
+-----------------
 
+:aspect:`DataType`
+   mixed
 
-Custom labels to add to JavaScript inline labels
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Custom labels to add to JavaScript inline labels
 
-includeRequireJsModules (anySimpleType)
----------------------------------------
+.. _be.container_includerequirejsmodules:
+includeRequireJsModules
+-----------------------
 
+:aspect:`DataType`
+   mixed
 
-List of RequireJS modules to be loaded
+:aspect:`Required`
+   false
+:aspect:`Description`
+   List of RequireJS modules to be loaded

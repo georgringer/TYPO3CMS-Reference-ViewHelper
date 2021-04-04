@@ -1,171 +1,319 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-form-textfield:
+
 ==============
 form.textfield
 ==============
 
 
-View Helper which creates a text field (<input type="text">).
+ViewHelper which creates a text field :html:`<input type="text">`.
 
-= Examples =
+Examples
+========
 
-<code title="Example">
-<f:form.textfield name="myTextBox" value="default value" />
-</code>
-<output>
-<input type="text" name="myTextBox" value="default value" />
-</output>
+Example::
+
+   <f:form.textfield name="myTextBox" value="default value" />
+
+Output::
+
+   <input type="text" name="myTextBox" value="default value" />
 
 Arguments
 =========
 
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Additional tag attributes. They will be added directly to the resulting HTML tag.
-
-data (anySimpleType)
+.. _form.textfield_additionalattributes:
+additionalAttributes
 --------------------
 
+:aspect:`DataType`
+   mixed
 
-Additional data-* attributes. They will each be added with a &quot;data-&quot; prefix.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-name (string)
--------------
+.. _form.textfield_data:
+data
+----
 
+:aspect:`DataType`
+   mixed
 
-Name of input tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional data-* attributes. They will each be added with a "data-" prefix.
 
-value (anySimpleType)
----------------------
+.. _form.textfield_name:
+name
+----
 
+:aspect:`DataType`
+   string
 
-Value of input tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of input tag
 
-property (string)
------------------
+.. _form.textfield_value:
+value
+-----
 
+:aspect:`DataType`
+   mixed
 
-Name of Object Property. If used in conjunction with &lt;f:form object=&quot;...&quot;&gt;, &quot;name&quot; and &quot;value&quot; properties will be ignored.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Value of input tag
 
-autofocus (string)
-------------------
+.. _form.textfield_property:
+property
+--------
 
+:aspect:`DataType`
+   string
 
-Specifies that an input should automatically get focus when the page loads
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of Object Property. If used in conjunction with <f:form object="...">, "name" and "value" properties will be ignored.
 
-disabled (string)
------------------
+.. _form.textfield_autofocus:
+autofocus
+---------
 
+:aspect:`DataType`
+   string
 
-Specifies that the input element should be disabled when the page loads
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies that an input should automatically get focus when the page loads
 
-maxlength (anySimpleType)
--------------------------
+.. _form.textfield_disabled:
+disabled
+--------
 
+:aspect:`DataType`
+   string
 
-The maxlength attribute of the input field (will not be validated)
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies that the input element should be disabled when the page loads
 
-readonly (string)
------------------
+.. _form.textfield_maxlength:
+maxlength
+---------
 
+:aspect:`DataType`
+   mixed
 
-The readonly attribute of the input field
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The maxlength attribute of the input field (will not be validated)
 
-size (anySimpleType)
---------------------
+.. _form.textfield_readonly:
+readonly
+--------
 
+:aspect:`DataType`
+   string
 
-The size of the input field
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The readonly attribute of the input field
 
-placeholder (string)
---------------------
+.. _form.textfield_size:
+size
+----
 
+:aspect:`DataType`
+   mixed
 
-The placeholder of the textfield
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The size of the input field
 
-pattern (string)
-----------------
-
-
-HTML5 validation pattern
-
-errorClass (string)
--------------------
-
-
-Default: &#039;f3-form-error&#039;
-
-CSS class to set if there are errors for this view helper
-
-class (string)
---------------
-
-
-CSS class(es) for this element
-
-dir (string)
-------------
-
-
-Text direction for this HTML element. Allowed strings: &quot;ltr&quot; (left to right), &quot;rtl&quot; (right to left)
-
-id (string)
+.. _form.textfield_placeholder:
+placeholder
 -----------
 
+:aspect:`DataType`
+   string
 
-Unique (in this file) identifier for this HTML element.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The placeholder of the textfield
 
-lang (string)
--------------
+.. _form.textfield_pattern:
+pattern
+-------
 
+:aspect:`DataType`
+   string
 
-Language for this element. Use short names specified in RFC 1766
+:aspect:`Required`
+   false
+:aspect:`Description`
+   HTML5 validation pattern
 
-style (string)
---------------
+.. _form.textfield_errorclass:
+errorClass
+----------
 
+:aspect:`DataType`
+   string
 
-Individual CSS styles for this element
+:aspect:`Default`
+   'f3-form-error'
 
-title (string)
---------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class to set if there are errors for this ViewHelper
 
+.. _form.textfield_class:
+class
+-----
 
-Tooltip text of element
+:aspect:`DataType`
+   string
 
-accesskey (string)
-------------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class(es) for this element
 
+.. _form.textfield_dir:
+dir
+---
 
-Keyboard shortcut to access this element
+:aspect:`DataType`
+   string
 
-tabindex (integer)
-------------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
+.. _form.textfield_id:
+id
+--
 
-Specifies the tab order of this element
+:aspect:`DataType`
+   string
 
-onclick (string)
-----------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Unique (in this file) identifier for this HTML element.
 
+.. _form.textfield_lang:
+lang
+----
 
-JavaScript evaluated for the onclick event
+:aspect:`DataType`
+   string
 
-required (anySimpleType)
-------------------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Language for this element. Use short names specified in RFC 1766
 
+.. _form.textfield_style:
+style
+-----
 
-Default: false
+:aspect:`DataType`
+   string
 
-If the field is required or not
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Individual CSS styles for this element
 
-type (string)
--------------
+.. _form.textfield_title:
+title
+-----
 
+:aspect:`DataType`
+   string
 
-Default: &#039;text&#039;
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Tooltip text of element
 
-The field type, e.g. &quot;text&quot;, &quot;email&quot;, &quot;url&quot; etc.
+.. _form.textfield_accesskey:
+accesskey
+---------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Keyboard shortcut to access this element
+
+.. _form.textfield_tabindex:
+tabindex
+--------
+
+:aspect:`DataType`
+   integer
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the tab order of this element
+
+.. _form.textfield_onclick:
+onclick
+-------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   JavaScript evaluated for the onclick event
+
+.. _form.textfield_required:
+required
+--------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If the field is required or not
+
+.. _form.textfield_type:
+type
+----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Default`
+   'text'
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The field type, e.g. "text", "email", "url" etc.

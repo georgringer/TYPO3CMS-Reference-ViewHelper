@@ -1,5 +1,7 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-widget-paginate:
+
 ===============
 widget.paginate
 ===============
@@ -7,23 +9,31 @@ widget.paginate
 
 This ViewHelper renders a Pagination of objects.
 
-= Examples =
+Examples
+========
 
-<code title="required arguments">
-<f:widget.paginate objects="{blogs}" as="paginatedBlogs">
-use {paginatedBlogs} as you used {blogs} before, most certainly inside
-a <f:for> loop.
-</f:widget.paginate>
-</code>
+Required arguments
+------------------
 
-<code title="full configuration">
-<f:widget.paginate objects="{blogs}" as="paginatedBlogs" configuration="{itemsPerPage: 5, insertAbove: 1, insertBelow: 0, maximumNumberOfLinks: 10}">
-use {paginatedBlogs} as you used {blogs} before, most certainly inside
-a <f:for> loop.
-</f:widget.paginate>
-</code>
+::
 
-= Performance characteristics =
+   <f:widget.paginate objects="{blogs}" as="paginatedBlogs">
+      use {paginatedBlogs} as you used {blogs} before, most certainly inside
+      a <f:for> loop.
+   </f:widget.paginate>
+
+Full configuration
+------------------
+
+::
+
+   <f:widget.paginate objects="{blogs}" as="paginatedBlogs" configuration="{itemsPerPage: 5, insertAbove: 1, insertBelow: 0, maximumNumberOfLinks: 10}">
+      use {paginatedBlogs} as you used {blogs} before, most certainly inside
+      a <f:for> loop.
+   </f:widget.paginate>
+
+Performance characteristics
+===========================
 
 In the above examples, it looks like {blogs} contains all Blog objects, thus
 you might wonder if all objects were fetched from the database.
@@ -36,28 +46,53 @@ Arguments
 =========
 
 
-customWidgetId (string)
------------------------
+.. _widget.paginate_customwidgetid:
+customWidgetId
+--------------
 
+:aspect:`DataType`
+   string
 
-extend the widget identifier with a custom widget id
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Extend the widget identifier with a custom widget id
 
-objects (anySimpleType)
------------------------
+.. _widget.paginate_objects:
+objects
+-------
 
+:aspect:`DataType`
+   mixed
 
-Object
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Object
 
-as (string)
------------
-
-
+.. _widget.paginate_as:
 as
+--
 
-configuration (anySimpleType)
------------------------------
+:aspect:`DataType`
+   string
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   As
 
-Default: array (  &#039;itemsPerPage&#039; =&gt; 10,  &#039;insertAbove&#039; =&gt; false,  &#039;insertBelow&#039; =&gt; true,  &#039;maximumNumberOfLinks&#039; =&gt; 99,)
-
+.. _widget.paginate_configuration:
 configuration
+-------------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Default`
+   array (  'itemsPerPage' => 10,  'insertAbove' => false,  'insertBelow' => true,  'maximumNumberOfLinks' => 99,)
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Configuration

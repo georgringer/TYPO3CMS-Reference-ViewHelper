@@ -1,46 +1,71 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-format-html:
+
 ===========
 format.html
 ===========
 
 
-Renders a string by passing it to a TYPO3 parseFunc.
-You can either specify a path to the TypoScript setting or set the parseFunc options directly.
-By default lib.parseFunc_RTE is used to parse the string.
+Renders a string by passing it to a TYPO3 `parseFunc`_.
+You can either specify a path to the TypoScript setting or set the `parseFunc`_ options directly.
+By default :ts:`lib.parseFunc_RTE` is used to parse the string.
 
-== Examples ==
+Examples
+========
 
-<code title="Default parameters">
-<f:format.html>foo <b>bar</b>. Some <LINK 1>link</LINK>.</f:format.html>
-</code>
-<output>
-<p class="bodytext">foo <b>bar</b>. Some <a href="index.php?id=1" >link</a>.</p>
-(depending on your TYPO3 setup)
-</output>
+Default parameters
+------------------
 
-<code title="Custom parseFunc">
-<f:format.html parseFuncTSPath="lib.parseFunc">foo <b>bar</b>. Some <LINK 1>link</LINK>.</f:format.html>
-</code>
-<output>
-foo <b>bar</b>. Some <a href="index.php?id=1" >link</a>.
-</output>
+::
 
-<code title="Inline notation">
-{someText -> f:format.html(parseFuncTSPath: 'lib.parseFunc')}
-</code>
-<output>
-foo <b>bar</b>. Some <a href="index.php?id=1" >link</a>.
-</output>
+   <f:format.html>foo <b>bar</b>. Some <LINK 1>link</LINK>.</f:format.html>
+
+Output::
+
+   <p class="bodytext">foo <b>bar</b>. Some <a href="index.php?id=1" >link</a>.</p>
+
+Depending on TYPO3 setup.
+
+Custom parseFunc
+----------------
+
+::
+
+   <f:format.html parseFuncTSPath="lib.parseFunc">foo <b>bar</b>. Some <LINK 1>link</LINK>.</f:format.html>
+
+Output::
+
+   foo <b>bar</b>. Some <a href="index.php?id=1" >link</a>.
+
+Inline notation
+---------------
+
+::
+
+   {someText -> f:format.html(parseFuncTSPath: 'lib.parseFunc')}
+
+Output::
+
+   foo <b>bar</b>. Some <a href="index.php?id=1" >link</a>.
+
+.. _parseFunc: https://docs.typo3.org/m/typo3/reference-typoscript/master/en-us/Functions/Parsefunc.html
 
 Arguments
 =========
 
 
-parseFuncTSPath (string)
-------------------------
+.. _format.html_parsefunctspath:
+parseFuncTSPath
+---------------
 
+:aspect:`DataType`
+   string
 
-Default: &#039;lib.parseFunc_RTE&#039;
+:aspect:`Default`
+   'lib.parseFunc_RTE'
 
-path to TypoScript parseFunc setup.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Path to TypoScript parseFunc setup.

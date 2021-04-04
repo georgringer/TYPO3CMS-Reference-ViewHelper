@@ -1,67 +1,110 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-debug-render:
+
 ============
 debug.render
 ============
 
 
-Debuggable version of f:render - performs the same
-rendering operation but wraps the output with HTML
-that can be inspected with the admin panel in FE.
+Debuggable version of :ref:`f:render <typo3-fluid-render>` - performs the
+same rendering operation but wraps the output with HTML that can be
+inspected with the admin panel in frontend.
 
-Replaces `f:render` when the admin panel decides
-(see ViewHelperResolver class). Also possible to use
-explicitly by using `f:debug.render` instead of the
-normal `f:render` statement.
+Replaces ``f:render`` when the admin panel decides (see
+:php:`ViewHelperResolver` class). Also possible to use explicitly by using
+``f:debug.render`` instead of the normal ``f:render`` statement.
 
 Arguments
 =========
 
 
-debug (boolean)
----------------
+.. _debug.render_debug:
+debug
+-----
 
+:aspect:`DataType`
+   boolean
 
-Default: true
+:aspect:`Default`
+   true
 
-If true, the admin panel shows debug information if activated,
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If true, the admin panel shows debug information if activated,
 
-section (string)
-----------------
+.. _debug.render_section:
+section
+-------
 
+:aspect:`DataType`
+   string
 
-Section to render - combine with partial to render section in partial
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Section to render - combine with partial to render section in partial
 
-partial (string)
-----------------
+.. _debug.render_partial:
+partial
+-------
 
+:aspect:`DataType`
+   string
 
-Partial to render, with or without section
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Partial to render, with or without section
 
-arguments (anySimpleType)
--------------------------
+.. _debug.render_arguments:
+arguments
+---------
 
+:aspect:`DataType`
+   mixed
 
-Default: array ()
+:aspect:`Default`
+   array ()
 
-Array of variables to be transferred. Use {_all} for all variables
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Array of variables to be transferred. Use {_all} for all variables
 
-optional (boolean)
-------------------
+.. _debug.render_optional:
+optional
+--------
 
+:aspect:`DataType`
+   boolean
 
-Default: false
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If TRUE, considers the *section* optional. Partial never is.
 
-If TRUE, considers the *section* optional. Partial never is.
+.. _debug.render_default:
+default
+-------
 
-default (anySimpleType)
------------------------
+:aspect:`DataType`
+   mixed
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Value (usually string) to be displayed if the section or partial does not exist
 
-Value (usually string) to be displayed if the section or partial does not exist
+.. _debug.render_contentas:
+contentAs
+---------
 
-contentAs (string)
-------------------
+:aspect:`DataType`
+   string
 
-
-If used, renders the child content and adds it as a template variable with this name for use in the partial/section
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If used, renders the child content and adds it as a template variable with this name for use in the partial/section

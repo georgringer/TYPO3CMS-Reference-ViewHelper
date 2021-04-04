@@ -1,12 +1,14 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-format-case:
+
 ===========
 format.case
 ===========
 
 
 Modifies the case of an input string to upper- or lowercase or capitalization.
-The default transformation will be uppercase as in ``mb_convert_case`` [1].
+The default transformation will be uppercase as in `mb_convert_case`_.
 
 Possible modes are:
 
@@ -25,40 +27,63 @@ Possible modes are:
 ``capitalWords``
   Not supported yet: Transforms the input string to each containing word being capitalized
 
-Note that the behavior will be the same as in the appropriate PHP function ``mb_convert_case`` [1];
+Note that the behavior will be the same as in the appropriate PHP function `mb_convert_case`_;
 especially regarding locale and multibyte behavior.
 
+.. _mb_convert_case: https://www.php.net/manual/function.mb-convert-case.php
 
-= Examples =
+Examples
+========
 
-<code title="Example">
-<f:format.case>Some Text with miXed case</f:format.case>
-</code>
-<output>
-SOME TEXT WITH MIXED CASE
-</output>
+Default
+-------
 
-<code title="Example with given mode">
-<f:format.case mode="capital">someString</f:format.case>
-</code>
-<output>
-SomeString
-</output>
+::
+
+   <f:format.case>Some Text with miXed case</f:format.case>
+
+Output::
+
+   SOME TEXT WITH MIXED CASE
+
+Example with given mode
+-----------------------
+
+::
+
+   <f:format.case mode="capital">someString</f:format.case>
+
+Output::
+
+   SomeString
 
 Arguments
 =========
 
 
-value (string)
---------------
+.. _format.case_value:
+value
+-----
 
+:aspect:`DataType`
+   string
 
-The input value. If not given, the evaluated child nodes will be used.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The input value. If not given, the evaluated child nodes will be used.
 
-mode (string)
--------------
+.. _format.case_mode:
+mode
+----
 
+:aspect:`DataType`
+   string
 
-Default: &#039;upper&#039;
+:aspect:`Default`
+   'upper'
 
-The case to apply, must be one of this&#039; CASE_* constants. Defaults to uppercase application.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The case to apply, must be one of this' CASE_* constants. Defaults to uppercase application.

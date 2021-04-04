@@ -1,131 +1,245 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-be-link:
+
 =======
 be.link
 =======
 
 
-A view helper for creating URIs to modules.
-= Examples =
-<code title="URI to the web_ts module on page 92">
-<f:be.link route="web_ts" parameters="{id: 92}">Go to web_ts</f:be.link>
-</code>
-<output>
-<a href="/typo3/index.php?route=%2module%2web_ts%2&moduleToken=b6e9c9f?id=92">Go to web_ts</a>
-</output>
+A ViewHelper for creating URIs to modules.
+
+Examples
+========
+
+URI to the web_ts module on page 92::
+
+   <f:be.link route="web_ts" parameters="{id: 92}">Go to web_ts</f:be.link>
+
+``<a href="/typo3/index.php?route=%2module%2web_ts%2&moduleToken=b6e9c9f?id=92">Go to web_ts</a>``
 
 Arguments
 =========
 
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Additional tag attributes. They will be added directly to the resulting HTML tag.
-
-data (anySimpleType)
+.. _be.link_additionalattributes:
+additionalAttributes
 --------------------
 
+:aspect:`DataType`
+   mixed
 
-Additional data-* attributes. They will each be added with a &quot;data-&quot; prefix.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-route (string)
---------------
+.. _be.link_data:
+data
+----
 
+:aspect:`DataType`
+   mixed
 
-The name of the route
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional data-* attributes. They will each be added with a "data-" prefix.
 
-parameters (anySimpleType)
---------------------------
+.. _be.link_route:
+route
+-----
 
+:aspect:`DataType`
+   string
 
-Default: array ()
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The name of the route
 
-An array of parameters
+.. _be.link_parameters:
+parameters
+----------
 
-referenceType (string)
-----------------------
+:aspect:`DataType`
+   mixed
 
+:aspect:`Default`
+   array ()
 
-Default: &#039;absolute&#039;
+:aspect:`Required`
+   false
+:aspect:`Description`
+   An array of parameters
 
-The type of reference to be generated (one of the constants)
-
-name (string)
+.. _be.link_referencetype:
+referenceType
 -------------
 
+:aspect:`DataType`
+   string
 
-Specifies the name of an anchor
+:aspect:`Default`
+   'absolute'
 
-rel (string)
-------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The type of reference to be generated (one of the constants)
 
+.. _be.link_name:
+name
+----
 
-Specifies the relationship between the current document and the linked document
+:aspect:`DataType`
+   string
 
-rev (string)
-------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the name of an anchor
 
+.. _be.link_rel:
+rel
+---
 
-Specifies the relationship between the linked document and the current document
+:aspect:`DataType`
+   string
 
-target (string)
----------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the relationship between the current document and the linked document
 
+.. _be.link_rev:
+rev
+---
 
-Specifies where to open the linked document
+:aspect:`DataType`
+   string
 
-class (string)
---------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the relationship between the linked document and the current document
 
+.. _be.link_target:
+target
+------
 
-CSS class(es) for this element
+:aspect:`DataType`
+   string
 
-dir (string)
-------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies where to open the linked document
 
+.. _be.link_class:
+class
+-----
 
-Text direction for this HTML element. Allowed strings: &quot;ltr&quot; (left to right), &quot;rtl&quot; (right to left)
+:aspect:`DataType`
+   string
 
-id (string)
------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class(es) for this element
 
+.. _be.link_dir:
+dir
+---
 
-Unique (in this file) identifier for this HTML element.
+:aspect:`DataType`
+   string
 
-lang (string)
--------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
+.. _be.link_id:
+id
+--
 
-Language for this element. Use short names specified in RFC 1766
+:aspect:`DataType`
+   string
 
-style (string)
---------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Unique (in this file) identifier for this HTML element.
 
+.. _be.link_lang:
+lang
+----
 
-Individual CSS styles for this element
+:aspect:`DataType`
+   string
 
-title (string)
---------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Language for this element. Use short names specified in RFC 1766
 
+.. _be.link_style:
+style
+-----
 
-Tooltip text of element
+:aspect:`DataType`
+   string
 
-accesskey (string)
-------------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Individual CSS styles for this element
 
+.. _be.link_title:
+title
+-----
 
-Keyboard shortcut to access this element
+:aspect:`DataType`
+   string
 
-tabindex (integer)
-------------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Tooltip text of element
 
+.. _be.link_accesskey:
+accesskey
+---------
 
-Specifies the tab order of this element
+:aspect:`DataType`
+   string
 
-onclick (string)
-----------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Keyboard shortcut to access this element
 
+.. _be.link_tabindex:
+tabindex
+--------
 
-JavaScript evaluated for the onclick event
+:aspect:`DataType`
+   integer
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the tab order of this element
+
+.. _be.link_onclick:
+onclick
+-------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   JavaScript evaluated for the onclick event

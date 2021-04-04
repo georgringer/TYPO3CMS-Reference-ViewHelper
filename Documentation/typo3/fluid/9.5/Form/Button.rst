@@ -1,5 +1,7 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-form-button:
+
 ===========
 form.button
 ===========
@@ -7,162 +9,309 @@ form.button
 
 Creates a button.
 
-= Examples =
+Examples
+========
 
-<code title="Defaults">
-<f:form.button>Send Mail</f:form.button>
-</code>
-<output>
-<button type="submit" name="" value="">Send Mail</button>
-</output>
+Defaults::
 
-<code title="Disabled cancel button with some HTML5 attributes">
-<f:form.button type="reset" name="buttonName" value="buttonValue" disabled="disabled" formmethod="post" formnovalidate="formnovalidate">Cancel</f:form.button>
-</code>
-<output>
-<button disabled="disabled" formmethod="post" formnovalidate="formnovalidate" type="reset" name="myForm[buttonName]" value="buttonValue">Cancel</button>
-</output>
+   <f:form.button>Send Mail</f:form.button>
+
+Output::
+
+   <button type="submit" name="" value="">Send Mail</button>
+
+Disabled cancel button with some HTML5 attributes::
+
+   <f:form.button type="reset" disabled="disabled"
+       name="buttonName" value="buttonValue"
+       formmethod="post" formnovalidate="formnovalidate"
+   >
+       Cancel
+   </f:form.button>
+
+Output::
+
+   <button disabled="disabled" formmethod="post" formnovalidate="formnovalidate" type="reset" name="myForm[buttonName]" value="buttonValue">Cancel</button>
 
 Arguments
 =========
 
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Additional tag attributes. They will be added directly to the resulting HTML tag.
-
-data (anySimpleType)
+.. _form.button_additionalattributes:
+additionalAttributes
 --------------------
 
+:aspect:`DataType`
+   mixed
 
-Additional data-* attributes. They will each be added with a &quot;data-&quot; prefix.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-name (string)
--------------
+.. _form.button_data:
+data
+----
 
+:aspect:`DataType`
+   mixed
 
-Name of input tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional data-* attributes. They will each be added with a "data-" prefix.
 
-value (anySimpleType)
----------------------
+.. _form.button_name:
+name
+----
 
+:aspect:`DataType`
+   string
 
-Value of input tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of input tag
 
-property (string)
------------------
+.. _form.button_value:
+value
+-----
 
+:aspect:`DataType`
+   mixed
 
-Name of Object Property. If used in conjunction with &lt;f:form object=&quot;...&quot;&gt;, &quot;name&quot; and &quot;value&quot; properties will be ignored.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Value of input tag
 
-autofocus (string)
-------------------
+.. _form.button_property:
+property
+--------
 
+:aspect:`DataType`
+   string
 
-Specifies that a button should automatically get focus when the page loads
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of Object Property. If used in conjunction with <f:form object="...">, "name" and "value" properties will be ignored.
 
-disabled (string)
------------------
+.. _form.button_autofocus:
+autofocus
+---------
 
+:aspect:`DataType`
+   string
 
-Specifies that the input element should be disabled when the page loads
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies that a button should automatically get focus when the page loads
 
-form (string)
--------------
+.. _form.button_disabled:
+disabled
+--------
 
+:aspect:`DataType`
+   string
 
-Specifies one or more forms the button belongs to
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies that the input element should be disabled when the page loads
 
-formaction (string)
--------------------
+.. _form.button_form:
+form
+----
 
+:aspect:`DataType`
+   string
 
-Specifies where to send the form-data when a form is submitted. Only for type=&quot;submit&quot;
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies one or more forms the button belongs to
 
-formenctype (string)
---------------------
+.. _form.button_formaction:
+formaction
+----------
 
+:aspect:`DataType`
+   string
 
-Specifies how form-data should be encoded before sending it to a server. Only for type=&quot;submit&quot; (e.g. &quot;application/x-www-form-urlencoded&quot;, &quot;multipart/form-data&quot; or &quot;text/plain&quot;)
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies where to send the form-data when a form is submitted. Only for type="submit"
 
-formmethod (string)
--------------------
-
-
-Specifies how to send the form-data (which HTTP method to use). Only for type=&quot;submit&quot; (e.g. &quot;get&quot; or &quot;post&quot;)
-
-formnovalidate (string)
------------------------
-
-
-Specifies that the form-data should not be validated on submission. Only for type=&quot;submit&quot;
-
-formtarget (string)
--------------------
-
-
-Specifies where to display the response after submitting the form. Only for type=&quot;submit&quot; (e.g. &quot;_blank&quot;, &quot;_self&quot;, &quot;_parent&quot;, &quot;_top&quot;, &quot;framename&quot;)
-
-class (string)
---------------
-
-
-CSS class(es) for this element
-
-dir (string)
-------------
-
-
-Text direction for this HTML element. Allowed strings: &quot;ltr&quot; (left to right), &quot;rtl&quot; (right to left)
-
-id (string)
+.. _form.button_formenctype:
+formenctype
 -----------
 
+:aspect:`DataType`
+   string
 
-Unique (in this file) identifier for this HTML element.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies how form-data should be encoded before sending it to a server. Only for type="submit" (e.g. "application/x-www-form-urlencoded", "multipart/form-data" or "text/plain")
 
-lang (string)
--------------
+.. _form.button_formmethod:
+formmethod
+----------
 
+:aspect:`DataType`
+   string
 
-Language for this element. Use short names specified in RFC 1766
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies how to send the form-data (which HTTP method to use). Only for type="submit" (e.g. "get" or "post")
 
-style (string)
+.. _form.button_formnovalidate:
+formnovalidate
 --------------
 
+:aspect:`DataType`
+   string
 
-Individual CSS styles for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies that the form-data should not be validated on submission. Only for type="submit"
 
-title (string)
---------------
+.. _form.button_formtarget:
+formtarget
+----------
 
+:aspect:`DataType`
+   string
 
-Tooltip text of element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies where to display the response after submitting the form. Only for type="submit" (e.g. "_blank", "_self", "_parent", "_top", "framename")
 
-accesskey (string)
-------------------
+.. _form.button_class:
+class
+-----
 
+:aspect:`DataType`
+   string
 
-Keyboard shortcut to access this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class(es) for this element
 
-tabindex (integer)
-------------------
+.. _form.button_dir:
+dir
+---
 
+:aspect:`DataType`
+   string
 
-Specifies the tab order of this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-onclick (string)
-----------------
+.. _form.button_id:
+id
+--
 
+:aspect:`DataType`
+   string
 
-JavaScript evaluated for the onclick event
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Unique (in this file) identifier for this HTML element.
 
-type (string)
--------------
+.. _form.button_lang:
+lang
+----
 
+:aspect:`DataType`
+   string
 
-Default: &#039;submit&#039;
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Language for this element. Use short names specified in RFC 1766
 
-Specifies the type of button (e.g. &quot;button&quot;, &quot;reset&quot; or &quot;submit&quot;)
+.. _form.button_style:
+style
+-----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Individual CSS styles for this element
+
+.. _form.button_title:
+title
+-----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Tooltip text of element
+
+.. _form.button_accesskey:
+accesskey
+---------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Keyboard shortcut to access this element
+
+.. _form.button_tabindex:
+tabindex
+--------
+
+:aspect:`DataType`
+   integer
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the tab order of this element
+
+.. _form.button_onclick:
+onclick
+-------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   JavaScript evaluated for the onclick event
+
+.. _form.button_type:
+type
+----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Default`
+   'submit'
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the type of button (e.g. "button", "reset" or "submit")

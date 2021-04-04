@@ -1,143 +1,263 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-form-radio:
+
 ==========
 form.radio
 ==========
 
 
-View Helper which creates a simple radio button (<input type="radio">).
+ViewHelper which creates a simple radio button :html:`<input type="radio">`.
 
-= Examples =
+Examples
+========
 
-<code title="Example">
-<f:form.radio name="myRadioButton" value="someValue" />
-</code>
-<output>
-<input type="radio" name="myRadioButton" value="someValue" />
-</output>
+Simple
+------
 
-<code title="Preselect">
-<f:form.radio name="myRadioButton" value="someValue" checked="{object.value} == 5" />
-</code>
-<output>
-<input type="radio" name="myRadioButton" value="someValue" checked="checked" />
-(depending on $object)
-</output>
+::
 
-<code title="Bind to object property">
-<f:form.radio property="newsletter" value="1" /> yes
-<f:form.radio property="newsletter" value="0" /> no
-</code>
-<output>
-<input type="radio" name="user[newsletter]" value="1" checked="checked" /> yes
-<input type="radio" name="user[newsletter]" value="0" /> no
-(depending on property "newsletter")
-</output>
+   <f:form.radio name="myRadioButton" value="someValue" />
+
+Output::
+
+   <input type="radio" name="myRadioButton" value="someValue" />
+
+Preselect
+---------
+
+::
+
+   <f:form.radio name="myRadioButton" value="someValue" checked="{object.value} == 5" />
+
+Output::
+
+   <input type="radio" name="myRadioButton" value="someValue" checked="checked" />
+
+Depending on bound ``object`` to surrounding :ref:`f:form <typo3-fluid-form>`.
+
+Bind to object property
+-----------------------
+
+::
+
+   <f:form.radio property="newsletter" value="1" /> yes
+   <f:form.radio property="newsletter" value="0" /> no
+
+Output::
+
+   <input type="radio" name="user[newsletter]" value="1" checked="checked" /> yes
+   <input type="radio" name="user[newsletter]" value="0" /> no
+
+Depending on property ``newsletter``.
 
 Arguments
 =========
 
 
-additionalAttributes (anySimpleType)
-------------------------------------
-
-
-Additional tag attributes. They will be added directly to the resulting HTML tag.
-
-data (anySimpleType)
+.. _form.radio_additionalattributes:
+additionalAttributes
 --------------------
 
+:aspect:`DataType`
+   mixed
 
-Additional data-* attributes. They will each be added with a &quot;data-&quot; prefix.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional tag attributes. They will be added directly to the resulting HTML tag.
 
-name (string)
--------------
+.. _form.radio_data:
+data
+----
 
+:aspect:`DataType`
+   mixed
 
-Name of input tag
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional data-* attributes. They will each be added with a "data-" prefix.
 
-value (string)
---------------
+.. _form.radio_name:
+name
+----
 
+:aspect:`DataType`
+   string
 
-Value of input tag. Required for radio buttons
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of input tag
 
-property (string)
------------------
+.. _form.radio_value:
+value
+-----
 
+:aspect:`DataType`
+   string
 
-Name of Object Property. If used in conjunction with &lt;f:form object=&quot;...&quot;&gt;, &quot;name&quot; and &quot;value&quot; properties will be ignored.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Value of input tag. Required for radio buttons
 
-errorClass (string)
--------------------
+.. _form.radio_property:
+property
+--------
 
+:aspect:`DataType`
+   string
 
-Default: &#039;f3-form-error&#039;
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of Object Property. If used in conjunction with <f:form object="...">, "name" and "value" properties will be ignored.
 
-CSS class to set if there are errors for this view helper
+.. _form.radio_errorclass:
+errorClass
+----------
 
-checked (anySimpleType)
------------------------
+:aspect:`DataType`
+   string
 
+:aspect:`Default`
+   'f3-form-error'
 
-Specifies that the input element should be preselected
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class to set if there are errors for this ViewHelper
 
-class (string)
---------------
+.. _form.radio_checked:
+checked
+-------
 
+:aspect:`DataType`
+   mixed
 
-CSS class(es) for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies that the input element should be preselected
 
-dir (string)
-------------
+.. _form.radio_class:
+class
+-----
 
+:aspect:`DataType`
+   string
 
-Text direction for this HTML element. Allowed strings: &quot;ltr&quot; (left to right), &quot;rtl&quot; (right to left)
+:aspect:`Required`
+   false
+:aspect:`Description`
+   CSS class(es) for this element
 
-id (string)
------------
+.. _form.radio_dir:
+dir
+---
 
+:aspect:`DataType`
+   string
 
-Unique (in this file) identifier for this HTML element.
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
-lang (string)
--------------
+.. _form.radio_id:
+id
+--
 
+:aspect:`DataType`
+   string
 
-Language for this element. Use short names specified in RFC 1766
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Unique (in this file) identifier for this HTML element.
 
-style (string)
---------------
+.. _form.radio_lang:
+lang
+----
 
+:aspect:`DataType`
+   string
 
-Individual CSS styles for this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Language for this element. Use short names specified in RFC 1766
 
-title (string)
---------------
+.. _form.radio_style:
+style
+-----
 
+:aspect:`DataType`
+   string
 
-Tooltip text of element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Individual CSS styles for this element
 
-accesskey (string)
-------------------
+.. _form.radio_title:
+title
+-----
 
+:aspect:`DataType`
+   string
 
-Keyboard shortcut to access this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Tooltip text of element
 
-tabindex (integer)
-------------------
+.. _form.radio_accesskey:
+accesskey
+---------
 
+:aspect:`DataType`
+   string
 
-Specifies the tab order of this element
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Keyboard shortcut to access this element
 
-onclick (string)
-----------------
+.. _form.radio_tabindex:
+tabindex
+--------
 
+:aspect:`DataType`
+   integer
 
-JavaScript evaluated for the onclick event
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies the tab order of this element
 
-disabled (string)
------------------
+.. _form.radio_onclick:
+onclick
+-------
 
+:aspect:`DataType`
+   string
 
-Specifies that the input element should be disabled when the page loads
+:aspect:`Required`
+   false
+:aspect:`Description`
+   JavaScript evaluated for the onclick event
+
+.. _form.radio_disabled:
+disabled
+--------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specifies that the input element should be disabled when the page loads

@@ -1,23 +1,28 @@
 .. include:: ../../../Includes.txt
 
+.. _typo3-fluid-base:
+
 ====
 base
 ====
 
 
-View helper which creates a <base href="..."></base> tag. The Base URI is taken from the
-current request.
-In TYPO3 Flow, you should always include this ViewHelper to make the links work.
+ViewHelper which creates a :html:`<base href="..."></base>` tag.
 
-= Examples =
+The Base URI is taken from the current request.
 
-<code title="Example">
-<f:base />
-</code>
-<output>
-<base href="http://yourdomain.tld/" />
-(depending on your domain)
-</output>
+Examples
+========
+
+Example::
+
+   <f:base />
+
+Output::
+
+   <base href="http://yourdomain.tld/" />
+
+Depending on your domain.
 
 Arguments
 =========

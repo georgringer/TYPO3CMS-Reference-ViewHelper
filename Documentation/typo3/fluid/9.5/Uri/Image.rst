@@ -1,5 +1,7 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-uri-image:
+
 =========
 uri.image
 =========
@@ -7,119 +9,206 @@ uri.image
 
 Resizes a given image (if required) and returns its relative path.
 
-= Examples =
+Examples
+========
 
-<code title="Default">
-<f:uri.image src="EXT:myext/Resources/Public/typo3_logo.png" />
-</code>
-<output>
-typo3conf/ext/myext/Resources/Public/typo3_logo.png
-or (in BE mode):
-../typo3conf/ext/myext/Resources/Public/typo3_logo.png
-</output>
+Default
+-------
 
-<code title="Image Object">
-<f:uri.image image="{imageObject}" />
-</code>
-<output>
-fileadmin/images/image.png
-or (in BE mode):
-fileadmin/images/image.png
-</output>
+::
 
-<code title="Inline notation">
-{f:uri.image(src: 'EXT:myext/Resources/Public/typo3_logo.png', minWidth: 30, maxWidth: 40)}
-</code>
-<output>
-typo3temp/assets/images/[b4c0e7ed5c].png
-(depending on your TYPO3s encryption key)
-</output>
+   <f:uri.image src="EXT:myext/Resources/Public/typo3_logo.png" />
 
-<code title="non existing image">
-<f:uri.image src="NonExistingImage.png" />
-</code>
-<output>
-Could not get image resource for "NonExistingImage.png".
-</output>
+Results in the following output within TYPO3 frontend:
+
+``typo3conf/ext/myext/Resources/Public/typo3_logo.png``
+
+and the following output inside TYPO3 backend:
+
+``../typo3conf/ext/myext/Resources/Public/typo3_logo.png``
+
+Image Object
+------------
+
+::
+
+   <f:uri.image image="{imageObject}" />
+
+Results in the following output within TYPO3 frontend:
+
+``fileadmin/images/image.png``
+
+and the following output inside TYPO3 backend:
+
+``fileadmin/images/image.png``
+
+Inline notation
+---------------
+
+::
+
+   {f:uri.image(src: 'EXT:myext/Resources/Public/typo3_logo.png', minWidth: 30, maxWidth: 40)}
+
+``typo3temp/assets/images/[b4c0e7ed5c].png``
+
+Depending on your TYPO3s encryption key.
+
+Non existing image
+------------------
+
+::
+
+   <f:uri.image src="NonExistingImage.png" />
+
+``Could not get image resource for "NonExistingImage.png".``
 
 Arguments
 =========
 
 
-src (string)
-------------
-
-
+.. _uri.image_src:
 src
+---
 
-treatIdAsReference (anySimpleType)
-----------------------------------
+:aspect:`DataType`
+   string
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Src
 
-Default: false
+.. _uri.image_treatidasreference:
+treatIdAsReference
+------------------
 
-given src argument is a sys_file_reference record
+:aspect:`DataType`
+   mixed
 
-image (anySimpleType)
----------------------
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Given src argument is a sys_file_reference record
 
-
+.. _uri.image_image:
 image
+-----
 
-crop (anySimpleType)
---------------------
+:aspect:`DataType`
+   mixed
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Image
 
-overrule cropping of image (setting to FALSE disables the cropping set in FileReference)
+.. _uri.image_crop:
+crop
+----
 
-cropVariant (string)
---------------------
+:aspect:`DataType`
+   mixed
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Overrule cropping of image (setting to FALSE disables the cropping set in FileReference)
 
-Default: &#039;default&#039;
+.. _uri.image_cropvariant:
+cropVariant
+-----------
 
-select a cropping variant, in case multiple croppings have been specified or stored in FileReference
+:aspect:`DataType`
+   string
 
-width (string)
---------------
+:aspect:`Default`
+   'default'
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Select a cropping variant, in case multiple croppings have been specified or stored in FileReference
 
-width of the image. This can be a numeric value representing the fixed width of the image in pixels. But you can also perform simple calculations by adding &quot;m&quot; or &quot;c&quot; to the value. See imgResource.width for possible options.
+.. _uri.image_width:
+width
+-----
 
-height (string)
----------------
+:aspect:`DataType`
+   string
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Width of the image. This can be a numeric value representing the fixed width of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
-height of the image. This can be a numeric value representing the fixed height of the image in pixels. But you can also perform simple calculations by adding &quot;m&quot; or &quot;c&quot; to the value. See imgResource.width for possible options.
+.. _uri.image_height:
+height
+------
 
-minWidth (anySimpleType)
-------------------------
+:aspect:`DataType`
+   string
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Height of the image. This can be a numeric value representing the fixed height of the image in pixels. But you can also perform simple calculations by adding "m" or "c" to the value. See imgResource.width for possible options.
 
-minimum width of the image
+.. _uri.image_minwidth:
+minWidth
+--------
 
-minHeight (anySimpleType)
--------------------------
+:aspect:`DataType`
+   mixed
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Minimum width of the image
 
-minimum height of the image
+.. _uri.image_minheight:
+minHeight
+---------
 
-maxWidth (anySimpleType)
-------------------------
+:aspect:`DataType`
+   mixed
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Minimum height of the image
 
-maximum width of the image
+.. _uri.image_maxwidth:
+maxWidth
+--------
 
-maxHeight (anySimpleType)
--------------------------
+:aspect:`DataType`
+   mixed
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Maximum width of the image
 
-maximum height of the image
+.. _uri.image_maxheight:
+maxHeight
+---------
 
-absolute (anySimpleType)
-------------------------
+:aspect:`DataType`
+   mixed
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Maximum height of the image
 
-Default: false
+.. _uri.image_absolute:
+absolute
+--------
 
-Force absolute URL
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Force absolute URL

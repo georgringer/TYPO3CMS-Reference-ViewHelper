@@ -1,50 +1,70 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-format-json:
+
 ===========
 format.json
 ===========
 
 
-Wrapper for PHPs json_encode function.
+Wrapper for PHPs :php:`json_encode` function.
+See https://www.php.net/manual/function.json-encode.php.
 
-= Examples =
+Examples
+========
 
-<code title="encoding a view variable">
-{someArray -> f:format.json()}
-</code>
-<output>
-["array","values"]
-// depending on the value of {someArray}
-</output>
+Encoding a view variable
+------------------------
 
-<code title="associative array">
-{f:format.json(value: {foo: 'bar', bar: 'baz'})}
-</code>
-<output>
-{"foo":"bar","bar":"baz"}
-</output>
+::
 
-<code title="non-associative array with forced object">
-{f:format.json(value: {0: 'bar', 1: 'baz'}, forceObject: true)}
-</code>
-<output>
-{"0":"bar","1":"baz"}
-</output>
+   {someArray -> f:format.json()}
+
+``["array","values"]``
+Depending on the value of ``{someArray}``.
+
+Associative array
+-----------------
+
+::
+
+   {f:format.json(value: {foo: 'bar', bar: 'baz'})}
+
+``{"foo":"bar","bar":"baz"}``
+
+Non associative array with forced object
+----------------------------------------
+
+::
+
+   {f:format.json(value: {0: 'bar', 1: 'baz'}, forceObject: true)}
+
+``{"0":"bar","1":"baz"}``
 
 Arguments
 =========
 
 
-value (anySimpleType)
----------------------
+.. _format.json_value:
+value
+-----
 
+:aspect:`DataType`
+   mixed
 
-The incoming data to convert, or null if VH children should be used
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The incoming data to convert, or null if VH children should be used
 
-forceObject (anySimpleType)
----------------------------
+.. _format.json_forceobject:
+forceObject
+-----------
 
+:aspect:`DataType`
+   mixed
 
-Default: false
-
-Outputs an JSON object rather than an array
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Outputs an JSON object rather than an array

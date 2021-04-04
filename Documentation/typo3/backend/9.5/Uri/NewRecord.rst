@@ -1,5 +1,7 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-backend-uri-newrecord:
+
 =============
 uri.newRecord
 =============
@@ -10,7 +12,7 @@ The ViewHelper will pass the command to FormEngine.
 
 The table argument is mandatory, it decides what record is to be created.
 
-The pid argument will put the new record on this page, if 0 given it will
+The pid argument will put the new record on this page, if ``0`` given it will
 be placed to the root page.
 
 The uid argument accepts only negative values. If this is given, the new
@@ -21,52 +23,76 @@ be given explicitly by pid argument.
 An exception will be thrown, if both uid and pid are given.
 An exception will be thrown, if the uid argument is not a negative integer.
 
-To edit records, use the editRecordViewHelper
+To edit records, use the :ref:`<be:uri.editRecord> <typo3-backend-uri-editrecord>`.
 
-= Examples =
+Examples
+========
 
-<code title="Uri to create a new record of a_table after record 17 on the same pid">
-<be:uri.newRecord table="a_table" returnUrl="foo/bar" uid="-17"/>
-</code>
-<output>
- /typo3/index.php?route=/record/edit&edit[a_table][-17]=new&returnUrl=foo/bar
-</output>
+Uri to create a new record of a_table after record 17 on the same pid::
 
-<code title="Uri to create a new record of a_table on root page">
-<be:uri.newRecord table="a_table" returnUrl="foo/bar""/>
-</code>
-<output>
- /typo3/index.php?route=/record/edit&edit[a_table][]=new&returnUrl=foo/bar
-</output>
+   <be:uri.newRecord table="a_table" returnUrl="foo/bar" uid="-17"/>
 
-<code title="Uri to create a new record of a_table on page 17">
-<be:uri.newRecord table="a_table" returnUrl="foo/bar" pid="17"/>
-</code>
-<output>
- /typo3/index.php?route=/record/edit&edit[a_table][-17]=new&returnUrl=foo/bar
-</output>
+``/typo3/index.php?route=/record/edit&edit[a_table][-17]=new&returnUrl=foo/bar``
+
+Uri to create a new record of a_table on root page::
+
+   <be:uri.newRecord table="a_table" returnUrl="foo/bar""/>
+
+``/typo3/index.php?route=/record/edit&edit[a_table][]=new&returnUrl=foo/bar``
+
+Uri to create a new record of a_table on page 17::
+
+   <be:uri.newRecord table="a_table" returnUrl="foo/bar" pid="17"/>
+
+``/typo3/index.php?route=/record/edit&edit[a_table][-17]=new&returnUrl=foo/bar``
 
 Arguments
 =========
 
 
-uid (anySimpleType)
--------------------
+.. _uri.newrecord_uid:
+uid
+---
 
+:aspect:`DataType`
+   mixed
 
-uid &lt; 0 will insert the record after the given uid
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Uid < 0 will insert the record after the given uid
 
-pid (anySimpleType)
--------------------
+.. _uri.newrecord_pid:
+pid
+---
 
+:aspect:`DataType`
+   mixed
 
-the page id where the record will be created
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The page id where the record will be created
 
-table (string)
---------------
+.. _uri.newrecord_table:
+table
+-----
 
+:aspect:`DataType`
+   string
 
-target database table
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Target database table
 
-returnUrl (string)
-------------------
+.. _uri.newrecord_returnurl:
+returnUrl
+---------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`

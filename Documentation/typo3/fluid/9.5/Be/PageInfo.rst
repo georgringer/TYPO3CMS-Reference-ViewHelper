@@ -1,21 +1,25 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-be-pageinfo:
+
 ===========
 be.pageInfo
 ===========
 
 
-View helper which return page info icon as known from TYPO3 backend modules
-Note: This view helper is experimental!
+ViewHelper which return page info icon as known from TYPO3 backend modules.
 
-= Examples =
+.. note::
+   This ViewHelper is experimental!
 
-<code>
-<f:be.pageInfo />
-</code>
-<output>
+Examples
+========
+
+Default::
+
+   <f:be.pageInfo />
+
 Page info icon with context menu
-</output>
 
 Arguments
 =========

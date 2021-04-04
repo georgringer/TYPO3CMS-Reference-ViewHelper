@@ -1,46 +1,95 @@
 .. include:: ../../../Includes.txt
 
+.. _typo3-core-iconforresource:
+
 ===============
 iconForResource
 ===============
 
 
-Displays icon for a FAL resource (file or folder means a TYPO3\CMS\Core\Resource\ResourceInterface)
+Displays icon for a FAL resource (file or folder means a :php:`TYPO3\CMS\Core\Resource\ResourceInterface`).
+
+Examples
+========
+
+Default::
+
+   <core:iconForResource resource="{file.resource}" />
+
+Output::
+
+    <span class="t3js-icon icon icon-size-small icon-state-default icon-mimetypes-text-html" data-identifier="mimetypes-text-html">
+        <span class="icon-markup">
+            <img src="/typo3/sysext/core/Resources/Public/Icons/T3Icons/mimetypes/mimetypes-text-html.svg" width="16" height="16">
+        </span>
+    </span>
 
 Arguments
 =========
 
 
-resource (anySimpleType)
-------------------------
+.. _iconforresource_resource:
+resource
+--------
 
+:aspect:`DataType`
+   mixed
 
-Resource
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Resource
 
-size (string)
--------------
+.. _iconforresource_size:
+size
+----
 
+:aspect:`DataType`
+   string
 
-Default: &#039;small&#039;
+:aspect:`Default`
+   'small'
 
-The icon size
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The icon size
 
-overlay (string)
-----------------
+.. _iconforresource_overlay:
+overlay
+-------
 
+:aspect:`DataType`
+   string
 
-Overlay identifier
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Overlay identifier
 
-options (anySimpleType)
------------------------
+.. _iconforresource_options:
+options
+-------
 
+:aspect:`DataType`
+   mixed
 
-Default: array ()
+:aspect:`Default`
+   array ()
 
-An associative array with additional options
+:aspect:`Required`
+   false
+:aspect:`Description`
+   An associative array with additional options
 
-alternativeMarkupIdentifier (string)
-------------------------------------
+.. _iconforresource_alternativemarkupidentifier:
+alternativeMarkupIdentifier
+---------------------------
 
+:aspect:`DataType`
+   string
 
-Alternative markup identifier
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Alternative markup identifier

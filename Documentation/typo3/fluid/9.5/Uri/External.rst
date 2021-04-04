@@ -1,43 +1,63 @@
 .. include:: ../../../../Includes.txt
 
+.. _typo3-fluid-uri-external:
+
 ============
 uri.external
 ============
 
 
-A view helper for creating URIs to external targets.
+A ViewHelper for creating URIs to external targets.
 Currently the specified URI is simply passed through.
 
-= Examples =
+Examples
+========
 
-<code>
-<f:uri.external uri="http://www.typo3.org" />
-</code>
-<output>
-http://www.typo3.org
-</output>
+Default
+-------
 
-<code title="custom default scheme">
-<f:uri.external uri="typo3.org" defaultScheme="ftp" />
-</code>
-<output>
-ftp://typo3.org
-</output>
+::
+
+   <f:uri.external uri="http://www.typo3.org" />
+
+``http://www.typo3.org``
+
+Custom default scheme
+---------------------
+
+::
+
+   <f:uri.external uri="typo3.org" defaultScheme="ftp" />
+
+``ftp://typo3.org``
 
 Arguments
 =========
 
 
-uri (string)
-------------
+.. _uri.external_uri:
+uri
+---
 
+:aspect:`DataType`
+   string
 
-target URI
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Target URI
 
-defaultScheme (string)
-----------------------
+.. _uri.external_defaultscheme:
+defaultScheme
+-------------
 
+:aspect:`DataType`
+   string
 
-Default: &#039;http&#039;
+:aspect:`Default`
+   'http'
 
-scheme the href attribute will be prefixed with if specified $uri does not contain a scheme already
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Scheme the href attribute will be prefixed with if specified $uri does not contain a scheme already

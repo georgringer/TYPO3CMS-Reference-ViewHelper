@@ -1,49 +1,68 @@
 .. include:: ../../../../../Includes.txt
 
+.. _typo3-fluid-be-buttons-shortcut:
+
 ===================
 be.buttons.shortcut
 ===================
 
 
-View helper which returns shortcut button with icon
-Note: This view helper is experimental!
+ViewHelper which returns shortcut button with icon.
 
-= Examples =
+.. note::
+   This ViewHelper is experimental!
 
-<code title="Default">
-<f:be.buttons.shortcut />
-</code>
-<output>
+Examples
+========
+
+Default::
+
+   <f:be.buttons.shortcut />
+
 Shortcut button as known from the TYPO3 backend.
-By default the current page id, module name and all module arguments will be stored
-</output>
+By default the current page id, module name and all module arguments will be stored.
 
-<code title="Explicitly set parameters to be stored in the shortcut">
-<f:be.buttons.shortcut getVars="{0: 'route', 1: 'myOwnPrefix'}" setVars="{0: 'function'}" />
-</code>
-<output>
+Explicitly set parameters to be stored in the shortcut::
+
+   <f:be.buttons.shortcut getVars="{0: 'route', 1: 'myOwnPrefix'}" setVars="{0: 'function'}" />
+
 Shortcut button as known from the TYPO3 backend.
 This time only the specified GET parameters and SET[]-settings will be stored.
-Note:
-Normally you won't need to set getVars & setVars parameters in Extbase modules
-</output>
+
+.. note:
+
+   Normally you won't need to set getVars & setVars parameters in Extbase modules.
 
 Arguments
 =========
 
 
-getVars (anySimpleType)
------------------------
+.. _be.buttons.shortcut_getvars:
+getVars
+-------
 
+:aspect:`DataType`
+   mixed
 
-Default: array ()
+:aspect:`Default`
+   array ()
 
-List of GET variables to store. By default the current id, module and all module arguments will be stored
+:aspect:`Required`
+   false
+:aspect:`Description`
+   List of GET variables to store. By default the current id, module and all module arguments will be stored
 
-setVars (anySimpleType)
------------------------
+.. _be.buttons.shortcut_setvars:
+setVars
+-------
 
+:aspect:`DataType`
+   mixed
 
-Default: array ()
+:aspect:`Default`
+   array ()
 
-List of SET[] variables to store. See DocumentTemplate::makeShortcutIcon(). Normally won&#039;t be used by Extbase modules
+:aspect:`Required`
+   false
+:aspect:`Description`
+   List of SET[] variables to store. See DocumentTemplate::makeShortcutIcon(). Normally won't be used by Extbase modules

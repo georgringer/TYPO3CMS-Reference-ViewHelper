@@ -1,5 +1,7 @@
 .. include:: ../../../Includes.txt
 
+.. _typo3-fluid-render:
+
 ======
 render
 ======
@@ -11,62 +13,116 @@ Arguments
 =========
 
 
-section (string)
-----------------
+.. _render_section:
+section
+-------
 
+:aspect:`DataType`
+   string
 
-Section to render - combine with partial to render section in partial
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Section to render - combine with partial to render section in partial
 
-partial (string)
-----------------
+.. _render_partial:
+partial
+-------
 
+:aspect:`DataType`
+   string
 
-Partial to render, with or without section
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Partial to render, with or without section
 
-delegate (string)
------------------
+.. _render_delegate:
+delegate
+--------
 
+:aspect:`DataType`
+   string
 
-Optional PHP class name of a permanent, included-in-app ParsedTemplateInterface implementation to override partial/section
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Optional PHP class name of a permanent, included-in-app ParsedTemplateInterface implementation to override partial/section
 
-renderable (anySimpleType)
---------------------------
+.. _render_renderable:
+renderable
+----------
 
+:aspect:`DataType`
+   mixed
 
-Instance of a RenderableInterface implementation to be rendered
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Instance of a RenderableInterface implementation to be rendered
 
-arguments (anySimpleType)
--------------------------
+.. _render_arguments:
+arguments
+---------
 
+:aspect:`DataType`
+   mixed
 
-Default: array ()
+:aspect:`Default`
+   array ()
 
-Array of variables to be transferred. Use {_all} for all variables
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Array of variables to be transferred. Use {_all} for all variables
 
-optional (boolean)
-------------------
+.. _render_optional:
+optional
+--------
 
+:aspect:`DataType`
+   boolean
 
-Default: false
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If TRUE, considers the *section* optional. Partial never is.
 
-If TRUE, considers the *section* optional. Partial never is.
+.. _render_default:
+default
+-------
 
-default (anySimpleType)
------------------------
+:aspect:`DataType`
+   mixed
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Value (usually string) to be displayed if the section or partial does not exist
 
-Value (usually string) to be displayed if the section or partial does not exist
+.. _render_contentas:
+contentAs
+---------
 
-contentAs (string)
-------------------
+:aspect:`DataType`
+   string
 
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If used, renders the child content and adds it as a template variable with this name for use in the partial/section
 
-If used, renders the child content and adds it as a template variable with this name for use in the partial/section
+.. _render_debug:
+debug
+-----
 
-debug (boolean)
----------------
+:aspect:`DataType`
+   boolean
 
+:aspect:`Default`
+   true
 
-Default: true
-
-If true, the admin panel shows debug information if activated,
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If true, the admin panel shows debug information if activated,
