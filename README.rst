@@ -2,7 +2,7 @@
 ViewHelper Reference
 ====================
 
-This manual is auto generated from source code. For information regarding
+This manual is auto generated from source code (see https://github.com/TYPO3-Documentation/fluid-documentation-generator). For information regarding
 contribution, have a look at https://github.com/TYPO3-Documentation/TYPO3CMS-Reference-ViewHelper/blob/master/CONTRIBUTING.rst
 
 :Read online: https://docs.typo3.org/typo3cms/ViewHelperReference/
