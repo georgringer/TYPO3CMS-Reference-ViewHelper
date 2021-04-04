@@ -1,0 +1,9 @@
+{
+  "name": "typo3/view-helper-reference",
+  "type": "typo3-cms-documentation",
+  "description": "ViewHelper Reference",
+  "license": "",
+  "require": {
+    "typo3/cms-core": "^9.5.26"
+  }
+}
