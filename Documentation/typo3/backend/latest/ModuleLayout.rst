@@ -30,4 +30,14 @@ Arguments
 =========
 
 
-This ViewHelper has no arguments.
+.. _modulelayout_name:
+name
+----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Name of the module, defaults to the current plugin name, if available
