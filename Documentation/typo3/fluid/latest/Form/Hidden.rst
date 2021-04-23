@@ -194,3 +194,18 @@ onclick
    false
 :aspect:`Description`
    JavaScript evaluated for the onclick event
+
+.. _form.hidden_respectsubmitteddatavalue:
+respectSubmittedDataValue
+-------------------------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Default`
+   true
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Enable or disable the usage of the submitted values
