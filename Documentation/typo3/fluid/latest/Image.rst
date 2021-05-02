@@ -268,6 +268,18 @@ loading
 :aspect:`Description`
    Native lazy-loading for images property. Can be "lazy", "eager" or "auto"
 
+.. _image_decoding:
+decoding
+--------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Provides an image decoding hint to the browser. Can be "sync", "async" or "auto"
+
 .. _image_src:
 src
 ---
