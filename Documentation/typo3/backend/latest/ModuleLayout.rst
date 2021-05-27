@@ -41,3 +41,15 @@ name
    false
 :aspect:`Description`
    Name of the module, defaults to the current plugin name, if available
+
+.. _modulelayout_title:
+title
+-----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Title of the module.

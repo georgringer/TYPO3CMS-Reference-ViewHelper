@@ -5,7 +5,7 @@ link
 ====
 
 
-* 5 ViewHelpers documented
+* 6 ViewHelpers documented
 
 .. toctree::
    :titlesonly:
@@ -14,6 +14,7 @@ link
    Action
    Email
    External
+   File
    Page
    Typolink
 
