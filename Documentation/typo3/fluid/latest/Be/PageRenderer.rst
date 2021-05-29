@@ -7,7 +7,7 @@ be.pageRenderer
 ===============
 
 
-ViewHelper which allows you to create extbase based modules in the style of TYPO3 default modules.
+ViewHelper to register backend module resources like CSS and JavaScript using the PageRenderer.
 
 Examples
 ========

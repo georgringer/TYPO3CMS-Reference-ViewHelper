@@ -24,6 +24,8 @@ Output::
 
 Depending on your domain.
 
+      VH would most likely add it as useless body tag, and BE does not need this VH.
+
 Arguments
 =========
 
