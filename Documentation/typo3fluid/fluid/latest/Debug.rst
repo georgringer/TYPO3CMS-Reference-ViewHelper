@@ -7,21 +7,32 @@ debug
 =====
 
 
-<code title="inline notation and custom title">
-{object -> f:debug(title: 'Custom title')}
-</code>
-<output>
-all properties of {object} nicely highlighted (with custom title)
-</output>
+This ViewHelper is only meant to be used during development.
 
-<code title="only output the type">
-{object -> f:debug(typeOnly: true)}
-</code>
-<output>
-the type or class name of {object}
-</output>
+Examples
+========
 
-Note: This view helper is only meant to be used during development
+Inline notation and custom title
+--------------------------------
+
+::
+
+    {object -> f:debug(title: 'Custom title')}
+
+Output::
+
+    all properties of {object} nicely highlighted (with custom title)
+
+Only output the type
+--------------------
+
+::
+
+    {object -> f:debug(typeOnly: true)}
+
+Output::
+
+    the type or class name of {object}
 
 Arguments
 =========

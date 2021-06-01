@@ -67,6 +67,18 @@ data
 :aspect:`Description`
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
+.. _link.email_aria:
+aria
+----
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Additional aria-* attributes. They will each be added with a "aria-" prefix.
+
 .. _link.email_email:
 email
 -----

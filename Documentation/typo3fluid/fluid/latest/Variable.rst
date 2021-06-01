@@ -15,9 +15,11 @@ template variables.
 
 If you require a variable assignment which does not
 exist in the template after a piece of Fluid code
-is rendered, consider using `f:alias` instead.
+is rendered, consider using ``f:alias`` ViewHelper instead.
 
 Usages:
+
+::
 
     {f:variable(name: 'myvariable', value: 'some value')}
     <f:variable name="myvariable">some value</f:variable>

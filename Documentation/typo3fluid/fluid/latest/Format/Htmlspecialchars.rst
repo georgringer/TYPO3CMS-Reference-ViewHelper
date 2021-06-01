@@ -7,24 +7,34 @@ format.htmlspecialchars
 =======================
 
 
-Applies htmlspecialchars() escaping to a value
+Applies PHP ``htmlspecialchars()`` escaping to a value.
 
+See http://www.php.net/manual/function.htmlspecialchars.php
 
-= Examples =
+Examples
+========
 
-<code title="default notation">
-<f:format.htmlspecialchars>{text}</f:format.htmlspecialchars>
-</code>
-<output>
-Text with & " ' < > * replaced by HTML entities (htmlspecialchars applied).
-</output>
+Default notation
+----------------
 
-<code title="inline notation">
-{text -> f:format.htmlspecialchars(encoding: 'ISO-8859-1')}
-</code>
-<output>
-Text with & " ' < > * replaced by HTML entities (htmlspecialchars applied).
-</output>
+::
+
+    <f:format.htmlspecialchars>{text}</f:format.htmlspecialchars>
+
+Output::
+
+    Text with & " ' < > * replaced by HTML entities (htmlspecialchars applied).
+
+Inline notation
+---------------
+
+::
+
+    {text -> f:format.htmlspecialchars(encoding: 'ISO-8859-1')}
+
+Output::
+
+    Text with & " ' < > * replaced by HTML entities (htmlspecialchars applied).
 
 Arguments
 =========

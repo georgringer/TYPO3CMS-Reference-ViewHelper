@@ -7,7 +7,7 @@ case
 ====
 
 
-Case view helper that is only usable within the SwitchViewHelper.
+Case ViewHelper that is only usable within the ``f:switch`` ViewHelper.
 
 Arguments
 =========

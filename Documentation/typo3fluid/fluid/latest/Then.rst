@@ -7,7 +7,7 @@ then
 ====
 
 
-"THEN" -> only has an effect inside of "IF". See If-ViewHelper for documentation.
+``f:then`` only has an effect inside of ``f:if``. See the ``f:if`` ViewHelper for documentation.
 
 Arguments
 =========

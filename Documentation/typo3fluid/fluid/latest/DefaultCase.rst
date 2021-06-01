@@ -7,7 +7,7 @@ defaultCase
 ===========
 
 
-A view helper which specifies the "default" case when used within the SwitchViewHelper.
+A ViewHelper which specifies the "default" case when used within the ``f:switch`` ViewHelper.
 
 Arguments
 =========
