@@ -18,9 +18,9 @@ Default
 
 ::
 
-   <f:uri.external uri="http://www.typo3.org" />
+   <f:uri.external uri="https://www.typo3.org" />
 
-``http://www.typo3.org``
+``https://www.typo3.org``
 
 Custom default scheme
 ---------------------
@@ -55,7 +55,7 @@ defaultScheme
    string
 
 :aspect:`Default`
-   'http'
+   'https'
 
 :aspect:`Required`
    false
