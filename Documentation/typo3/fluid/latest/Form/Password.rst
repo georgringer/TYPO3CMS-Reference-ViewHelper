@@ -144,6 +144,18 @@ readonly
 :aspect:`Description`
    The readonly attribute of the input field
 
+.. _form.password_autocomplete:
+autocomplete
+------------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Specify the autocomplete behaviour for password managers
+
 .. _form.password_size:
 size
 ----
