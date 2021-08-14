@@ -5,7 +5,7 @@ typo3/fluid
 ===========
 
 * 10 ViewHelpers documented
-* 8 Sub namespaces
+* 9 Sub namespaces
 
 .. toctree::
    :titlesonly:
