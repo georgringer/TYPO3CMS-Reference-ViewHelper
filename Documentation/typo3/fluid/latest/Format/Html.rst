@@ -68,4 +68,4 @@ parseFuncTSPath
 :aspect:`Required`
    false
 :aspect:`Description`
-   Path to TypoScript parseFunc setup.
+   Path to TypoScript parseFunc setup
