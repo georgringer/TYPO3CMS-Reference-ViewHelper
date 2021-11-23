@@ -20,7 +20,7 @@ Example::
 
 Output::
 
-   <base href="https://example.org/" />
+   <base href="http://yourdomain.tld/" />
 
 Depending on your domain.
 
