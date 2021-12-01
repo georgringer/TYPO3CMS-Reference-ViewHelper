@@ -25,7 +25,7 @@ Minimal usage
 
    <f:uri.typolink parameter="{link}" />
 
-:samp:`/page/path/name.html?X=y`
+``/page/path/name.html?X=y``
 
 Depending on routing and page path configuration.
 
@@ -36,7 +36,7 @@ Full parameter usage
 
    <f:uri.typolink parameter="{link}" additionalParams="&u=b" />
 
-:samp:`/page/path/name.html?X=y&u=b`
+``/page/path/name.html?X=y&u=b``
 
 Depending on routing and page path configuration.
 
