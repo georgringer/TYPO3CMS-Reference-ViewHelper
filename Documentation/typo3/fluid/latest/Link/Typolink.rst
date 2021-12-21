@@ -43,7 +43,6 @@ Full parameter usage
        target="_blank"
        class="ico-class" title="some title"
        additionalAttributes="{type:'button'}"
-       useCacheHash="true"
    >
       Linktext
    </f:link.typolink>
