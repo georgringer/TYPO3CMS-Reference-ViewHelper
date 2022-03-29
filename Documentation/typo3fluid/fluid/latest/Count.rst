@@ -1,4 +1,4 @@
-.. include:: ../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-count:
 
@@ -30,6 +30,7 @@ Arguments
 
 
 .. _count_subject:
+
 subject
 -------
 

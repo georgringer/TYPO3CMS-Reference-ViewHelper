@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-padding:
 
@@ -49,6 +49,7 @@ Arguments
 
 
 .. _format.padding_value:
+
 value
 -----
 
@@ -61,6 +62,7 @@ value
    String to format
 
 .. _format.padding_padlength:
+
 padLength
 ---------
 
@@ -73,6 +75,7 @@ padLength
    Length of the resulting string. If the value of pad_length is negative or less than the length of the input string, no padding takes place.
 
 .. _format.padding_padstring:
+
 padString
 ---------
 
@@ -88,6 +91,7 @@ padString
    The padding string
 
 .. _format.padding_padtype:
+
 padType
 -------
 

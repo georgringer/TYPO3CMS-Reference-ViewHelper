@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-format-printf:
 
@@ -46,6 +46,7 @@ Arguments
 
 
 .. _format.printf_value:
+
 value
 -----
 
@@ -58,6 +59,7 @@ value
    String to format
 
 .. _format.printf_arguments:
+
 arguments
 ---------
 

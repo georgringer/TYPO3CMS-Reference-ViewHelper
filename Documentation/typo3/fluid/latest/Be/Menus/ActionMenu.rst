@@ -1,4 +1,4 @@
-.. include:: ../../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-be-menus-actionmenu:
 
@@ -40,6 +40,7 @@ Arguments
 
 
 .. _be.menus.actionmenu_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -52,6 +53,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _be.menus.actionmenu_data:
+
 data
 ----
 
@@ -64,6 +66,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _be.menus.actionmenu_defaultcontroller:
+
 defaultController
 -----------------
 

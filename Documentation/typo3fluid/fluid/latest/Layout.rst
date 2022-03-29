@@ -1,4 +1,4 @@
-.. include:: ../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-layout:
 
@@ -23,6 +23,7 @@ Arguments
 
 
 .. _layout_name:
+
 name
 ----
 

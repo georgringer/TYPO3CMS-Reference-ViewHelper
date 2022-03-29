@@ -1,4 +1,4 @@
-.. include:: ../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-backend-languagecolumn:
 
@@ -14,6 +14,7 @@ Arguments
 
 
 .. _languagecolumn_languagecolumn:
+
 languageColumn
 --------------
 
@@ -26,6 +27,7 @@ languageColumn
    Language column object which is context for column
 
 .. _languagecolumn_columnnumber:
+
 columnNumber
 ------------
 

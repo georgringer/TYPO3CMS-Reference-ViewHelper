@@ -1,4 +1,4 @@
-.. include:: ../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-alias:
 
@@ -40,6 +40,7 @@ Arguments
 
 
 .. _alias_map:
+
 map
 ---
 

@@ -1,4 +1,4 @@
-.. include:: ../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-case:
 
@@ -14,6 +14,7 @@ Arguments
 
 
 .. _case_value:
+
 value
 -----
 

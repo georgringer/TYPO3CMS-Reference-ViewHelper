@@ -1,4 +1,4 @@
-.. include:: ../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-section:
 
@@ -51,6 +51,7 @@ Arguments
 
 
 .. _section_name:
+
 name
 ----
 

@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-format-raw:
 
@@ -41,6 +41,7 @@ Arguments
 
 
 .. _format.raw_value:
+
 value
 -----
 

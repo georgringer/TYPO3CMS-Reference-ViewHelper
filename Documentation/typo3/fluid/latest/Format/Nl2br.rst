@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-nl2br:
 
@@ -36,6 +36,7 @@ Arguments
 
 
 .. _format.nl2br_value:
+
 value
 -----
 

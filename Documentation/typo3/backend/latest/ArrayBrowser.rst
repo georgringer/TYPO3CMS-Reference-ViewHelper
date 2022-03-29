@@ -1,4 +1,4 @@
-.. include:: ../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-backend-arraybrowser:
 
@@ -14,6 +14,7 @@ Arguments
 
 
 .. _arraybrowser_data:
+
 data
 ----
 

@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-case:
 
@@ -62,6 +62,7 @@ Arguments
 
 
 .. _format.case_value:
+
 value
 -----
 
@@ -74,6 +75,7 @@ value
    The input value. If not given, the evaluated child nodes will be used.
 
 .. _format.case_mode:
+
 mode
 ----
 

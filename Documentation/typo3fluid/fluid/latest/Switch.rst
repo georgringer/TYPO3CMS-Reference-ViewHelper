@@ -1,4 +1,4 @@
-.. include:: ../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-switch:
 
@@ -36,6 +36,7 @@ Arguments
 
 
 .. _switch_expression:
+
 expression
 ----------
 

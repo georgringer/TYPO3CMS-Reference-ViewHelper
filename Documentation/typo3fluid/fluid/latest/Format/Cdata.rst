@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-format-cdata:
 
@@ -40,6 +40,7 @@ Arguments
 
 
 .. _format.cdata_value:
+
 value
 -----
 

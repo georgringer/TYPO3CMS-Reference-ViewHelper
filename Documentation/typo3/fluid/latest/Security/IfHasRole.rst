@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-security-ifhasrole:
 
@@ -60,6 +60,7 @@ Arguments
 
 
 .. _security.ifhasrole_then:
+
 then
 ----
 
@@ -72,6 +73,7 @@ then
    Value to be returned if the condition if met.
 
 .. _security.ifhasrole_else:
+
 else
 ----
 
@@ -84,6 +86,7 @@ else
    Value to be returned if the condition if not met.
 
 .. _security.ifhasrole_role:
+
 role
 ----
 

@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-htmlentitiesdecode:
 
@@ -40,6 +40,7 @@ Arguments
 
 
 .. _format.htmlentitiesdecode_value:
+
 value
 -----
 
@@ -52,6 +53,7 @@ value
    String to format
 
 .. _format.htmlentitiesdecode_keepquotes:
+
 keepQuotes
 ----------
 
@@ -64,6 +66,7 @@ keepQuotes
    If TRUE, single and double quotes won't be replaced (sets ENT_NOQUOTES flag).
 
 .. _format.htmlentitiesdecode_encoding:
+
 encoding
 --------
 

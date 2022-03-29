@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-backend-modulelayout-menu:
 
@@ -28,6 +28,7 @@ Arguments
 
 
 .. _modulelayout.menu_identifier:
+
 identifier
 ----------
 

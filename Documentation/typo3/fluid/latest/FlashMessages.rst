@@ -1,4 +1,4 @@
-.. include:: ../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-flashmessages:
 
@@ -82,6 +82,7 @@ Arguments
 
 
 .. _flashmessages_queueidentifier:
+
 queueIdentifier
 ---------------
 
@@ -94,6 +95,7 @@ queueIdentifier
    Flash-message queue to use
 
 .. _flashmessages_as:
+
 as
 --
 

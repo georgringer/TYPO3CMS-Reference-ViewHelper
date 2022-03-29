@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-uri-email:
 
@@ -29,6 +29,7 @@ Arguments
 
 
 .. _uri.email_email:
+
 email
 -----
 

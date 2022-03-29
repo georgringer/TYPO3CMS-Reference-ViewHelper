@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-striptags:
 
@@ -61,6 +61,7 @@ Arguments
 
 
 .. _format.striptags_value:
+
 value
 -----
 
@@ -73,6 +74,7 @@ value
    String to format
 
 .. _format.striptags_allowedtags:
+
 allowedTags
 -----------
 

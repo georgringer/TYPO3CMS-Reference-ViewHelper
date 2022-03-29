@@ -1,4 +1,4 @@
-.. include:: ../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-variable:
 
@@ -29,6 +29,7 @@ Arguments
 
 
 .. _variable_value:
+
 value
 -----
 
@@ -41,6 +42,7 @@ value
    Value to assign. If not in arguments then taken from tag content
 
 .. _variable_name:
+
 name
 ----
 

@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-security-ifauthenticated:
 
@@ -46,6 +46,7 @@ Arguments
 
 
 .. _security.ifauthenticated_then:
+
 then
 ----
 
@@ -58,6 +59,7 @@ then
    Value to be returned if the condition if met.
 
 .. _security.ifauthenticated_else:
+
 else
 ----
 

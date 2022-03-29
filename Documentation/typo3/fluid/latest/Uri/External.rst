@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-uri-external:
 
@@ -36,6 +36,7 @@ Arguments
 
 
 .. _uri.external_uri:
+
 uri
 ---
 
@@ -48,6 +49,7 @@ uri
    Target URI
 
 .. _uri.external_defaultscheme:
+
 defaultScheme
 -------------
 

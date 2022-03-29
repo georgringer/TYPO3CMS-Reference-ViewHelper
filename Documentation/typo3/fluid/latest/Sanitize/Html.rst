@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-sanitize-html:
 
@@ -40,6 +40,7 @@ Arguments
 
 
 .. _sanitize.html_build:
+
 build
 -----
 

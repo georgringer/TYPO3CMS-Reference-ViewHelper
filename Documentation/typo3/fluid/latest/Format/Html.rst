@@ -1,4 +1,4 @@
-.. include:: ../../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-format-html:
 
@@ -56,6 +56,7 @@ Arguments
 
 
 .. _format.html_parsefunctspath:
+
 parseFuncTSPath
 ---------------
 

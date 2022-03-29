@@ -1,4 +1,4 @@
-.. include:: ../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3-fluid-renderchildren:
 
@@ -18,6 +18,7 @@ Arguments
 
 
 .. _renderchildren_arguments:
+
 arguments
 ---------
 

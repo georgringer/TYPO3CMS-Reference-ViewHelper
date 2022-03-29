@@ -1,4 +1,4 @@
-.. include:: ../../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _typo3fluid-fluid-else:
 
@@ -28,6 +28,7 @@ Arguments
 
 
 .. _else_if:
+
 if
 --
 
