@@ -22,6 +22,7 @@ Default notation
 
 ::
 
+   <f:format.rawurlencode>foo @+%/</f:format.rawurlencode>
 
 ``foo%20%40%2B%25%2F`` :php:`rawurlencode()` applied.
 

@@ -20,6 +20,7 @@ Basic email link
 
 ::
 
+   <f:link.email email="foo@bar.tld" />
 
 Output::
 
@@ -32,6 +33,7 @@ Email link with custom linktext
 
 ::
 
+   <f:link.email email="foo@bar.tld">some custom content</f:link.email>
 
 Output::
 
