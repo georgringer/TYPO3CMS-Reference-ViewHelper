@@ -17,6 +17,7 @@ Example
 
 Basic email URI::
 
+   <f:uri.email email="foo@bar.tld" />
 
 Output::
 
@@ -29,6 +30,7 @@ Arguments
 
 
 .. _uri.email_email:
+
 email
 -----
 

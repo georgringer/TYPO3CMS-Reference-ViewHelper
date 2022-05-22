@@ -27,6 +27,7 @@ Arguments
 
 
 .. _modulelayout.button.shortcutbutton_icon:
+
 icon
 ----
 
@@ -39,6 +40,7 @@ icon
    Icon identifier for the button
 
 .. _modulelayout.button.shortcutbutton_title:
+
 title
 -----
 
@@ -51,6 +53,7 @@ title
    Title of the button
 
 .. _modulelayout.button.shortcutbutton_disabled:
+
 disabled
 --------
 
@@ -63,6 +66,7 @@ disabled
    Whether the button is disabled
 
 .. _modulelayout.button.shortcutbutton_showlabel:
+
 showLabel
 ---------
 
@@ -75,6 +79,7 @@ showLabel
    Defines whether to show the title as a label within the button
 
 .. _modulelayout.button.shortcutbutton_position:
+
 position
 --------
 
@@ -87,6 +92,7 @@ position
    Position of the button (left or right)
 
 .. _modulelayout.button.shortcutbutton_group:
+
 group
 -----
 
@@ -99,6 +105,7 @@ group
    Button group of the button
 
 .. _modulelayout.button.shortcutbutton_displayname:
+
 displayName
 -----------
 
@@ -111,6 +118,7 @@ displayName
    Name for the shortcut
 
 .. _modulelayout.button.shortcutbutton_arguments:
+
 arguments
 ---------
 
@@ -126,6 +134,7 @@ arguments
    List of relevant GET variables as key/values list to store
 
 .. _modulelayout.button.shortcutbutton_getvars:
+
 getVars
 -------
 

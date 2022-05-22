@@ -31,6 +31,7 @@ Arguments
 
 
 .. _modulelayout_name:
+
 name
 ----
 
@@ -43,6 +44,7 @@ name
    Name of the module, defaults to the current plugin name, if available
 
 .. _modulelayout_title:
+
 title
 -----
 

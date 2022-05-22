@@ -42,6 +42,7 @@ Arguments
 
 
 .. _switch_expression:
+
 expression
 ----------
 

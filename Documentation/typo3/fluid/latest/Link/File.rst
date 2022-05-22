@@ -21,11 +21,11 @@ Link to a file
 
 Output of a public file::
 
-   <a href="https://example.org/fileadmin/path/to/file.jpg" target="_blank">See file</a>
+   <a href="https://example.com/fileadmin/path/to/file.jpg" target="_blank">See file</a>
 
 Output of a non-public file::
 
-   <a href="https://example.org/index.php?eID=dumpFile&t=f&f=123&token=79bce812" target="_blank">See file</a>
+   <a href="https://example.com/index.php?eID=dumpFile&t=f&f=123&token=79bce812" target="_blank">See file</a>
 
 Link to download a file
 -----------------------
@@ -36,17 +36,18 @@ Link to download a file
 
 Output of a public file::
 
-   <a href="https://example.org/fileadmin/path/to/file.jpg" download="alternative-name.jpg">Download file</a>
+   <a href="https://example.com/fileadmin/path/to/file.jpg" download="alternative-name.jpg">Download file</a>
 
 Output of a non-public file::
 
-   <a href="https://example.org/index.php?eID=dumpFile&t=f&f=123&dl=1&fn=alternative-name.jpg&token=79bce812">Download file</a>
+   <a href="https://example.com/index.php?eID=dumpFile&t=f&f=123&dl=1&fn=alternative-name.jpg&token=79bce812">Download file</a>
 
 Arguments
 =========
 
 
 .. _link.file_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -59,6 +60,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _link.file_data:
+
 data
 ----
 
@@ -71,6 +73,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _link.file_aria:
+
 aria
 ----
 
@@ -83,6 +86,7 @@ aria
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
 .. _link.file_file:
+
 file
 ----
 
@@ -95,6 +99,7 @@ file
    Specifies the file to create a link to
 
 .. _link.file_download:
+
 download
 --------
 
@@ -107,6 +112,7 @@ download
    Specifies if file should be downloaded instead of displayed
 
 .. _link.file_filename:
+
 filename
 --------
 
@@ -119,6 +125,7 @@ filename
    Specifies an alternative filename. If filename contains a file extension, this must be the same as from 'file'.
 
 .. _link.file_class:
+
 class
 -----
 
@@ -131,6 +138,7 @@ class
    CSS class(es) for this element
 
 .. _link.file_dir:
+
 dir
 ---
 
@@ -143,6 +151,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _link.file_id:
+
 id
 --
 
@@ -155,6 +164,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _link.file_lang:
+
 lang
 ----
 
@@ -167,6 +177,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _link.file_style:
+
 style
 -----
 
@@ -179,6 +190,7 @@ style
    Individual CSS styles for this element
 
 .. _link.file_title:
+
 title
 -----
 
@@ -191,6 +203,7 @@ title
    Tooltip text of element
 
 .. _link.file_accesskey:
+
 accesskey
 ---------
 
@@ -203,6 +216,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _link.file_tabindex:
+
 tabindex
 --------
 
@@ -215,6 +229,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _link.file_onclick:
+
 onclick
 -------
 
@@ -227,6 +242,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _link.file_name:
+
 name
 ----
 
@@ -239,6 +255,7 @@ name
    Specifies the name of an anchor
 
 .. _link.file_rel:
+
 rel
 ---
 
@@ -251,6 +268,7 @@ rel
    Specifies the relationship between the current document and the linked document
 
 .. _link.file_rev:
+
 rev
 ---
 
@@ -263,6 +281,7 @@ rev
    Specifies the relationship between the linked document and the current document
 
 .. _link.file_target:
+
 target
 ------
 

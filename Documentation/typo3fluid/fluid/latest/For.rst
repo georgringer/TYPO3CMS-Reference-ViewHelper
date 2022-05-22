@@ -71,6 +71,7 @@ Arguments
 
 
 .. _for_each:
+
 each
 ----
 
@@ -83,6 +84,7 @@ each
    The array or \SplObjectStorage to iterated over
 
 .. _for_as:
+
 as
 --
 
@@ -95,6 +97,7 @@ as
    The name of the iteration variable
 
 .. _for_key:
+
 key
 ---
 
@@ -107,6 +110,7 @@ key
    Variable to assign array key to
 
 .. _for_reverse:
+
 reverse
 -------
 
@@ -119,6 +123,7 @@ reverse
    If TRUE, iterates in reverse
 
 .. _for_iteration:
+
 iteration
 ---------
 

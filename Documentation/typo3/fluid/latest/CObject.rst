@@ -22,7 +22,7 @@ Render lib object
 
    <f:cObject typoscriptObjectPath="lib.someLibObject" />
 
-Rendered :ts:`lib.someLibObject`.
+Rendered :typoscript:`lib.someLibObject`.
 
 Specify cObject data & current value
 ------------------------------------
@@ -31,7 +31,7 @@ Specify cObject data & current value
 
    <f:cObject typoscriptObjectPath="lib.customHeader" data="{article}" currentValueKey="title" />
 
-Rendered :ts:`lib.customHeader`. Data and current value will be available in TypoScript.
+Rendered :typoscript:`lib.customHeader`. Data and current value will be available in TypoScript.
 
 Inline notation
 ---------------
@@ -40,7 +40,7 @@ Inline notation
 
    {article -> f:cObject(typoscriptObjectPath: 'lib.customHeader')}
 
-Rendered :ts:`lib.customHeader`. Data will be available in TypoScript.
+Rendered :typoscript:`lib.customHeader`. Data will be available in TypoScript.
 
 Accessing the data in TypoScript
 --------------------------------
@@ -55,8 +55,8 @@ Accessing the data in TypoScript
        20.current = 1
    }
 
-When passing an object with ``{data}``, the properties of the object are accessible with :ts:`.field` in
-TypoScript. If only a single value is passed or the ``currentValueKey`` is specified, :ts:`.current = 1`
+When passing an object with ``{data}``, the properties of the object are accessible with :typoscript:`.field` in
+TypoScript. If only a single value is passed or the ``currentValueKey`` is specified, :typoscript:`.current = 1`
 can be used in the TypoScript.
 
 Arguments
@@ -64,6 +64,7 @@ Arguments
 
 
 .. _cobject_data:
+
 data
 ----
 
@@ -76,6 +77,7 @@ data
    The data to be used for rendering the cObject. Can be an object, array or string. If this argument is not set, child nodes will be used
 
 .. _cobject_typoscriptobjectpath:
+
 typoscriptObjectPath
 --------------------
 
@@ -88,6 +90,7 @@ typoscriptObjectPath
    The TypoScript setup path of the TypoScript object to render
 
 .. _cobject_currentvaluekey:
+
 currentValueKey
 ---------------
 
@@ -100,6 +103,7 @@ currentValueKey
    CurrentValueKey
 
 .. _cobject_table:
+
 table
 -----
 
