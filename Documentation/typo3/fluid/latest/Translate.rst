@@ -85,6 +85,7 @@ Arguments
 
 
 .. _translate_key:
+
 key
 ---
 
@@ -97,6 +98,7 @@ key
    Translation Key
 
 .. _translate_id:
+
 id
 --
 
@@ -109,6 +111,7 @@ id
    Translation ID. Same as key.
 
 .. _translate_default:
+
 default
 -------
 
@@ -121,11 +124,15 @@ default
    If the given locallang key could not be found, this value is used. If this argument is not set, child nodes will be used to render the default
 
 .. _translate_arguments:
+
 arguments
 ---------
 
 :aspect:`DataType`
    mixed
+
+:aspect:`Default`
+   array ()
 
 :aspect:`Required`
    false
@@ -133,6 +140,7 @@ arguments
    Arguments to be replaced in the resulting string
 
 .. _translate_extensionname:
+
 extensionName
 -------------
 
@@ -145,6 +153,7 @@ extensionName
    UpperCamelCased extension key (for example BlogExample)
 
 .. _translate_languagekey:
+
 languageKey
 -----------
 
@@ -154,9 +163,10 @@ languageKey
 :aspect:`Required`
    false
 :aspect:`Description`
-   Language key ("dk" for example) or "default" to use for this translation. If this argument is empty, we use the current language
+   Language key ("dk" for example) or "default" to use. If empty, use current language. Ignored in non-extbase context.
 
 .. _translate_alternativelanguagekeys:
+
 alternativeLanguageKeys
 -----------------------
 
@@ -166,4 +176,4 @@ alternativeLanguageKeys
 :aspect:`Required`
    false
 :aspect:`Description`
-   Alternative language keys if no translation does exist
+   Alternative language keys if no translation does exist. Ignored in non-extbase context.

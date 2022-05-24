@@ -14,21 +14,25 @@ Examples
 
 All options::
 
-   <f:be.pageRenderer pageTitle="foo"
-       includeCssFiles="{0: '{f:uri.resource(path:\'Css/Styles.css\')}'}"
-       includeJsFiles="{0: '{f:uri.resource(path:\'JavaScript/Library1.js\')}', 1: '{f:uri.resource(path:\'JavaScript/Library2.js\')}'}"
-       addJsInlineLabels="{0: 'label1', 1: 'label2'}" />
+   <f:be.pageRenderer
+       pageTitle="foo"
+       includeCssFiles="{0: 'EXT:my_ext/Resources/Public/Css/Stylesheet.css'}"
+       includeJsFiles="{0: 'EXT:my_ext/Resources/Public/JavaScript/Library1.js', 1: 'EXT:my_ext/Resources/Public/JavaScript/Library2.js'}"
+       addJsInlineLabels="{'my_ext.label1': 'LLL:EXT:my_ext/Resources/Private/Language/locallang.xlf:label1'}"
+       includeJavaScriptModules="{0: '@my-vendor/my-ext/my-module.js'}"
+       includeRequireJsModules="{0: 'EXT:my_ext/Resources/Public/JavaScript/RequireJsModule'}"
+       addInlineSettings="{'some.setting.key': 'some.setting.value'}"
+   />
 
-Custom CSS file :file:`EXT:your_extension/Resources/Public/Css/styles.css` and
-JavaScript files :file:`EXT:your_extension/Resources/Public/JavaScript/Library1.js` and
-:file:`EXT:your_extension/Resources/Public/JavaScript/Library2.js`
-will be loaded, plus some inline labels for usage in JS code.
+This will load the specified css, js files and requireJs modules, adds a custom js
+inline setting, and adds a resolved label to be used in js.
 
 Arguments
 =========
 
 
 .. _be.pagerenderer_pagetitle:
+
 pageTitle
 ---------
 
@@ -41,6 +45,7 @@ pageTitle
    Title tag of the module. Not required by default, as BE modules are shown in a frame
 
 .. _be.pagerenderer_includecssfiles:
+
 includeCssFiles
 ---------------
 
@@ -53,6 +58,7 @@ includeCssFiles
    List of custom CSS file to be loaded
 
 .. _be.pagerenderer_includejsfiles:
+
 includeJsFiles
 --------------
 
@@ -65,6 +71,7 @@ includeJsFiles
    List of custom JavaScript file to be loaded
 
 .. _be.pagerenderer_addjsinlinelabels:
+
 addJsInlineLabels
 -----------------
 
@@ -76,7 +83,21 @@ addJsInlineLabels
 :aspect:`Description`
    Custom labels to add to JavaScript inline labels
 
+.. _be.pagerenderer_includejavascriptmodules:
+
+includeJavaScriptModules
+------------------------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   List of JavaScript modules to be loaded
+
 .. _be.pagerenderer_includerequirejsmodules:
+
 includeRequireJsModules
 -----------------------
 
@@ -89,6 +110,7 @@ includeRequireJsModules
    List of RequireJS modules to be loaded
 
 .. _be.pagerenderer_addinlinesettings:
+
 addInlineSettings
 -----------------
 

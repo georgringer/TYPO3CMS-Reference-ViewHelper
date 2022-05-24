@@ -9,6 +9,7 @@ be.menus.actionMenuItem
 
 ViewHelper which returns an option tag.
 This ViewHelper only works in conjunction with :php:`\TYPO3\CMS\Fluid\ViewHelpers\Be\Menus\ActionMenuViewHelper`.
+This ViewHelper is tailored to be used only in extbase context.
 
 .. note::
    This ViewHelper is experimental!
@@ -24,7 +25,7 @@ Simple::
       <f:be.menus.actionMenuItem label="List Posts" controller="Post" action="index" arguments="{blog: blog}" />
    </f:be.menus.actionMenu>
 
-Selectbox with the options "Overview", "Create new Blog" and "List Posts".
+Select box with the options "Overview", "Create new Blog" and "List Posts".
 
 Localized::
 
@@ -33,13 +34,14 @@ Localized::
       <f:be.menus.actionMenuItem label="{f:translate(key='create_blog')}" controller="Blog" action="new" />
    </f:be.menus.actionMenu>
 
-Localized selectbox.
+Localized select box.
 
 Arguments
 =========
 
 
 .. _be.menus.actionmenuitem_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -52,6 +54,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _be.menus.actionmenuitem_data:
+
 data
 ----
 
@@ -64,6 +67,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _be.menus.actionmenuitem_aria:
+
 aria
 ----
 
@@ -76,6 +80,7 @@ aria
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
 .. _be.menus.actionmenuitem_label:
+
 label
 -----
 
@@ -88,6 +93,7 @@ label
    Label of the option tag
 
 .. _be.menus.actionmenuitem_controller:
+
 controller
 ----------
 
@@ -100,6 +106,7 @@ controller
    Controller to be associated with this ActionMenuItem
 
 .. _be.menus.actionmenuitem_action:
+
 action
 ------
 
@@ -112,6 +119,7 @@ action
    The action to be associated with this ActionMenuItem
 
 .. _be.menus.actionmenuitem_arguments:
+
 arguments
 ---------
 

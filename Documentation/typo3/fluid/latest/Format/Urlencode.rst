@@ -7,7 +7,7 @@ format.urlencode
 ================
 
 
-Encodes the given string according to `RFC 3986 <https://www.ietf.org/rfc/rfc3986.txt>`__.
+Encodes the given string according to http://www.faqs.org/rfcs/rfc3986.html
 Applying PHPs :php:`rawurlencode()` function.
 See https://www.php.net/manual/function.rawurlencode.php.
 
@@ -22,6 +22,7 @@ Default notation
 
 ::
 
+   <f:format.rawurlencode>foo @+%/</f:format.rawurlencode>
 
 ``foo%20%40%2B%25%2F`` :php:`rawurlencode()` applied.
 
@@ -39,6 +40,7 @@ Arguments
 
 
 .. _format.urlencode_value:
+
 value
 -----
 

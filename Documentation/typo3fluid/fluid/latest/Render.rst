@@ -101,6 +101,7 @@ Arguments
 
 
 .. _render_section:
+
 section
 -------
 
@@ -113,6 +114,7 @@ section
    Section to render - combine with partial to render section in partial
 
 .. _render_partial:
+
 partial
 -------
 
@@ -125,6 +127,7 @@ partial
    Partial to render, with or without section
 
 .. _render_delegate:
+
 delegate
 --------
 
@@ -137,6 +140,7 @@ delegate
    Optional PHP class name of a permanent, included-in-app ParsedTemplateInterface implementation to override partial/section
 
 .. _render_renderable:
+
 renderable
 ----------
 
@@ -149,6 +153,7 @@ renderable
    Instance of a RenderableInterface implementation to be rendered
 
 .. _render_arguments:
+
 arguments
 ---------
 
@@ -164,6 +169,7 @@ arguments
    Array of variables to be transferred. Use {_all} for all variables
 
 .. _render_optional:
+
 optional
 --------
 
@@ -176,6 +182,7 @@ optional
    If TRUE, considers the *section* optional. Partial never is.
 
 .. _render_default:
+
 default
 -------
 
@@ -188,6 +195,7 @@ default
    Value (usually string) to be displayed if the section or partial does not exist
 
 .. _render_contentas:
+
 contentAs
 ---------
 

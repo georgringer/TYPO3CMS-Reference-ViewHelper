@@ -14,6 +14,7 @@ Arguments
 
 
 .. _mfa.ifhasstate_then:
+
 then
 ----
 
@@ -26,6 +27,7 @@ then
    Value to be returned if the condition if met.
 
 .. _mfa.ifhasstate_else:
+
 else
 ----
 
@@ -38,6 +40,7 @@ else
    Value to be returned if the condition if not met.
 
 .. _mfa.ifhasstate_state:
+
 state
 -----
 
@@ -50,6 +53,7 @@ state
    The state to check for (e.g. active or locked)
 
 .. _mfa.ifhasstate_provider:
+
 provider
 --------
 

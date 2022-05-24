@@ -24,7 +24,7 @@ Simple::
       <f:be.menus.actionMenuItem label="List Posts" controller="Post" action="index" arguments="{blog: blog}" />
    </f:be.menus.actionMenu>
 
-Selectbox with the options "Overview", "Create new Blog" and "List Posts".
+Select box with the options "Overview", "Create new Blog" and "List Posts".
 
 Localized::
 
@@ -33,13 +33,14 @@ Localized::
       <f:be.menus.actionMenuItem label="{f:translate(key:'create_blog')}" controller="Blog" action="new" />
    </f:be.menus.actionMenu>
 
-Localized selectbox.
+Localized select box.
 
 Arguments
 =========
 
 
 .. _be.menus.actionmenu_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -52,6 +53,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _be.menus.actionmenu_data:
+
 data
 ----
 
@@ -64,6 +66,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _be.menus.actionmenu_aria:
+
 aria
 ----
 
@@ -76,6 +79,7 @@ aria
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
 .. _be.menus.actionmenu_defaultcontroller:
+
 defaultController
 -----------------
 

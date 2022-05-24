@@ -14,11 +14,15 @@ Arguments
 
 
 .. _arraybrowser_data:
+
 data
 ----
 
 :aspect:`DataType`
    mixed
+
+:aspect:`Default`
+   array ()
 
 :aspect:`Required`
    false

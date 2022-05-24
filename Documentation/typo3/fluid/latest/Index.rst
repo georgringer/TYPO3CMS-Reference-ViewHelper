@@ -4,15 +4,14 @@
 typo3/fluid
 ===========
 
-* 9 ViewHelpers documented
-* 8 Sub namespaces
+* 8 ViewHelpers documented
+* 10 Sub namespaces
 
 .. toctree::
    :titlesonly:
    :glob:
 
    */Index
-   Base
    CObject
    Debug
    FlashMessages

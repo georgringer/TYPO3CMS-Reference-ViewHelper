@@ -75,6 +75,7 @@ Arguments
 
 
 .. _link.typolink_parameter:
+
 parameter
 ---------
 
@@ -87,6 +88,7 @@ parameter
    StdWrap.typolink style parameter string
 
 .. _link.typolink_target:
+
 target
 ------
 
@@ -99,6 +101,7 @@ target
    Define where to display the linked URL
 
 .. _link.typolink_class:
+
 class
 -----
 
@@ -111,6 +114,7 @@ class
    Define classes for the link element
 
 .. _link.typolink_title:
+
 title
 -----
 
@@ -123,6 +127,7 @@ title
    Define the title for the link element
 
 .. _link.typolink_language:
+
 language
 --------
 
@@ -135,6 +140,7 @@ language
    Link to a specific language - defaults to the current language, use a language ID or "current" to enforce a specific language
 
 .. _link.typolink_additionalparams:
+
 additionalParams
 ----------------
 
@@ -147,6 +153,7 @@ additionalParams
    Additional query parameters to be attached to the resulting URL
 
 .. _link.typolink_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -162,6 +169,7 @@ additionalAttributes
    Additional tag attributes to be added directly to the resulting HTML tag
 
 .. _link.typolink_addquerystring:
+
 addQueryString
 --------------
 
@@ -173,19 +181,8 @@ addQueryString
 :aspect:`Description`
    If set, the current query parameters will be kept in the URL
 
-.. _link.typolink_addquerystringmethod:
-addQueryStringMethod
---------------------
-
-:aspect:`DataType`
-   string
-
-:aspect:`Required`
-   false
-:aspect:`Description`
-   This argument is not evaluated anymore and will be removed in TYPO3 v12.
-
 .. _link.typolink_addquerystringexclude:
+
 addQueryStringExclude
 ---------------------
 
@@ -198,6 +195,7 @@ addQueryStringExclude
    Define parameters to be excluded from the query string (only active if addQueryString is set)
 
 .. _link.typolink_absolute:
+
 absolute
 --------
 
@@ -210,6 +208,7 @@ absolute
    Ensure the resulting URL is an absolute URL
 
 .. _link.typolink_parts-as:
+
 parts-as
 --------
 
@@ -225,6 +224,7 @@ parts-as
    Variable name containing typoLink parts (if any)
 
 .. _link.typolink_textwrap:
+
 textWrap
 --------
 

@@ -24,6 +24,7 @@ Arguments
 
 
 .. _asset.script_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -36,6 +37,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _asset.script_data:
+
 data
 ----
 
@@ -48,6 +50,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _asset.script_aria:
+
 aria
 ----
 
@@ -60,6 +63,7 @@ aria
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
 .. _asset.script_class:
+
 class
 -----
 
@@ -72,6 +76,7 @@ class
    CSS class(es) for this element
 
 .. _asset.script_dir:
+
 dir
 ---
 
@@ -84,6 +89,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _asset.script_id:
+
 id
 --
 
@@ -96,6 +102,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _asset.script_lang:
+
 lang
 ----
 
@@ -108,6 +115,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _asset.script_style:
+
 style
 -----
 
@@ -120,6 +128,7 @@ style
    Individual CSS styles for this element
 
 .. _asset.script_title:
+
 title
 -----
 
@@ -132,6 +141,7 @@ title
    Tooltip text of element
 
 .. _asset.script_accesskey:
+
 accesskey
 ---------
 
@@ -144,6 +154,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _asset.script_tabindex:
+
 tabindex
 --------
 
@@ -156,6 +167,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _asset.script_onclick:
+
 onclick
 -------
 
@@ -168,6 +180,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _asset.script_async:
+
 async
 -----
 
@@ -180,6 +193,7 @@ async
    Define that the script will be fetched in parallel to parsing and evaluation.
 
 .. _asset.script_crossorigin:
+
 crossorigin
 -----------
 
@@ -192,6 +206,7 @@ crossorigin
    Define how to handle crossorigin requests.
 
 .. _asset.script_defer:
+
 defer
 -----
 
@@ -204,6 +219,7 @@ defer
    Define that the script is meant to be executed after the document has been parsed.
 
 .. _asset.script_integrity:
+
 integrity
 ---------
 
@@ -216,6 +232,7 @@ integrity
    Define base64-encoded cryptographic hash of the resource that allows browsers to verify what they fetch.
 
 .. _asset.script_nomodule:
+
 nomodule
 --------
 
@@ -228,6 +245,7 @@ nomodule
    Define that the script should not be executed in browsers that support ES2015 modules.
 
 .. _asset.script_nonce:
+
 nonce
 -----
 
@@ -240,6 +258,7 @@ nonce
    Define a cryptographic nonce (number used once) used to whitelist inline styles in a style-src Content-Security-Policy.
 
 .. _asset.script_referrerpolicy:
+
 referrerpolicy
 --------------
 
@@ -252,6 +271,7 @@ referrerpolicy
    Define which referrer is sent when fetching the resource.
 
 .. _asset.script_src:
+
 src
 ---
 
@@ -264,6 +284,7 @@ src
    Define the URI of the external resource.
 
 .. _asset.script_type:
+
 type
 ----
 
@@ -276,6 +297,7 @@ type
    Define the MIME type (usually 'text/javascript').
 
 .. _asset.script_identifier:
+
 identifier
 ----------
 
@@ -288,6 +310,7 @@ identifier
    Use this identifier within templates to only inject your JS once, even though it is added multiple times.
 
 .. _asset.script_priority:
+
 priority
 --------
 

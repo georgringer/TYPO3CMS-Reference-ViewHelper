@@ -61,6 +61,7 @@ Arguments
 
 
 .. _format.striptags_value:
+
 value
 -----
 
@@ -73,6 +74,7 @@ value
    String to format
 
 .. _format.striptags_allowedtags:
+
 allowedTags
 -----------
 
@@ -82,5 +84,4 @@ allowedTags
 :aspect:`Required`
    false
 :aspect:`Description`
-   Optional string of allowed tags as required by PHPs strip_tags() f
-unction
+   Optional string of allowed tags as required by PHPs strip_tags() function

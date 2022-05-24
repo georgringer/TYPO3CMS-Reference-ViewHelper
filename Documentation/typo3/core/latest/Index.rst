@@ -4,7 +4,7 @@
 typo3/core
 ==========
 
-* 3 ViewHelpers documented
+* 4 ViewHelpers documented
 * 1 Sub namespaces
 
 .. toctree::
@@ -15,4 +15,5 @@ typo3/core
    IconForRecord
    IconForResource
    Icon
+   NormalizedUrl
 

@@ -4,8 +4,8 @@
 typo3/backend
 =============
 
-* 6 ViewHelpers documented
-* 4 Sub namespaces
+* 5 ViewHelpers documented
+* 3 Sub namespaces
 
 .. toctree::
    :titlesonly:
@@ -15,7 +15,6 @@ typo3/backend
    ArrayBrowser
    Avatar
    LanguageColumn
-   ModuleLayout
    ModuleLink
    Thumbnail
 

@@ -10,7 +10,7 @@ format.printf
 A ViewHelper for formatting values with printf. Either supply an array for
 the arguments or a single value.
 
-See https://www.php.net/manual/en/function.sprintf.php
+See http://www.php.net/manual/en/function.sprintf.php
 
 Examples
 ========
@@ -66,6 +66,7 @@ Arguments
 
 
 .. _format.printf_value:
+
 value
 -----
 
@@ -78,6 +79,7 @@ value
    String to format
 
 .. _format.printf_arguments:
+
 arguments
 ---------
 

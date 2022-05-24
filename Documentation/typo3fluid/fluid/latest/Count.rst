@@ -39,6 +39,7 @@ Arguments
 
 
 .. _count_subject:
+
 subject
 -------
 

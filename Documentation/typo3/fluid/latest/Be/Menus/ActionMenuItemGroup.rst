@@ -32,6 +32,7 @@ Arguments
 
 
 .. _be.menus.actionmenuitemgroup_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -44,6 +45,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _be.menus.actionmenuitemgroup_data:
+
 data
 ----
 
@@ -56,6 +58,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _be.menus.actionmenuitemgroup_aria:
+
 aria
 ----
 
@@ -68,6 +71,7 @@ aria
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
 .. _be.menus.actionmenuitemgroup_defaultcontroller:
+
 defaultController
 -----------------
 
@@ -77,9 +81,10 @@ defaultController
 :aspect:`Required`
    false
 :aspect:`Description`
-   The default controller to be used
+   Unused
 
 .. _be.menus.actionmenuitemgroup_label:
+
 label
 -----
 

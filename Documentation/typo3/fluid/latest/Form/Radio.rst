@@ -56,6 +56,7 @@ Arguments
 
 
 .. _form.radio_additionalattributes:
+
 additionalAttributes
 --------------------
 
@@ -68,6 +69,7 @@ additionalAttributes
    Additional tag attributes. They will be added directly to the resulting HTML tag.
 
 .. _form.radio_data:
+
 data
 ----
 
@@ -80,6 +82,7 @@ data
    Additional data-* attributes. They will each be added with a "data-" prefix.
 
 .. _form.radio_aria:
+
 aria
 ----
 
@@ -92,6 +95,7 @@ aria
    Additional aria-* attributes. They will each be added with a "aria-" prefix.
 
 .. _form.radio_name:
+
 name
 ----
 
@@ -104,6 +108,7 @@ name
    Name of input tag
 
 .. _form.radio_value:
+
 value
 -----
 
@@ -116,6 +121,7 @@ value
    Value of input tag. Required for radio buttons
 
 .. _form.radio_property:
+
 property
 --------
 
@@ -128,6 +134,7 @@ property
    Name of Object Property. If used in conjunction with <f:form object="...">, "name" and "value" properties will be ignored.
 
 .. _form.radio_errorclass:
+
 errorClass
 ----------
 
@@ -143,6 +150,7 @@ errorClass
    CSS class to set if there are errors for this ViewHelper
 
 .. _form.radio_checked:
+
 checked
 -------
 
@@ -155,6 +163,7 @@ checked
    Specifies that the input element should be preselected
 
 .. _form.radio_class:
+
 class
 -----
 
@@ -167,6 +176,7 @@ class
    CSS class(es) for this element
 
 .. _form.radio_dir:
+
 dir
 ---
 
@@ -179,6 +189,7 @@ dir
    Text direction for this HTML element. Allowed strings: "ltr" (left to right), "rtl" (right to left)
 
 .. _form.radio_id:
+
 id
 --
 
@@ -191,6 +202,7 @@ id
    Unique (in this file) identifier for this HTML element.
 
 .. _form.radio_lang:
+
 lang
 ----
 
@@ -203,6 +215,7 @@ lang
    Language for this element. Use short names specified in RFC 1766
 
 .. _form.radio_style:
+
 style
 -----
 
@@ -215,6 +228,7 @@ style
    Individual CSS styles for this element
 
 .. _form.radio_title:
+
 title
 -----
 
@@ -227,6 +241,7 @@ title
    Tooltip text of element
 
 .. _form.radio_accesskey:
+
 accesskey
 ---------
 
@@ -239,6 +254,7 @@ accesskey
    Keyboard shortcut to access this element
 
 .. _form.radio_tabindex:
+
 tabindex
 --------
 
@@ -251,6 +267,7 @@ tabindex
    Specifies the tab order of this element
 
 .. _form.radio_onclick:
+
 onclick
 -------
 
@@ -263,6 +280,7 @@ onclick
    JavaScript evaluated for the onclick event
 
 .. _form.radio_disabled:
+
 disabled
 --------
 

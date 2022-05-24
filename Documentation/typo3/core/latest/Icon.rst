@@ -41,6 +41,7 @@ Arguments
 
 
 .. _icon_identifier:
+
 identifier
 ----------
 
@@ -50,9 +51,10 @@ identifier
 :aspect:`Required`
    false
 :aspect:`Description`
-   Identifier of the icon as registered in the Icon Registry. To see all of the available icons, visit https://typo3.github.io/TYPO3.Icons/index.html.
+   Identifier of the icon as registered in the Icon Registry.
 
 .. _icon_size:
+
 size
 ----
 
@@ -68,6 +70,7 @@ size
    Desired size of the icon. All values of the Icons.sizes enum are allowed, these are: "small", "default", "large" and "overlay".
 
 .. _icon_overlay:
+
 overlay
 -------
 
@@ -80,6 +83,7 @@ overlay
    Identifier of an overlay icon as registered in the Icon Registry.
 
 .. _icon_state:
+
 state
 -----
 
@@ -95,6 +99,7 @@ state
    Sets the state of the icon. All values of the Icons.states enum are allowed, these are: "default" and "disabled".
 
 .. _icon_alternativemarkupidentifier:
+
 alternativeMarkupIdentifier
 ---------------------------
 
