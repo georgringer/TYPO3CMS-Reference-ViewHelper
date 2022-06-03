@@ -9,6 +9,9 @@ format.date
 
 Formats an object implementing :php:`\DateTimeInterface`.
 
+Possible date/time formats can be found in the PHP documentation:
+https://www.php.net/manual/datetime.format.php
+
 Examples
 ========
 
