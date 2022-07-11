@@ -10,7 +10,7 @@ link.email
 Email link ViewHelper.
 Generates an email link incorporating TYPO3s `spamProtectEmailAddresses`_ TypoScript setting.
 
-.. _spamProtectEmailAddresses: https://docs.typo3.org/m/typo3/reference-typoscript/master/en-us/Setup/Config/Index.html#spamprotectemailaddresses
+.. _spamProtectEmailAddresses: https://docs.typo3.org/m/typo3/reference-typoscript/main/en-us/Setup/Config/Index.html#spamprotectemailaddresses
 
 Examples
 ========
