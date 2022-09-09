@@ -5,13 +5,14 @@ toolbar
 =======
 
 
-* 1 ViewHelpers documented
+* 2 ViewHelpers documented
 
 .. toctree::
    :titlesonly:
    :glob:
 
    Attributes
+   IfHasDropdown
 
 
 
