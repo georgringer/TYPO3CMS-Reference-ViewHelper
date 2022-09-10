@@ -228,19 +228,6 @@ ismap
 :aspect:`Description`
    Specifies an image as a server-side image-map. Rarely used. Look at usemap instead
 
-.. _thumbnail_longdesc:
-
-longdesc
---------
-
-:aspect:`DataType`
-   string
-
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Specifies the URL to a document that contains a long description of an image
-
 .. _thumbnail_usemap:
 
 usemap
