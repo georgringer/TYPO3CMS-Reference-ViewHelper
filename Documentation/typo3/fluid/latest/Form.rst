@@ -339,6 +339,32 @@ hiddenFieldClassName
 :aspect:`Description`
    HiddenFieldClassName
 
+.. _form_requesttoken:
+
+requestToken
+------------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Whether to add that request token to the form
+
+.. _form_signingtype:
+
+signingType
+-----------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Which signing type to be used on the request token (falls back to "nonce")
+
 .. _form_enctype:
 
 enctype

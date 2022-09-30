@@ -7,7 +7,7 @@ uri.page
 ========
 
 
-A ViewHelper for creating URIs to TYPO3 pages. Tailored for extbase plugins, uses extbase Request and extbase UriBuilder.
+A ViewHelper for creating URIs to TYPO3 pages.
 
 Examples
 ========
