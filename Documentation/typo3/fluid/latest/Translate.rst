@@ -131,9 +131,6 @@ arguments
 :aspect:`DataType`
    mixed
 
-:aspect:`Default`
-   array ()
-
 :aspect:`Required`
    false
 :aspect:`Description`
