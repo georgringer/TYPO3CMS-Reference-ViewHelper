@@ -9,7 +9,7 @@ format.html
 
 Renders a string by passing it to a TYPO3 `parseFunc`_.
 You can either specify a path to the TypoScript setting or set the `parseFunc`_ options directly.
-By default :ts:`lib.parseFunc_RTE` is used to parse the string.
+By default :typoscript:`lib.parseFunc_RTE` is used to parse the string.
 
 Examples
 ========
@@ -41,8 +41,8 @@ Output::
 Data argument
 --------------
 
-If you work with TypoScript "field" property, you should add the current record as "data"
-to the ViewHelper to allow processing the "field" and "dataWrap" properties correctly.
+If you work with TypoScript :typoscript:`field` property, you should add the current record as `data`
+to the ViewHelper to allow processing the `field` and `dataWrap` properties correctly.
 
 ::
 
@@ -55,26 +55,26 @@ After "dataWrap = |<strong>{FIELD:title}</strong>" you may have this Output::
 Current argument
 -----------------
 
-Use the current argument to set the current value of the content object.
+Use the `current` argument to set the current value of the content object.
 
 ::
 
    <f:format.html current="{strContent}" parseFuncTSPath="lib.info">I'm gone</f:format.html>
 
-After "setContentToCurrent = 1" you may have this Output::
+After `setContentToCurrent = 1` you may have this output::
 
    Thanks Kasper for this great CMS
 
 CurrentValueKey argument
 -------------------------
 
-Use the currentValueKey argument to define a value of data object as the current value.
+Use the `currentValueKey` argument to define a value of data object as the current value.
 
 ::
 
    <f:format.html data="{contentRecord}" currentValueKey="header" parseFuncTSPath="lib.content">Content: </f:format.html>
 
-After "dataWrap = |{CURRENT:1}" you may have this Output::
+After `dataWrap = |{CURRENT:1}` you may have this Output::
 
    Content: How to install TYPO3 in under 2 minutes ;-)
 
