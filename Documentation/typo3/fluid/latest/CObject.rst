@@ -45,7 +45,7 @@ Rendered :typoscript:`lib.customHeader`. Data will be available in TypoScript.
 Accessing the data in TypoScript
 --------------------------------
 
-::
+.. code-block:: typoscript
 
    lib.customHeader = COA
    lib.customHeader {
