@@ -5,7 +5,7 @@ format
 ======
 
 
-* 14 ViewHelpers documented
+* 15 ViewHelpers documented
 
 .. toctree::
    :titlesonly:
@@ -24,6 +24,7 @@ format
    Number
    Padding
    StripTags
+   Trim
    Urlencode
 
 
