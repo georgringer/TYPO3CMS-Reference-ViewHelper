@@ -11,6 +11,10 @@ Renders a string by passing it to a TYPO3 `parseFunc`_.
 You can either specify a path to the TypoScript setting or set the `parseFunc`_ options directly.
 By default :typoscript:`lib.parseFunc_RTE` is used to parse the string.
 
+The view helper must not be used in backend context, as it triggers frontend logic.
+Instead, use :html:`<f:sanitize.html />` to secure a given HTML string or :html:`<f:transform.html />`
+to parse links in HTML.
+
 Examples
 ========
 

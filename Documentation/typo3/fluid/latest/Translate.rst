@@ -160,7 +160,7 @@ languageKey
 :aspect:`Required`
    false
 :aspect:`Description`
-   Language key ("dk" for example) or "default" to use. If empty, use current language. Ignored in non-extbase context.
+   Language key ("da" for example) or "default" to use. If empty, use current language. Ignored in non-extbase context.
 
 .. _translate_alternativelanguagekeys:
 
