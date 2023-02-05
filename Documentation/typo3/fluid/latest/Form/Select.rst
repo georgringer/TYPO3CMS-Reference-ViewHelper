@@ -289,7 +289,7 @@ size
 :aspect:`Required`
    false
 :aspect:`Description`
-   Size of input field
+   Size of select field, a numeric value to show the amount of items to be visible at the same time - equivalent to HTML <select> site attribute
 
 .. _form.select_disabled:
 

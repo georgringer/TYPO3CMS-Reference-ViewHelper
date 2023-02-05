@@ -261,6 +261,19 @@ onclick
 :aspect:`Description`
    JavaScript evaluated for the onclick event
 
+.. _form.countryselect_size:
+
+size
+----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Size of select field, a numeric value to show the amount of items to be visible at the same time - equivalent to HTML <select> site attribute
+
 .. _form.countryselect_disabled:
 
 disabled
@@ -377,6 +390,32 @@ prependOptionValue
 :aspect:`Description`
    If specified, will provide an option at first position with the specified value.
 
+.. _form.countryselect_multiple:
+
+multiple
+--------
+
+:aspect:`DataType`
+   boolean
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If set multiple options may be selected.
+
+.. _form.countryselect_required:
+
+required
+--------
+
+:aspect:`DataType`
+   boolean
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   If set no empty value is allowed.
+
 .. _form.countryselect_prioritizedcountries:
 
 prioritizedCountries
@@ -405,16 +444,3 @@ alternativeLanguage
    false
 :aspect:`Description`
    If specified, the country list will be shown in the given language.
-
-.. _form.countryselect_required:
-
-required
---------
-
-:aspect:`DataType`
-   boolean
-
-:aspect:`Required`
-   false
-:aspect:`Description`
-   If set no empty value is allowed.
