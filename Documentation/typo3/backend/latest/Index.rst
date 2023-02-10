@@ -4,7 +4,7 @@
 typo3/backend
 =============
 
-* 5 ViewHelpers documented
+* 4 ViewHelpers documented
 * 5 Sub namespaces
 
 .. toctree::
@@ -12,7 +12,6 @@ typo3/backend
    :glob:
 
    */Index
-   ArrayBrowser
    Avatar
    LanguageColumn
    ModuleLink
