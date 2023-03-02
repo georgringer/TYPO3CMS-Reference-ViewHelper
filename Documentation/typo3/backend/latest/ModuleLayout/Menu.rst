@@ -36,6 +36,6 @@ identifier
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Identifier of the menu

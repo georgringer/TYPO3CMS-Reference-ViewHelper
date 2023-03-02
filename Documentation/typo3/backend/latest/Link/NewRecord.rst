@@ -244,7 +244,7 @@ table
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Target database table
 

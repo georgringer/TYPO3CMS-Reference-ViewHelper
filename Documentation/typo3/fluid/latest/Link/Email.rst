@@ -80,7 +80,7 @@ email
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The email address to be turned into a link
 

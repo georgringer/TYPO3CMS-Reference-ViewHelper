@@ -80,7 +80,7 @@ objects
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The QueryResult containing all objects.
 
@@ -93,7 +93,7 @@ as
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    As
 

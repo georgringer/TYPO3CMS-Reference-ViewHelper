@@ -57,7 +57,7 @@ route
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The name of the route
 

@@ -85,7 +85,7 @@ typoscriptObjectPath
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The TypoScript setup path of the TypoScript object to render
 

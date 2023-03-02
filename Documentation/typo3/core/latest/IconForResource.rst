@@ -37,7 +37,7 @@ resource
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Resource
 

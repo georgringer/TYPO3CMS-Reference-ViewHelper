@@ -48,6 +48,6 @@ map
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Array that specifies which variables should be mapped to which alias

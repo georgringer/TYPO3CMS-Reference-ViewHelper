@@ -84,7 +84,7 @@ maxCharacters
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Place where to truncate the string
 

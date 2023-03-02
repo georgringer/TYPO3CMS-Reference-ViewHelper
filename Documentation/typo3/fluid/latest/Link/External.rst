@@ -73,7 +73,7 @@ uri
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The URI that will be put in the href attribute of the rendered link tag
 

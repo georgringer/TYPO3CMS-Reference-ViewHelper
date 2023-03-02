@@ -49,7 +49,7 @@ path
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The path and filename of the resource (relative to Public resource directory of the extension).
 

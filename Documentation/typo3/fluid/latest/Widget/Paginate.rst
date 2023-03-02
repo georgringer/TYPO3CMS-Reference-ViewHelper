@@ -91,7 +91,7 @@ objects
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Object
 
@@ -104,7 +104,7 @@ as
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    As
 

@@ -346,7 +346,7 @@ identifier
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Use this identifier within templates to only inject your CSS once, even though it is added multiple times.
 

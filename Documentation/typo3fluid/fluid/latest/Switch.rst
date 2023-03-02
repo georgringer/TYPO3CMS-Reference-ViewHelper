@@ -44,6 +44,6 @@ expression
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Expression to switch

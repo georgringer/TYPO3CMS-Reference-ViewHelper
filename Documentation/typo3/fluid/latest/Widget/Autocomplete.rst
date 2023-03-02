@@ -78,7 +78,7 @@ objects
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Objects to auto-complete
 
@@ -91,7 +91,7 @@ for
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Property to fill
 
@@ -104,6 +104,6 @@ searchProperty
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Property to search within when filtering list

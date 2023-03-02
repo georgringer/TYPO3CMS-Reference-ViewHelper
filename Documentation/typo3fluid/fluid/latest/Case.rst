@@ -22,6 +22,6 @@ value
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Value to match in this case

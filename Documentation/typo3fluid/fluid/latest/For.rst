@@ -64,7 +64,7 @@ each
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The array or \SplObjectStorage to iterated over
 
@@ -77,7 +77,7 @@ as
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The name of the iteration variable
 

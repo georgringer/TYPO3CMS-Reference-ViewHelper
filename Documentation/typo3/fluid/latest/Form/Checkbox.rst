@@ -101,7 +101,7 @@ value
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Value of input tag. Required for checkboxes
 
