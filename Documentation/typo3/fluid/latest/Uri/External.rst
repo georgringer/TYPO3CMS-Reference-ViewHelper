@@ -44,7 +44,7 @@ uri
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Target URI
 

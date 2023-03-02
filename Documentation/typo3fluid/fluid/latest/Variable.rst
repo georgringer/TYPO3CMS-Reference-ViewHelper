@@ -52,6 +52,6 @@ name
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Name of variable to create

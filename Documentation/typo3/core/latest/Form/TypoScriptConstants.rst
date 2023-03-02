@@ -89,7 +89,7 @@ configuration
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The TypoScript constant configuration, e.g. labels, category, type and value.
 

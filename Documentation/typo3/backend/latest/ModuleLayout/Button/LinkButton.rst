@@ -114,6 +114,6 @@ link
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Link for the button

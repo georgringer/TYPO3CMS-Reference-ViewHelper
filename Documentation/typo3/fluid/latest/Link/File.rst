@@ -94,7 +94,7 @@ file
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Specifies the file to create a link to
 

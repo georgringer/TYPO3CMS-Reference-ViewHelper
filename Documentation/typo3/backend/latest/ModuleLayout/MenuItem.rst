@@ -34,7 +34,7 @@ label
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Label of the menu item
 
@@ -47,6 +47,6 @@ uri
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Action uri

@@ -48,7 +48,7 @@ state
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The state to check for (e.g. active or locked)
 
@@ -61,6 +61,6 @@ provider
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The provider in question
