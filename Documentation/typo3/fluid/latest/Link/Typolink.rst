@@ -83,7 +83,7 @@ parameter
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    StdWrap.typolink style parameter string
 

@@ -22,6 +22,6 @@ class
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Class being converted to a string for usage as id attribute

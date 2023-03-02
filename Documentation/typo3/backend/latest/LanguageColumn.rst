@@ -22,7 +22,7 @@ languageColumn
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Language column object which is context for column
 
@@ -35,6 +35,6 @@ columnNumber
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Number (colPos) of column within LanguageColumn to be returned

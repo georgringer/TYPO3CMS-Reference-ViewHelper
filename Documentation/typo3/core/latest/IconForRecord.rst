@@ -37,7 +37,7 @@ table
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The table for the record icon
 
@@ -50,7 +50,7 @@ row
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The record row
 

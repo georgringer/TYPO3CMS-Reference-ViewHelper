@@ -230,7 +230,7 @@ file
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    File
 

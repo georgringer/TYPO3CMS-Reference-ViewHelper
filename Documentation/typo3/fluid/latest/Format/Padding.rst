@@ -70,7 +70,7 @@ padLength
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Length of the resulting string. If the value of pad_length is negative or less than the length of the input string, no padding takes place.
 

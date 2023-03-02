@@ -82,6 +82,6 @@ as
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The name of the iteration variable

@@ -22,7 +22,7 @@ from
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Source string
 
@@ -35,6 +35,6 @@ to
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Target string

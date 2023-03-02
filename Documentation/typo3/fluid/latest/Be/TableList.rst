@@ -57,7 +57,7 @@ tableName
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Name of the database table
 

@@ -48,6 +48,6 @@ class
    mixed
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The toolbar item class to be checked for providing a drop down

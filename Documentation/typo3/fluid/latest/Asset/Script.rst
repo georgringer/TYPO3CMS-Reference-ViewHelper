@@ -305,7 +305,7 @@ identifier
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Use this identifier within templates to only inject your JS once, even though it is added multiple times.
 

@@ -88,7 +88,7 @@ label
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Label of the option tag
 
@@ -101,7 +101,7 @@ controller
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Controller to be associated with this ActionMenuItem
 
@@ -114,7 +114,7 @@ action
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    The action to be associated with this ActionMenuItem
 

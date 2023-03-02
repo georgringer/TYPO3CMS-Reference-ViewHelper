@@ -49,7 +49,7 @@ identifier
    string
 
 :aspect:`Required`
-   false
+   true
 :aspect:`Description`
    Identifier of the icon as registered in the Icon Registry.
 
