@@ -19,8 +19,6 @@ Examples
       .foo { color: black; }
    </f:asset.css>
 
-See also :ref:`_changelog-Feature-90522-IntroduceAssetCollector`
-
 Arguments
 =========
 
