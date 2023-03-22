@@ -386,10 +386,13 @@ method
 :aspect:`DataType`
    string
 
+:aspect:`Default`
+   'post'
+
 :aspect:`Required`
    false
 :aspect:`Description`
-   Transfer type (GET or POST)
+   Transfer type (get or post)
 
 .. _form_name:
 
