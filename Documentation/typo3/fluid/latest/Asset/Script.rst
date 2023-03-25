@@ -7,7 +7,7 @@ asset.script
 ============
 
 
-ScriptViewHelper
+ViewHelper to add JavaScript to the TYPO3 AssetCollector. Either a file or inline JavaScript can be added.
 
 Examples
 ========
@@ -18,6 +18,15 @@ Examples
    <f:asset.script identifier="identifier123">
       alert('hello world');
    </f:asset.script>
+
+Details
+=======
+
+In the AssetCollector, the "identifier" attribute is used as a unique identifier. Thus, if assets are added multiple
+times using the same identifier, the asset will only be served once (the last added overrides previous assets).
+
+Some available attributes are defaults but do not make sense for this ViewHelper. Relevant attributes specific
+for this ViewHelper are: async, crossorigin, defer, integrity, nomodule, nonce, referrerpolicy, src, type.
 
 Arguments
 =========

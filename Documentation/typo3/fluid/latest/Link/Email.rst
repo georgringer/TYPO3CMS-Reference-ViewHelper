@@ -37,7 +37,17 @@ Email link with custom linktext
 
 Output::
 
-   <a href="#" data-mailto-token="ocknvq,hqqBdct0vnf" data-mailto-vector="1">some custom content</a>
+
+Email link with custom subject and prefilled cc
+-----------------------------------------------
+
+::
+
+   <f:link.email email="foo@bar.tld" subject="Check out this website" cc="foo@example.com"">some custom content</f:link.email>
+
+Output::
+
+   <a href="mailto:foo@bar.tld?subject=Check%20out%20this%20website&amp;cc=foo%40example.com">some custom content</a>
 
 Depending on `spamProtectEmailAddresses`_ setting.
 
@@ -96,6 +106,58 @@ email
    true
 :aspect:`Description`
    The email address to be turned into a link
+
+.. _link.email_cc:
+
+cc
+--
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The email address(es) for CC of the email link
+
+.. _link.email_bcc:
+
+bcc
+---
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   The email address(es) for BCC of the email link
+
+.. _link.email_subject:
+
+subject
+-------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   A prefilled subject for the email link
+
+.. _link.email_body:
+
+body
+----
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   A prefilled body for the email link
 
 .. _link.email_class:
 
