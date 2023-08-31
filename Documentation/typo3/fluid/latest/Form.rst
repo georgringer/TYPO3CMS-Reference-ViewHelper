@@ -34,11 +34,11 @@ Binding a domain object to a form::
 
    <f:form action="..." name="customer" object="{customer}">
       <f:form.hidden property="id" />
-      <f:form.textbox property="name" />
+      <f:form.textarea property="name" />
    </f:form>
 
 This automatically inserts the value of ``{customer.name}`` inside the
-textbox and adjusts the name of the textbox accordingly.
+textarea and adjusts the name of the textarea accordingly.
 
 Arguments
 =========
