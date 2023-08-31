@@ -305,6 +305,19 @@ type
 :aspect:`Description`
    Define the MIME type (usually 'text/javascript').
 
+.. _asset.script_usenonce:
+
+useNonce
+--------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Whether to use the global nonce value
+
 .. _asset.script_identifier:
 
 identifier

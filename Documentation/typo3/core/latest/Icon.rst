@@ -67,7 +67,7 @@ size
 :aspect:`Required`
    false
 :aspect:`Description`
-   Desired size of the icon. All values of the Icons.sizes enum are allowed, these are: "small", "default", "large" and "overlay".
+   Desired size of the icon. All values of the IconSize enum are allowed, these are: "small", "default", "medium", "large" and "mega".
 
 .. _icon_overlay:
 

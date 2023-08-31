@@ -20,11 +20,10 @@ All options::
        includeJsFiles="{0: 'EXT:my_ext/Resources/Public/JavaScript/Library1.js', 1: 'EXT:my_ext/Resources/Public/JavaScript/Library2.js'}"
        addJsInlineLabels="{'my_ext.label1': 'LLL:EXT:my_ext/Resources/Private/Language/locallang.xlf:label1'}"
        includeJavaScriptModules="{0: '@my-vendor/my-ext/my-module.js'}"
-       includeRequireJsModules="{0: 'EXT:my_ext/Resources/Public/JavaScript/RequireJsModule'}"
        addInlineSettings="{'some.setting.key': 'some.setting.value'}"
    />
 
-This will load the specified css, js files and requireJs modules, adds a custom js
+This will load the specified css, js files and JavaScript modules, adds a custom js
 inline setting, and adds a resolved label to be used in js.
 
 Arguments
@@ -95,19 +94,6 @@ includeJavaScriptModules
    false
 :aspect:`Description`
    List of JavaScript modules to be loaded
-
-.. _be.pagerenderer_includerequirejsmodules:
-
-includeRequireJsModules
------------------------
-
-:aspect:`DataType`
-   mixed
-
-:aspect:`Required`
-   false
-:aspect:`Description`
-   List of RequireJS modules to be loaded
 
 .. _be.pagerenderer_addinlinesettings:
 

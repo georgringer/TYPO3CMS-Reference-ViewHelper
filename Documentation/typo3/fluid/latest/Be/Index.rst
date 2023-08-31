@@ -6,7 +6,7 @@ be
 
 
 * 7 ViewHelpers documented
-* 4 Sub namespaces
+* 2 Sub namespaces
 
 .. toctree::
    :titlesonly:

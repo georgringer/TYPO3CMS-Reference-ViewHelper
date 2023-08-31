@@ -205,12 +205,12 @@ addQueryString
 --------------
 
 :aspect:`DataType`
-   mixed
+   string
 
 :aspect:`Required`
    false
 :aspect:`Description`
-   If set, the current query parameters will be kept in the URI
+   If set, the current query parameters will be kept in the URL. If set to "untrusted", then ALL query parameters will be added. Be aware, that this might lead to problems when the generated link is cached.
 
 .. _uri.action_argumentstobeexcludedfromquerystring:
 

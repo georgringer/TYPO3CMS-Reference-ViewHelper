@@ -48,7 +48,7 @@ Container tag
 
     <f:cache.disable>
        Some output or Fluid code
-    </f:cache.disble>
+    </f:cache.disable>
 
 Additional output is also not compilable because of the ViewHelper
 
