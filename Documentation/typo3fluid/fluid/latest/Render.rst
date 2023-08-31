@@ -139,19 +139,6 @@ delegate
 :aspect:`Description`
    Optional PHP class name of a permanent, included-in-app ParsedTemplateInterface implementation to override partial/section
 
-.. _render_renderable:
-
-renderable
-----------
-
-:aspect:`DataType`
-   mixed
-
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Instance of a RenderableInterface implementation to be rendered
-
 .. _render_arguments:
 
 arguments

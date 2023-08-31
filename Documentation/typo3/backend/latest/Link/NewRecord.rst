@@ -35,7 +35,7 @@ Link to create a new record of a_table after record 17 on the same pid::
 Output::
 
    <a href="/typo3/record/edit?edit[a_table][-17]=new&returnUrl=foo/bar">
-       Edit record
+       New record
    </a>
 
 Link to create a new record of a_table on root page::
@@ -45,7 +45,7 @@ Link to create a new record of a_table on root page::
 Output::
 
    <a href="/typo3/record/edit?edit[a_table][]=new&returnUrl=foo/bar">
-       Edit record
+       New record
    </a>
 
 Link to create a new record of a_table on page 17::
@@ -55,7 +55,7 @@ Link to create a new record of a_table on page 17::
 Output::
 
    <a href="/typo3/record/edit?edit[a_table][17]=new&returnUrl=foo/bar">
-       Edit record
+       New record
    </a>
 
 Link to create a new record then return back to the BE module "web_MyextensionList"::
@@ -65,7 +65,7 @@ Link to create a new record then return back to the BE module "web_MyextensionLi
 Output::
 
    <a href="/typo3/record/edit?edit[a_table][17]=new&returnUrl=/typo3/module/web/MyextensionList">
-       Edit record
+       New record
    </a>
 
 Link to create a new record of a_table on page 17 with a default value::
@@ -75,7 +75,7 @@ Link to create a new record of a_table on page 17 with a default value::
 Output::
 
    <a href="/typo3/record/edit?edit[a_table][17]=new&returnUrl=foo/bar&defVals[a_table][a_field]=value">
-       Edit record
+       New record
    </a>
 
 Arguments
@@ -288,7 +288,7 @@ returnUrl
 :aspect:`Required`
    false
 :aspect:`Description`
-   Return to this URL after closing the edit dialog
+   Return to this URL after closing the new record dialog
 
 .. _link.newrecord_defaultvalues:
 

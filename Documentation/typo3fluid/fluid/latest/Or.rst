@@ -7,7 +7,27 @@ or
 ==
 
 
-If content is empty use alternative text
+Or ViewHelper
+
+If content is null use alternative text.
+
+Usage of f:or
+=============
+
+::
+
+    {f:variable(name:'fallback',value:'this is not the variable you\'re looking for')}
+    {undefinedVariable -> f:or(alternative:fallback)}
+
+Usage of ternary operator
+=========================
+
+In some cases (e.g. when you want to check for empty instead of null)
+it might be more handy to use a ternary operator instead of f:or
+
+::
+
+    {emptyVariable ?: 'this is an alterative text'}
 
 Arguments
 =========
@@ -24,7 +44,7 @@ content
 :aspect:`Required`
    false
 :aspect:`Description`
-   Content to check if empty
+   Content to check if null
 
 .. _or_alternative:
 
@@ -37,7 +57,7 @@ alternative
 :aspect:`Required`
    false
 :aspect:`Description`
-   Alternative if content is empty
+   Alternative if content is null
 
 .. _or_arguments:
 

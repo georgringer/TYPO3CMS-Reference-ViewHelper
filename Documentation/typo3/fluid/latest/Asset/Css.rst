@@ -358,6 +358,19 @@ nonce
 :aspect:`Description`
    Define a cryptographic nonce (number used once) used to whitelist inline styles in a style-src Content-Security-Policy.
 
+.. _asset.css_usenonce:
+
+useNonce
+--------
+
+:aspect:`DataType`
+   mixed
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Whether to use the global nonce value
+
 .. _asset.css_identifier:
 
 identifier

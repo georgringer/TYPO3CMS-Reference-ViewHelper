@@ -14,7 +14,7 @@ Exception if it contains syntax errors. You can put child nodes in
 CDATA tags to avoid this.
 
 Using this ViewHelper won't have a notable effect on performance,
-especially once the template is parsed.  However it can lead to reduced
+especially once the template is parsed.  However, it can lead to reduced
 readability. You can use layouts and partials to split a large template
 into smaller parts. Using self-descriptive names for the partials can
 make comments redundant.
