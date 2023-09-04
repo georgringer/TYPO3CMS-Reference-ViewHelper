@@ -131,6 +131,19 @@ noCache
 :aspect:`Description`
    Set this to disable caching for the target page. You should not need this.
 
+.. _uri.action_language:
+
+language
+--------
+
+:aspect:`DataType`
+   string
+
+:aspect:`Required`
+   false
+:aspect:`Description`
+   Link to a specific language - defaults to the current language, use a language ID or "current" to enforce a specific language
+
 .. _uri.action_section:
 
 section
