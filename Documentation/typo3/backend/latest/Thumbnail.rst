@@ -21,7 +21,7 @@ Default
 
 Output::
 
-   <img src="/typo3/thumbnails?token=&parameters={"fileId":1,"configuration":{"_context":"Image.Preview","maxWidth":64,"maxHeight":64}}&hmac="
+   <img src="https://www.example.com/typo3/image/process?token=XYZ&id=1160"
         width="64"
         height="64"
         alt="alt set in image record"
@@ -36,7 +36,7 @@ Inline notation
 
 Output::
 
-   <img src="/typo3/thumbnails?token=&parameters={"fileId":1,"configuration":{"_context":"Image.Preview","maxWidth":64,"maxHeight":64}}&hmac="
+   <img src="https://www.example.com/typo3/image/process?token=XYZ&id=1160"
         width="64"
         height="64"
         alt="alt set in image record"
@@ -215,58 +215,6 @@ alt
 :aspect:`Description`
    Specifies an alternate text for an image
 
-.. _thumbnail_ismap:
-
-ismap
------
-
-:aspect:`DataType`
-   string
-
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Specifies an image as a server-side image-map. Rarely used. Look at usemap instead
-
-.. _thumbnail_usemap:
-
-usemap
-------
-
-:aspect:`DataType`
-   string
-
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Specifies an image as a client-side image-map
-
-.. _thumbnail_loading:
-
-loading
--------
-
-:aspect:`DataType`
-   string
-
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Native lazy-loading for images property. Can be "lazy", "eager" or "auto"
-
-.. _thumbnail_decoding:
-
-decoding
---------
-
-:aspect:`DataType`
-   string
-
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Provides an image decoding hint to the browser. Can be "sync", "async" or "auto"
-
 .. _thumbnail_src:
 
 src
@@ -334,19 +282,6 @@ cropVariant
    false
 :aspect:`Description`
    Select a cropping variant, in case multiple croppings have been specified or stored in FileReference
-
-.. _thumbnail_fileextension:
-
-fileExtension
--------------
-
-:aspect:`DataType`
-   string
-
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Custom file extension to use
 
 .. _thumbnail_width:
 
@@ -425,19 +360,6 @@ maxHeight
    false
 :aspect:`Description`
    Maximum height of the image
-
-.. _thumbnail_absolute:
-
-absolute
---------
-
-:aspect:`DataType`
-   mixed
-
-:aspect:`Required`
-   false
-:aspect:`Description`
-   Force absolute URL
 
 .. _thumbnail_context:
 
