@@ -133,4 +133,4 @@ iteration
 :aspect:`Required`
    false
 :aspect:`Description`
-   The name of the variable to store iteration information (index, cycle, isFirst, isLast, isEven, isOdd)
+   The name of the variable to store iteration information (index, cycle, total, isFirst, isLast, isEven, isOdd)
