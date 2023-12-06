@@ -160,7 +160,7 @@ languageKey
 :aspect:`Required`
    false
 :aspect:`Description`
-   Language key ("da" for example) or "default" to use. If empty, use current language.
+   Language key ("da" for example) or "default" to use. Also a Locale object is possible. If empty, use current locale from the request.
 
 .. _translate_alternativelanguagekeys:
 
