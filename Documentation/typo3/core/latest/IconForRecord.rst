@@ -63,7 +63,7 @@ size
    string
 
 :aspect:`Default`
-   TYPO3\CMS\Core\Imaging\IconSize::SMALL
+   \TYPO3\CMS\Core\Imaging\IconSize::SMALL
 
 :aspect:`Required`
    false
