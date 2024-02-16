@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-cobject:
 
-=======
-cObject
-=======
+====================================
+cObject ViewHelper `<fluid:cObject>`
+====================================
 
 
 This ViewHelper renders CObjects from the global TypoScript configuration.
@@ -58,6 +58,9 @@ Accessing the data in TypoScript
 When passing an object with ``{data}``, the properties of the object are accessible with :typoscript:`.field` in
 TypoScript. If only a single value is passed or the ``currentValueKey`` is specified, :typoscript:`.current = 1`
 can be used in the TypoScript.
+
+
+.. _typo3-fluid-cobject_arguments:
 
 Arguments
 =========

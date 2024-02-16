@@ -2,12 +2,15 @@
 
 .. _typo3-fluid-form-select-option:
 
-==================
-form.select.option
-==================
+==========================================================
+form.select.option ViewHelper `<fluid:form.select.option>`
+==========================================================
 
 
 Adds custom :html:`<option>` tags inside an :ref:`<f:form.select> <typo3-fluid-form-select>`.
+
+
+.. _typo3-fluid-form-select-option_arguments:
 
 Arguments
 =========

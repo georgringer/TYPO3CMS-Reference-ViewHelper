@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-switch:
 
-======
-switch
-======
+==================================
+switch ViewHelper `<fluid:switch>`
+==================================
 
 
 Switch ViewHelper which can be used to render content depending on a value or expression.
@@ -36,6 +36,9 @@ Simple Switch statement
 Output::
 
     "Mr.", "Mrs." or "Mr. / Mrs." (depending on the value of {person.gender})
+
+
+.. _typo3fluid-fluid-switch_arguments:
 
 Arguments
 =========

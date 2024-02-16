@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-button:
 
-===========
-form.button
-===========
+============================================
+form.button ViewHelper `<fluid:form.button>`
+============================================
 
 
 Creates a button.
@@ -32,6 +32,9 @@ Disabled cancel button with some HTML5 attributes::
 Output::
 
    <button disabled="disabled" formmethod="post" formnovalidate="formnovalidate" type="reset" name="myForm[buttonName]" value="buttonValue">Cancel</button>
+
+
+.. _typo3-fluid-form-button_arguments:
 
 Arguments
 =========

@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-tablelist:
 
-============
-be.tableList
-============
+==============================================
+be.tableList ViewHelper `<fluid:be.tableList>`
+==============================================
 
 
 ViewHelper which renders a record list as known from the TYPO3 list module.
@@ -43,6 +43,9 @@ Full::
 
 List of "Website user" records with a text property of ``foo`` stored on PID ``1`` and two levels down.
 Clicking on a username will open the TYPO3 info popup for the respective record
+
+
+.. _typo3-fluid-be-tablelist_arguments:
 
 Arguments
 =========

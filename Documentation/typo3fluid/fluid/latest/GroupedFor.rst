@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-groupedfor:
 
-==========
-groupedFor
-==========
+==========================================
+groupedFor ViewHelper `<fluid:groupedFor>`
+==========================================
 
 
 Grouped loop ViewHelper.
@@ -76,6 +76,9 @@ Output::
             </ul>
         </li>
     </ul>
+
+
+.. _typo3fluid-fluid-groupedfor_arguments:
 
 Arguments
 =========

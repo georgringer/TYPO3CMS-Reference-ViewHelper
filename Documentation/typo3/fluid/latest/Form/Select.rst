@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-select:
 
-===========
-form.select
-===========
+============================================
+form.select ViewHelper `<fluid:form.select>`
+============================================
 
 
 This ViewHelper generates a :html:`<select>` dropdown list for the use with a form.
@@ -78,6 +78,9 @@ retrieve the key, and :php:`$user->getFirstName()` to retrieve the displayed
 value of each entry.
 
 The ``value`` property now expects a domain object, and tests for object equivalence.
+
+
+.. _typo3-fluid-form-select_arguments:
 
 Arguments
 =========

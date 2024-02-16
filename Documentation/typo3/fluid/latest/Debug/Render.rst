@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-debug-render:
 
-============
-debug.render
-============
+==============================================
+debug.render ViewHelper `<fluid:debug.render>`
+==============================================
 
 
 Debuggable version of :ref:`f:render <typo3-fluid-render>` - performs the
@@ -14,6 +14,9 @@ inspected with the admin panel in frontend.
 Replaces ``f:render`` when the admin panel decides (see
 :php:`ViewHelperResolver` class). Also possible to use explicitly by using
 ``f:debug.render`` instead of the normal ``f:render`` statement.
+
+
+.. _typo3-fluid-debug-render_arguments:
 
 Arguments
 =========

@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-section:
 
-=======
-section
-=======
+====================================
+section ViewHelper `<fluid:section>`
+====================================
 
 
 A ViewHelper to declare sections in templates for later use with e.g. the ``f:render`` ViewHelper.
@@ -54,6 +54,9 @@ Output::
         </li>
     [...]
     (depending on the value of {menu})
+
+
+.. _typo3fluid-fluid-section_arguments:
 
 Arguments
 =========

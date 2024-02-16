@@ -2,12 +2,15 @@
 
 .. _typo3-backend-toolbar-attributes:
 
-==================
-toolbar.attributes
-==================
+============================================================
+toolbar.attributes ViewHelper `<backend:toolbar.attributes>`
+============================================================
 
 
 Builds an attribute string for use in rendered toolbar items
+
+
+.. _typo3-backend-toolbar-attributes_arguments:
 
 Arguments
 =========

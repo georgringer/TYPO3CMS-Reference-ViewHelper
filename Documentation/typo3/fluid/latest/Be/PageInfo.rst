@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-pageinfo:
 
-===========
-be.pageInfo
-===========
+============================================
+be.pageInfo ViewHelper `<fluid:be.pageInfo>`
+============================================
 
 
 ViewHelper which return page info icon as known from TYPO3 backend modules.
@@ -20,6 +20,9 @@ Default::
    <f:be.pageInfo />
 
 Page info icon with context menu
+
+
+.. _typo3-fluid-be-pageinfo_arguments:
 
 Arguments
 =========

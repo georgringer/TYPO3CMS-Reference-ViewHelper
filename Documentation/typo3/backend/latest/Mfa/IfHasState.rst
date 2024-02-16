@@ -2,12 +2,15 @@
 
 .. _typo3-backend-mfa-ifhasstate:
 
-==============
-mfa.ifHasState
-==============
+====================================================
+mfa.ifHasState ViewHelper `<backend:mfa.ifHasState>`
+====================================================
 
 
 Check if the given provider for the current user has the requested state set
+
+
+.. _typo3-backend-mfa-ifhasstate_arguments:
 
 Arguments
 =========

@@ -2,9 +2,9 @@
 
 .. _typo3-backend-uri-editrecord:
 
-==============
-uri.editRecord
-==============
+====================================================
+uri.editRecord ViewHelper `<backend:uri.editRecord>`
+====================================================
 
 
 Use this ViewHelper to provide edit links (only the uri) to records. The ViewHelper will
@@ -28,6 +28,9 @@ page uid=42 and return to foo/bar::
    <be:uri.editRecord uid="42" table="pages" fields="title,subtitle" returnUrl="foo/bar" />
 
 ``<a href="/typo3/record/edit&edit[pages][42]=edit&returnUrl=foo/bar&columnsOnly=title,subtitle">``
+
+
+.. _typo3-backend-uri-editrecord_arguments:
 
 Arguments
 =========

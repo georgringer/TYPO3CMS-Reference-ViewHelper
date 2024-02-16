@@ -2,9 +2,9 @@
 
 .. _typo3-core-iconforresource:
 
-===============
-iconForResource
-===============
+===================================================
+iconForResource ViewHelper `<core:iconForResource>`
+===================================================
 
 
 Displays icon for a FAL resource (file or folder means a :php:`TYPO3\CMS\Core\Resource\ResourceInterface`).
@@ -23,6 +23,9 @@ Output::
             <img src="/typo3/sysext/core/Resources/Public/Icons/T3Icons/mimetypes/mimetypes-text-html.svg" width="16" height="16">
         </span>
     </span>
+
+
+.. _typo3-core-iconforresource_arguments:
 
 Arguments
 =========

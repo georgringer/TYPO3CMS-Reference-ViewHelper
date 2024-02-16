@@ -2,12 +2,15 @@
 
 .. _typo3-backend-toolbar-ifhasdropdown:
 
-=====================
-toolbar.ifHasDropdown
-=====================
+==================================================================
+toolbar.ifHasDropdown ViewHelper `<backend:toolbar.ifHasDropdown>`
+==================================================================
 
 
 Checks whether a toolbar item provides a dropdown menu
+
+
+.. _typo3-backend-toolbar-ifhasdropdown_arguments:
 
 Arguments
 =========

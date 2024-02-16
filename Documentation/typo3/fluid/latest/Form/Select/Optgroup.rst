@@ -2,13 +2,16 @@
 
 .. _typo3-fluid-form-select-optgroup:
 
-====================
-form.select.optgroup
-====================
+==============================================================
+form.select.optgroup ViewHelper `<fluid:form.select.optgroup>`
+==============================================================
 
 
 Adds custom :html:`<optgroup>` tags inside an :ref:`<f:form.select> <typo3-fluid-form-select>`,
 supports further child :ref:`<f:form.select.option> <typo3-fluid-form-select-option>` tags.
+
+
+.. _typo3-fluid-form-select-optgroup_arguments:
 
 Arguments
 =========

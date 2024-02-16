@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-textfield:
 
-==============
-form.textfield
-==============
+==================================================
+form.textfield ViewHelper `<fluid:form.textfield>`
+==================================================
 
 
 ViewHelper which creates a text field :html:`<input type="text">`.
@@ -19,6 +19,9 @@ Example::
 Output::
 
    <input type="text" name="myTextBox" value="default value" />
+
+
+.. _typo3-fluid-form-textfield_arguments:
 
 Arguments
 =========

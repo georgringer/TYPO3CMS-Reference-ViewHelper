@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-uri-page:
 
-========
-uri.page
-========
+======================================
+uri.page ViewHelper `<fluid:uri.page>`
+======================================
 
 
 A ViewHelper for creating URIs to TYPO3 pages.
@@ -44,6 +44,9 @@ Query parameters for extensions
 ``/page/path/name.html?extension_key[foo]=bar``
 
 Depending on current page, routing and page path configuration.
+
+
+.. _typo3-fluid-uri-page_arguments:
 
 Arguments
 =========

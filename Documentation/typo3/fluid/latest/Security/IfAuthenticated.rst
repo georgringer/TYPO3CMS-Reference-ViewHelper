@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-security-ifauthenticated:
 
-========================
-security.ifAuthenticated
-========================
+======================================================================
+security.ifAuthenticated ViewHelper `<fluid:security.ifAuthenticated>`
+======================================================================
 
 
 This ViewHelper implements an ifAuthenticated/else condition for frontend users.
@@ -40,6 +40,9 @@ IfAuthenticated / then / else
 
 Everything inside the :html:`<f:then></f:then>` tag is displayed if frontend user is authenticated.
 Otherwise, everything inside the :html:`<f:else></f:else>` tag is displayed.
+
+
+.. _typo3-fluid-security-ifauthenticated_arguments:
 
 Arguments
 =========

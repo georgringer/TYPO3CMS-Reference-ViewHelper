@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-spaceless:
 
-=========
-spaceless
-=========
+========================================
+spaceless ViewHelper `<fluid:spaceless>`
+========================================
 
 
 Space Removal ViewHelper
@@ -35,6 +35,9 @@ Output::
     <div><div><div>text
 
     text</div></div></div>
+
+
+.. _typo3fluid-fluid-spaceless_arguments:
 
 Arguments
 =========

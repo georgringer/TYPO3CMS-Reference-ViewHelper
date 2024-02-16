@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-sanitize-html:
 
-=============
-sanitize.html
-=============
+================================================
+sanitize.html ViewHelper `<fluid:sanitize.html>`
+================================================
 
 
 Passes a given content through `typo3/html-sanitizer` to mitigate potential
@@ -34,6 +34,9 @@ Inline notation
 ::
 
    {richTextFieldContent -> f:sanitize.html(build: 'default')}
+
+
+.. _typo3-fluid-sanitize-html_arguments:
 
 Arguments
 =========

@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-image:
 
-=====
-image
-=====
+================================
+image ViewHelper `<fluid:image>`
+================================
 
 
 Resizes a given image (if required) and renders the respective img tag.
@@ -76,6 +76,9 @@ Non-existent image
    <f:image src="NonExistingImage.png" alt="foo" />
 
 ``Could not get image resource for "NonExistingImage.png".``
+
+
+.. _typo3-fluid-image_arguments:
 
 Arguments
 =========

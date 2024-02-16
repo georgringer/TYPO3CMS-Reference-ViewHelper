@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-trim:
 
-===========
-format.trim
-===========
+============================================
+format.trim ViewHelper `<fluid:format.trim>`
+============================================
 
 
 This ViewHelper strips whitespace (or other characters) from the beginning and end of a string.
@@ -57,6 +57,9 @@ Trim special characters
 .. code-block:: text
 
    #ring to be trimmed#
+
+
+.. _typo3-fluid-format-trim_arguments:
 
 Arguments
 =========

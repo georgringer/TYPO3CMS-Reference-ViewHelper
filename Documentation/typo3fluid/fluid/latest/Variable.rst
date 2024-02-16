@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-variable:
 
-========
-variable
-========
+======================================
+variable ViewHelper `<fluid:variable>`
+======================================
 
 
 Variable assigning ViewHelper
@@ -25,6 +25,9 @@ Usages:
     <f:variable name="myvariable">some value</f:variable>
     {oldvariable -> f:format.htmlspecialchars() -> f:variable(name: 'newvariable')}
     <f:variable name="myvariable"><f:format.htmlspecialchars>{oldvariable}</f:format.htmlspecialchars></f:variable>
+
+
+.. _typo3fluid-fluid-variable_arguments:
 
 Arguments
 =========

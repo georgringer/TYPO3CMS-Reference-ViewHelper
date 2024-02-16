@@ -2,12 +2,15 @@
 
 .. _typo3-fluid-render:
 
-======
-render
-======
+==================================
+render ViewHelper `<fluid:render>`
+==================================
 
 
 
+
+
+.. _typo3-fluid-render_arguments:
 
 Arguments
 =========

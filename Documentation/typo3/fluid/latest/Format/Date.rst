@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-date:
 
-===========
-format.date
-===========
+============================================
+format.date ViewHelper `<fluid:format.date>`
+============================================
 
 
 Formats an object implementing :php:`\DateTimeInterface`.
@@ -104,6 +104,9 @@ Inline notation (2nd variant)
 
 ``1980-12-13``
 Depending on the value of ``{dateObject}``.
+
+
+.. _typo3-fluid-format-date_arguments:
 
 Arguments
 =========

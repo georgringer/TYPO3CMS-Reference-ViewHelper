@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-link-action:
 
-===========
-link.action
-===========
+============================================
+link.action ViewHelper `<fluid:link.action>`
+============================================
 
 
 A ViewHelper for creating links to extbase actions. Tailored for extbase plugins, uses extbase Request and extbase UriBuilder.
@@ -21,6 +21,9 @@ Output::
    <a href="index.php?id=123&tx_myextension_plugin[action]=show&tx_myextension_plugin[controller]=Standard&cHash=xyz">action link</a>
 
 Depending on the current page and your TypoScript configuration.
+
+
+.. _typo3-fluid-link-action_arguments:
 
 Arguments
 =========

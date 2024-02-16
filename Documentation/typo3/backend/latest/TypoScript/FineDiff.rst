@@ -2,12 +2,15 @@
 
 .. _typo3-backend-typoscript-finediff:
 
-===================
-typoScript.fineDiff
-===================
+==============================================================
+typoScript.fineDiff ViewHelper `<backend:typoScript.fineDiff>`
+==============================================================
 
 
 Runs two strings through 'FineDiff' on word level.
+
+
+.. _typo3-backend-typoscript-finediff_arguments:
 
 Arguments
 =========

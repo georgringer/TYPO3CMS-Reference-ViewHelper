@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-debug:
 
-=====
-debug
-=====
+================================
+debug ViewHelper `<fluid:debug>`
+================================
 
 
 This ViewHelper generates a HTML dump of the tagged variable.
@@ -36,6 +36,9 @@ All Features
        </f:debug>
 
 [A HTML view of the var_dump]
+
+
+.. _typo3-fluid-debug_arguments:
 
 Arguments
 =========

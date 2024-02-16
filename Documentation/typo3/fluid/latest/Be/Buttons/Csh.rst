@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-buttons-csh:
 
-==============
-be.buttons.csh
-==============
+==================================================
+be.buttons.csh ViewHelper `<fluid:be.buttons.csh>`
+==================================================
 
 
 ViewHelper which returns CSH (context sensitive help) button with icon.
@@ -39,6 +39,9 @@ Full configuration with content::
    </f:be.buttons.csh>
 
 A link with text "some text to link" to link the help.
+
+
+.. _typo3-fluid-be-buttons-csh_arguments:
 
 Arguments
 =========

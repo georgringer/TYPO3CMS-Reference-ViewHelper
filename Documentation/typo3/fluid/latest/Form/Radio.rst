@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-radio:
 
-==========
-form.radio
-==========
+==========================================
+form.radio ViewHelper `<fluid:form.radio>`
+==========================================
 
 
 ViewHelper which creates a simple radio button :html:`<input type="radio">`.
@@ -50,6 +50,9 @@ Output::
    <input type="radio" name="user[newsletter]" value="0" /> no
 
 Depending on property ``newsletter``.
+
+
+.. _typo3-fluid-form-radio_arguments:
 
 Arguments
 =========

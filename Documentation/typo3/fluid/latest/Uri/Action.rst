@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-uri-action:
 
-==========
-uri.action
-==========
+==========================================
+uri.action ViewHelper `<fluid:uri.action>`
+==========================================
 
 
 A ViewHelper for creating URIs to extbase actions. Tailored for extbase plugins, uses extbase Request and extbase UriBuilder.
@@ -19,6 +19,9 @@ URI to the show-action of the current controller::
 ``/page/path/name.html?tx_myextension_plugin[action]=show&tx_myextension_plugin[controller]=Standard&cHash=xyz``
 
 Depending on current page, routing and page path configuration.
+
+
+.. _typo3-fluid-uri-action_arguments:
 
 Arguments
 =========

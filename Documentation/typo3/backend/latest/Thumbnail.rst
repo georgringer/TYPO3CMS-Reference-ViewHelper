@@ -2,9 +2,9 @@
 
 .. _typo3-backend-thumbnail:
 
-=========
-thumbnail
-=========
+==========================================
+thumbnail ViewHelper `<backend:thumbnail>`
+==========================================
 
 
 ViewHelper for the backend which generates an :html:`<img>` tag with the special URI to render thumbnails deferred.
@@ -41,6 +41,9 @@ Output::
         height="64"
         alt="alt set in image record"
         title="title set in image record"/>
+
+
+.. _typo3-backend-thumbnail_arguments:
 
 Arguments
 =========
