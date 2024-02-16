@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-asset-css:
 
-========================================
-asset.css ViewHelper `<fluid:asset.css>`
-========================================
+====================================
+asset.css ViewHelper `<f:asset.css>`
+====================================
 
 
 ViewHelper to add CSS to the TYPO3 AssetCollector. Either a file or inline CSS can be added.

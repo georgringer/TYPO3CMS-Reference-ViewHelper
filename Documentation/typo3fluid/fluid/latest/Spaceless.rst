@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-spaceless:
 
-========================================
-spaceless ViewHelper `<fluid:spaceless>`
-========================================
+====================================
+spaceless ViewHelper `<f:spaceless>`
+====================================
 
 
 Space Removal ViewHelper

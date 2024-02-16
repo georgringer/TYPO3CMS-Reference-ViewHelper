@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-format-json:
 
-============================================
-format.json ViewHelper `<fluid:format.json>`
-============================================
+========================================
+format.json ViewHelper `<f:format.json>`
+========================================
 
 
 Wrapper for PHPs :php:`json_encode` function.

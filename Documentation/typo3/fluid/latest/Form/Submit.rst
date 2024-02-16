@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-submit:
 
-============================================
-form.submit ViewHelper `<fluid:form.submit>`
-============================================
+========================================
+form.submit ViewHelper `<f:form.submit>`
+========================================
 
 
 Creates a submit button.

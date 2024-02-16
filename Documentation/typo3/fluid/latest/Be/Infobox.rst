@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-infobox:
 
-==========================================
-be.infobox ViewHelper `<fluid:be.infobox>`
-==========================================
+======================================
+be.infobox ViewHelper `<f:be.infobox>`
+======================================
 
 
 ViewHelper for rendering a styled content infobox markup.

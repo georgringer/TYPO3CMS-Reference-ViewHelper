@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-for:
 
-============================
-for ViewHelper `<fluid:for>`
-============================
+========================
+for ViewHelper `<f:for>`
+========================
 
 
 Loop ViewHelper which can be used to iterate over arrays.

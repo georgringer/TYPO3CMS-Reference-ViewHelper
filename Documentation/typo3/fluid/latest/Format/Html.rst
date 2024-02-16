@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-html:
 
-============================================
-format.html ViewHelper `<fluid:format.html>`
-============================================
+========================================
+format.html ViewHelper `<f:format.html>`
+========================================
 
 
 Renders a string by passing it to a TYPO3 `parseFunc`_.

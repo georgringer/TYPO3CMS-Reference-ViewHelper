@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-link-email:
 
-==========================================
-link.email ViewHelper `<fluid:link.email>`
-==========================================
+======================================
+link.email ViewHelper `<f:link.email>`
+======================================
 
 
 Email link ViewHelper.

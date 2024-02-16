@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-htmlentities:
 
-============================================================
-format.htmlentities ViewHelper `<fluid:format.htmlentities>`
-============================================================
+========================================================
+format.htmlentities ViewHelper `<f:format.htmlentities>`
+========================================================
 
 
 Applies :php:`htmlentities()` escaping to a value.

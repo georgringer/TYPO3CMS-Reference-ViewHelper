@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-pagepath:
 
-============================================
-be.pagePath ViewHelper `<fluid:be.pagePath>`
-============================================
+========================================
+be.pagePath ViewHelper `<f:be.pagePath>`
+========================================
 
 
 ViewHelper which returns the current page path as known from TYPO3 backend modules.

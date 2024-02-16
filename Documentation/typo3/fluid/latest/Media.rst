@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-media:
 
-================================
-media ViewHelper `<fluid:media>`
-================================
+============================
+media ViewHelper `<f:media>`
+============================
 
 
 Render a given media file with the correct html tag.

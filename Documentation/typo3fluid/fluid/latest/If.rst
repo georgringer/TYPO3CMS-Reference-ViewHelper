@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-if:
 
-==========================
-if ViewHelper `<fluid:if>`
-==========================
+======================
+if ViewHelper `<f:if>`
+======================
 
 
 This ViewHelper implements an if/else condition.

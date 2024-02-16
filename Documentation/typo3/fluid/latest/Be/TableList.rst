@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-tablelist:
 
-==============================================
-be.tableList ViewHelper `<fluid:be.tableList>`
-==============================================
+==========================================
+be.tableList ViewHelper `<f:be.tableList>`
+==========================================
 
 
 ViewHelper which renders a record list as known from the TYPO3 list module.

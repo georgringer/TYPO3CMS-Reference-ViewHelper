@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-format-urlencode:
 
-======================================================
-format.urlencode ViewHelper `<fluid:format.urlencode>`
-======================================================
+==================================================
+format.urlencode ViewHelper `<f:format.urlencode>`
+==================================================
 
 
 Encodes the given string according to http://www.faqs.org/rfcs/rfc3986.html

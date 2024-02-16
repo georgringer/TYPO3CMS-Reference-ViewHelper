@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-comment:
 
-====================================
-comment ViewHelper `<fluid:comment>`
-====================================
+================================
+comment ViewHelper `<f:comment>`
+================================
 
 
 This ViewHelper prevents rendering of any content inside the tag.

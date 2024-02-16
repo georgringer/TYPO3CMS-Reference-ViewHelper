@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-format-cdata:
 
-==============================================
-format.cdata ViewHelper `<fluid:format.cdata>`
-==============================================
+==========================================
+format.cdata ViewHelper `<f:format.cdata>`
+==========================================
 
 
 Outputs an argument/value without any escaping and wraps it with CDATA tags.

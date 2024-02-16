@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-date:
 
-============================================
-format.date ViewHelper `<fluid:format.date>`
-============================================
+========================================
+format.date ViewHelper `<f:format.date>`
+========================================
 
 
 Formats an object implementing :php:`\DateTimeInterface`.

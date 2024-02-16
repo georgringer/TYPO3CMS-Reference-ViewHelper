@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-countryselect:
 
-==========================================================
-form.countrySelect ViewHelper `<fluid:form.countrySelect>`
-==========================================================
+======================================================
+form.countrySelect ViewHelper `<f:form.countrySelect>`
+======================================================
 
 
 Renders a :html:`<select>` tag with all available countries as options.
