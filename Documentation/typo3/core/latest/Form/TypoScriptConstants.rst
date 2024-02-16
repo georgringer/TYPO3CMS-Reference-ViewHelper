@@ -2,14 +2,17 @@
 
 .. _typo3-core-form-typoscriptconstants:
 
-========================
-form.typoScriptConstants
-========================
+=====================================================================
+form.typoScriptConstants ViewHelper `<core:form.typoScriptConstants>`
+=====================================================================
 
 
 ViewHelper for rendering
 - extension configuration forms in install tool (Settings -> Extension Configuration
 - site settings in Sites Module (site settings per site configuration)
+
+
+.. _typo3-core-form-typoscriptconstants_arguments:
 
 Arguments
 =========

@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-link-email:
 
-==========
-link.email
-==========
+==========================================
+link.email ViewHelper `<fluid:link.email>`
+==========================================
 
 
 Email link ViewHelper.
@@ -40,6 +40,9 @@ Output::
    <a href="javascript:linkTo_UnCryptMailto('ocknvq,hqqBdct0vnf');">some custom content</a>
 
 Depending on `spamProtectEmailAddresses`_ setting.
+
+
+.. _typo3-fluid-link-email_arguments:
 
 Arguments
 =========

@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-cache-static:
 
-============
-cache.static
-============
+==============================================
+cache.static ViewHelper `<fluid:cache.static>`
+==============================================
 
 
 ViewHelper to force compiling to a static string
@@ -59,6 +59,9 @@ Usage and effect
 This is also evaluated when compiled (static node is closed)::
 
     <f:if condition="{var}">Also evaluated; is outside static node</f:if>
+
+
+.. _typo3fluid-fluid-cache-static_arguments:
 
 Arguments
 =========

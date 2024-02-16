@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-validationresults:
 
-======================
-form.validationResults
-======================
+==================================================================
+form.validationResults ViewHelper `<fluid:form.validationResults>`
+==================================================================
 
 
 Validation results ViewHelper
@@ -53,6 +53,9 @@ Output::
    <ul class="errors">
      <li>1234567890: Some error message</li>
    </ul>
+
+
+.. _typo3-fluid-form-validationresults_arguments:
 
 Arguments
 =========

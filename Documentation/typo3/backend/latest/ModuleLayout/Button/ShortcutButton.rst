@@ -2,9 +2,9 @@
 
 .. _typo3-backend-modulelayout-button-shortcutbutton:
 
-==================================
-moduleLayout.button.shortcutButton
-==================================
+============================================================================================
+moduleLayout.button.shortcutButton ViewHelper `<backend:moduleLayout.button.shortcutButton>`
+============================================================================================
 
 
 A ViewHelper for adding a shortcut button to the doc header area.
@@ -21,6 +21,9 @@ Default::
    <be:moduleLayout>
        <be:moduleLayout.button.shortcutButton displayName="Shortcut label" arguments="{parameter: '{someValue}'}"/>
    </be:moduleLayout>
+
+
+.. _typo3-backend-modulelayout-button-shortcutbutton_arguments:
 
 Arguments
 =========

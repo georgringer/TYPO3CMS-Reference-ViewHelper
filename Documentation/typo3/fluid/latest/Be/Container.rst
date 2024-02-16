@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-container:
 
-============
-be.container
-============
+==============================================
+be.container ViewHelper `<fluid:be.container>`
+==============================================
 
 
 ViewHelper which allows you to create extbase based modules in the style of TYPO3 default modules.
@@ -34,6 +34,9 @@ Custom CSS file :file:`EXT:your_extension/Resources/Public/Css/styles.css` and
 JavaScript files :file:`EXT:your_extension/Resources/Public/JavaScript/Library1.js` and
 :file:`EXT:your_extension/Resources/Public/JavaScript/Library2.js`
 will be loaded, plus some inline labels for usage in JS code.
+
+
+.. _typo3-fluid-be-container_arguments:
 
 Arguments
 =========

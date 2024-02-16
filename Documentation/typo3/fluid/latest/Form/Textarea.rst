@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-textarea:
 
-=============
-form.textarea
-=============
+================================================
+form.textarea ViewHelper `<fluid:form.textarea>`
+================================================
 
 
 Generates an :html:`<textarea>`.
@@ -21,6 +21,9 @@ Example::
 Output::
 
    <textarea name="myTextArea">This is shown inside the textarea</textarea>
+
+
+.. _typo3-fluid-form-textarea_arguments:
 
 Arguments
 =========

@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-html:
 
-===========
-format.html
-===========
+============================================
+format.html ViewHelper `<fluid:format.html>`
+============================================
 
 
 Renders a string by passing it to a TYPO3 `parseFunc`_.
@@ -54,6 +54,9 @@ Output::
    foo <b>bar</b>. Some <a href="index.php?id=1" >link</a>.
 
 .. _parseFunc: https://docs.typo3.org/m/typo3/reference-typoscript/main/en-us/Functions/Parsefunc.html
+
+
+.. _typo3-fluid-format-html_arguments:
 
 Arguments
 =========

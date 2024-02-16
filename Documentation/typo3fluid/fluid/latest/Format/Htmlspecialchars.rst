@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-format-htmlspecialchars:
 
-=======================
-format.htmlspecialchars
-=======================
+====================================================================
+format.htmlspecialchars ViewHelper `<fluid:format.htmlspecialchars>`
+====================================================================
 
 
 Applies PHP ``htmlspecialchars()`` escaping to a value.
@@ -35,6 +35,9 @@ Inline notation
 Output::
 
     Text with & " ' < > * replaced by HTML entities (htmlspecialchars applied).
+
+
+.. _typo3fluid-fluid-format-htmlspecialchars_arguments:
 
 Arguments
 =========

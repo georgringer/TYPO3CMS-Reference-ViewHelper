@@ -2,9 +2,9 @@
 
 .. _typo3-core-iconforrecord:
 
-=============
-iconForRecord
-=============
+===============================================
+iconForRecord ViewHelper `<core:iconForRecord>`
+===============================================
 
 
 Displays icon for record.
@@ -23,6 +23,9 @@ Output::
             <img src="/typo3/sysext/core/Resources/Public/Icons/T3Icons/mimetypes/mimetypes-x-content-text.svg" width="16" height="16">
         </span>
     </span>
+
+
+.. _typo3-core-iconforrecord_arguments:
 
 Arguments
 =========

@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-alias:
 
-=====
-alias
-=====
+================================
+alias ViewHelper `<fluid:alias>`
+================================
 
 
 Declares new variables which are aliases of other variables.
@@ -45,6 +45,9 @@ Output::
     [name] or [name]
 
 Depending on ``{foo.bar.baz}``.
+
+
+.. _typo3fluid-fluid-alias_arguments:
 
 Arguments
 =========

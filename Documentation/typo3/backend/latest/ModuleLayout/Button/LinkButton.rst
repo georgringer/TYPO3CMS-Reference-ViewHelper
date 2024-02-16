@@ -2,9 +2,9 @@
 
 .. _typo3-backend-modulelayout-button-linkbutton:
 
-==============================
-moduleLayout.button.linkButton
-==============================
+====================================================================================
+moduleLayout.button.linkButton ViewHelper `<backend:moduleLayout.button.linkButton>`
+====================================================================================
 
 
 A ViewHelper for adding a link button to the doc header area.
@@ -22,6 +22,9 @@ Default::
            link="{be:uri.newRecord(table: 'tx_my_table')}"
        />
    </be:moduleLayout>
+
+
+.. _typo3-backend-modulelayout-button-linkbutton_arguments:
 
 Arguments
 =========

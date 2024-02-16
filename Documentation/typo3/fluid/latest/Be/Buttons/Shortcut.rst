@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-buttons-shortcut:
 
-===================
-be.buttons.shortcut
-===================
+============================================================
+be.buttons.shortcut ViewHelper `<fluid:be.buttons.shortcut>`
+============================================================
 
 
 ViewHelper which returns shortcut button with icon.
@@ -32,6 +32,9 @@ This time only the specified GET parameters and SET[]-settings will be stored.
 .. note:
 
    Normally you won't need to set getVars & setVars parameters in Extbase modules.
+
+
+.. _typo3-fluid-be-buttons-shortcut_arguments:
 
 Arguments
 =========

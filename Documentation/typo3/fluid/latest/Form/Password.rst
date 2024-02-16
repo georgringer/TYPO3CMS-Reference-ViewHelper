@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-password:
 
-=============
-form.password
-=============
+================================================
+form.password ViewHelper `<fluid:form.password>`
+================================================
 
 
 ViewHelper which creates a simple Password Text Box :html:`<input type="password">`.
@@ -19,6 +19,9 @@ Example::
 Output::
 
    <input type="password" name="myPassword" value="default value" />
+
+
+.. _typo3-fluid-form-password_arguments:
 
 Arguments
 =========

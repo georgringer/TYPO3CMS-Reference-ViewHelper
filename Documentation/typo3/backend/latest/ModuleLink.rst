@@ -2,9 +2,9 @@
 
 .. _typo3-backend-modulelink:
 
-==========
-moduleLink
-==========
+============================================
+moduleLink ViewHelper `<backend:moduleLink>`
+============================================
 
 
 Create internal link within backend.
@@ -23,6 +23,9 @@ Output::
     <form action="/pages/new" method="post">
         <!-- form content -->
     </form>
+
+
+.. _typo3-backend-modulelink_arguments:
 
 Arguments
 =========

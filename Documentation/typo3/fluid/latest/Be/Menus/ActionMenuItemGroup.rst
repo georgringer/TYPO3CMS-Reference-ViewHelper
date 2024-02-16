@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-menus-actionmenuitemgroup:
 
-============================
-be.menus.actionMenuItemGroup
-============================
+==============================================================================
+be.menus.actionMenuItemGroup ViewHelper `<fluid:be.menus.actionMenuItemGroup>`
+==============================================================================
 
 
 ViewHelper which groups options of an option tag.
@@ -26,6 +26,9 @@ Example
          <f:be.menus.actionMenuItem label="XClasses" controller="Information" action="xclass" />
      </f:be.menus.actionMenuItemGroup>
  </f:be.menus.actionMenu>
+
+
+.. _typo3-fluid-be-menus-actionmenuitemgroup_arguments:
 
 Arguments
 =========

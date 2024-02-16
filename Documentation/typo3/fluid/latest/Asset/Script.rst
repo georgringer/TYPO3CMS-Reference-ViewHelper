@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-asset-script:
 
-============
-asset.script
-============
+==============================================
+asset.script ViewHelper `<fluid:asset.script>`
+==============================================
 
 
 ScriptViewHelper
@@ -18,6 +18,9 @@ Examples
    <f:asset.script identifier="identifier123">
       alert('hello world');
    </f:asset.script>
+
+
+.. _typo3-fluid-asset-script_arguments:
 
 Arguments
 =========

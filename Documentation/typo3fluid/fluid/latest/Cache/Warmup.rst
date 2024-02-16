@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-cache-warmup:
 
-============
-cache.warmup
-============
+==============================================
+cache.warmup ViewHelper `<fluid:cache.warmup>`
+==============================================
 
 
 ViewHelper to insert variables which only apply during
@@ -50,6 +50,9 @@ Usage and effect
        assigned if the variable does not already exist and the
        assignment only happens if Fluid is in warmup mode.
     </f:cache.warmup>
+
+
+.. _typo3fluid-fluid-cache-warmup_arguments:
 
 Arguments
 =========

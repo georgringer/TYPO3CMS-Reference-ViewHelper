@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-count:
 
-=====
-count
-=====
+================================
+count ViewHelper `<fluid:count>`
+================================
 
 
 This ViewHelper counts elements of the specified array or countable object.
@@ -33,6 +33,9 @@ inline notation
 Output::
 
     10 (depending on the number of items in ``{objects}``)
+
+
+.. _typo3fluid-fluid-count_arguments:
 
 Arguments
 =========

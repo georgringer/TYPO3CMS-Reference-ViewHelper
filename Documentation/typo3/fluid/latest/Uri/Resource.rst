@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-uri-resource:
 
-============
-uri.resource
-============
+==============================================
+uri.resource ViewHelper `<fluid:uri.resource>`
+==============================================
 
 
 A ViewHelper for creating URIs to resources.
@@ -50,6 +50,9 @@ Output::
    <link href="typo3conf/ext/another_extension/Resources/Public/Css/Stylesheet.css" rel="stylesheet" />
 
 Magically adds 'Resources/Public' to path.
+
+
+.. _typo3-fluid-uri-resource_arguments:
 
 Arguments
 =========

@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-bytes:
 
-============
-format.bytes
-============
+==============================================
+format.bytes ViewHelper `<fluid:format.bytes>`
+==============================================
 
 
 Formats an integer with a byte count into human readable form.
@@ -43,6 +43,9 @@ Custom units
 
 ``123 KB``
 Depending on the value of ``{fileSize}``.
+
+
+.. _typo3-fluid-format-bytes_arguments:
 
 Arguments
 =========

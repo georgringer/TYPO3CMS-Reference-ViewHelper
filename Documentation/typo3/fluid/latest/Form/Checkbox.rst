@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-checkbox:
 
-=============
-form.checkbox
-=============
+================================================
+form.checkbox ViewHelper `<fluid:form.checkbox>`
+================================================
 
 
 ViewHelper which creates a simple checkbox :html:`<input type="checkbox">`.
@@ -48,6 +48,9 @@ Output::
    <input type="checkbox" name="user[interests][]" value="TYPO3" checked="checked" />
 
 Depending on property ``interests``.
+
+
+.. _typo3-fluid-form-checkbox_arguments:
 
 Arguments
 =========

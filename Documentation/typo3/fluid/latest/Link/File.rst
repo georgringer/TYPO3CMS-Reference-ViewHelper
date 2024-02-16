@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-link-file:
 
-=========
-link.file
-=========
+========================================
+link.file ViewHelper `<fluid:link.file>`
+========================================
 
 
 A ViewHelper for creating links to a file (FAL).
@@ -41,6 +41,9 @@ Output of a public file::
 Output of a non-public file::
 
    <a href="https://example.com/index.php?eID=dumpFile&t=f&f=123&dl=1&fn=alternative-name.jpg&token=79bce812">Download file</a>
+
+
+.. _typo3-fluid-link-file_arguments:
 
 Arguments
 =========

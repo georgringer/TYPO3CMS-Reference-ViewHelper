@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-labels-csh:
 
-=============
-be.labels.csh
-=============
+================================================
+be.labels.csh ViewHelper `<fluid:be.labels.csh>`
+================================================
 
 
 ViewHelper which returns CSH (context sensitive help) label with icon hover.
@@ -31,6 +31,9 @@ Full configuration::
    <f:be.labels.csh table="xMOD_csh_corebe" field="someCshKey" label="lang/Resources/Private/Language/locallang/header.languages" />
 
 CSH label as known from the TYPO3 backend with some custom settings.
+
+
+.. _typo3-fluid-be-labels-csh_arguments:
 
 Arguments
 =========

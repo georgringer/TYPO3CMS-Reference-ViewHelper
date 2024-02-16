@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-link-page:
 
-=========
-link.page
-=========
+========================================
+link.page ViewHelper `<fluid:link.page>`
+========================================
 
 
 A ViewHelper for creating links to TYPO3 pages.
@@ -50,6 +50,9 @@ Output::
    <a href="/page/path/name.html?extension_key[foo]=bar">page link</a>
 
 Depending on current page, routing and page path configuration.
+
+
+.. _typo3-fluid-link-page_arguments:
 
 Arguments
 =========

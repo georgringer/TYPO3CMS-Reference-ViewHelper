@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-render:
 
-======
-render
-======
+==================================
+render ViewHelper `<fluid:render>`
+==================================
 
 
 A ViewHelper to render a section, a partial, a specified section in a partial
@@ -95,6 +95,9 @@ recursive rendering, contentAs argument, default value etc.
 
 Note that while ParsedTemplateInterface supports returning a Layout name, this Layout will not
 be respected when rendering using this method. Only the ``render()`` method will be called!
+
+
+.. _typo3fluid-fluid-render_arguments:
 
 Arguments
 =========

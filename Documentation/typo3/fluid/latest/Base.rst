@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-base:
 
-====
-base
-====
+==============================
+base ViewHelper `<fluid:base>`
+==============================
 
 
 ViewHelper which creates a :html:`<base href="..."></base>` tag.
@@ -23,6 +23,9 @@ Output::
    <base href="http://yourdomain.tld/" />
 
 Depending on your domain.
+
+
+.. _typo3-fluid-base_arguments:
 
 Arguments
 =========

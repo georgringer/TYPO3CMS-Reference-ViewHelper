@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-uri-external:
 
-============
-uri.external
-============
+==============================================
+uri.external ViewHelper `<fluid:uri.external>`
+==============================================
 
 
 A ViewHelper for creating URIs to external targets.
@@ -30,6 +30,9 @@ Custom default scheme
    <f:uri.external uri="typo3.org" defaultScheme="ftp" />
 
 ``ftp://typo3.org``
+
+
+.. _typo3-fluid-uri-external_arguments:
 
 Arguments
 =========

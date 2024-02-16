@@ -2,9 +2,9 @@
 
 .. _typo3-backend-modulelayout:
 
-============
-moduleLayout
-============
+================================================
+moduleLayout ViewHelper `<backend:moduleLayout>`
+================================================
 
 
 A ViewHelper for having properly styled backend modules.
@@ -25,6 +25,9 @@ Default::
 Output::
 
    <!-- HTML of the backend module -->
+
+
+.. _typo3-backend-modulelayout_arguments:
 
 Arguments
 =========

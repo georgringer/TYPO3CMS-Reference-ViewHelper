@@ -2,9 +2,9 @@
 
 .. _typo3-backend-modulelayout-menuitem:
 
-=====================
-moduleLayout.menuItem
-=====================
+==================================================================
+moduleLayout.menuItem ViewHelper `<backend:moduleLayout.menuItem>`
+==================================================================
 
 
 A ViewHelper for adding a menu item to a doc header menu.
@@ -20,6 +20,9 @@ Default::
            <be:moduleLayout.menuItem label="Menu item 1" uri="{f:uri.action(action: 'index')}"/>
        </be:moduleLayout.menu>
    </be:moduleLayout>
+
+
+.. _typo3-backend-modulelayout-menuitem_arguments:
 
 Arguments
 =========

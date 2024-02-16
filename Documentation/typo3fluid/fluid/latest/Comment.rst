@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-comment:
 
-=======
-comment
-=======
+====================================
+comment ViewHelper `<fluid:comment>`
+====================================
 
 
 This ViewHelper prevents rendering of any content inside the tag.
@@ -51,6 +51,9 @@ Prevent parsing
 Output:
 
 Will be nothing.
+
+
+.. _typo3fluid-fluid-comment_arguments:
 
 Arguments
 =========

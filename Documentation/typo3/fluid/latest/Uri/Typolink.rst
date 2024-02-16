@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-uri-typolink:
 
-============
-uri.typolink
-============
+==============================================
+uri.typolink ViewHelper `<fluid:uri.typolink>`
+==============================================
 
 
 A ViewHelper to create uris from fields supported by the link wizard.
@@ -39,6 +39,9 @@ Full parameter usage
 ``/page/path/name.html?X=y&u=b``
 
 Depending on routing and page path configuration.
+
+
+.. _typo3-fluid-uri-typolink_arguments:
 
 Arguments
 =========

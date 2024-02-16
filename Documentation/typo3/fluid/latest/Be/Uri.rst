@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-uri:
 
-======
-be.uri
-======
+==================================
+be.uri ViewHelper `<fluid:be.uri>`
+==================================
 
 
 A ViewHelper for creating URIs to modules.
@@ -23,6 +23,9 @@ Inline notation::
    {f:be.uri(route: 'web_ts', parameters: '{id: 92}')}
 
 ``/typo3/module/web/ts?token=b6e9c9f&id=92``
+
+
+.. _typo3-fluid-be-uri_arguments:
 
 Arguments
 =========

@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-asset-css:
 
-=========
-asset.css
-=========
+========================================
+asset.css ViewHelper `<fluid:asset.css>`
+========================================
 
 
 CssViewHelper
@@ -18,6 +18,9 @@ Examples
    <f:asset.css identifier="identifier123">
       .foo { color: black; }
    </f:asset.css>
+
+
+.. _typo3-fluid-asset-css_arguments:
 
 Arguments
 =========

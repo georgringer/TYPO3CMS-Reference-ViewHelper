@@ -2,9 +2,9 @@
 
 .. _typo3-backend-avatar:
 
-======
-avatar
-======
+====================================
+avatar ViewHelper `<backend:avatar>`
+====================================
 
 
 Render the avatar markup, including the :html:`<img>` tag, for a given backend user.
@@ -43,6 +43,9 @@ Output::
            <img src="/fileadmin/_processed_/7/9/csm_custom-avatar_4ea4a18f58.jpg" width="32" height="32" />
        </span>
    </span>
+
+
+.. _typo3-backend-avatar_arguments:
 
 Arguments
 =========

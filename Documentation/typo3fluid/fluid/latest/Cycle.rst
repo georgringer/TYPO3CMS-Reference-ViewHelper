@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-cycle:
 
-=====
-cycle
-=====
+================================
+cycle ViewHelper `<fluid:cycle>`
+================================
 
 
 This ViewHelper cycles through the specified values.
@@ -55,6 +55,9 @@ Output::
         <li class="odd">3</li>
         <li class="even">4</li>
     </ul>
+
+
+.. _typo3fluid-fluid-cycle_arguments:
 
 Arguments
 =========

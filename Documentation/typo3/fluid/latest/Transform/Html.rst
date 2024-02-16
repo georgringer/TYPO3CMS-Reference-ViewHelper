@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-transform-html:
 
-==============
-transform.html
-==============
+==================================================
+transform.html ViewHelper `<fluid:transform.html>`
+==================================================
 
 
 Transforms HTML and substitutes internal link scheme aspects.
@@ -31,6 +31,9 @@ Inline notation
 ::
 
    {content -> f:transform.html(selector:'a.href', onFailure:'removeEnclosure')}
+
+
+.. _typo3-fluid-transform-html_arguments:
 
 Arguments
 =========

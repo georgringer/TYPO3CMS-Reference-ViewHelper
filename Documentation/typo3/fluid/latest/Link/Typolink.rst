@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-link-typolink:
 
-=============
-link.typolink
-=============
+================================================
+link.typolink ViewHelper `<fluid:link.typolink>`
+================================================
 
 
 A ViewHelper to create links from fields supported by the link wizard
@@ -69,6 +69,9 @@ Output::
    </a>
 
 Depending on routing and page path configuration.
+
+
+.. _typo3-fluid-link-typolink_arguments:
 
 Arguments
 =========

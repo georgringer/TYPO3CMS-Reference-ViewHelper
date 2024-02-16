@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-uri-email:
 
-=========
-uri.email
-=========
+========================================
+uri.email ViewHelper `<fluid:uri.email>`
+========================================
 
 
 Email URI ViewHelper.
@@ -24,6 +24,9 @@ Output::
    javascript:linkTo_UnCryptMailto('ocknvq,hqqBdct0vnf');
 
 Depending on `spamProtectEmailAddresses`_ setting.
+
+
+.. _typo3-fluid-uri-email_arguments:
 
 Arguments
 =========

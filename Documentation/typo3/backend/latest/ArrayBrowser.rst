@@ -2,12 +2,15 @@
 
 .. _typo3-backend-arraybrowser:
 
-============
-arrayBrowser
-============
+================================================
+arrayBrowser ViewHelper `<backend:arrayBrowser>`
+================================================
 
 
 Renders a given array as tree
+
+
+.. _typo3-backend-arraybrowser_arguments:
 
 Arguments
 =========

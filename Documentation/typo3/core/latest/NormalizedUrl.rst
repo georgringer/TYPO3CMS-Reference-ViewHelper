@@ -2,9 +2,9 @@
 
 .. _typo3-core-normalizedurl:
 
-=============
-normalizedUrl
-=============
+===============================================
+normalizedUrl ViewHelper `<core:normalizedUrl>`
+===============================================
 
 
 Normalizes a path that uses EXT: syntax or an absolute URL to an absolute web path
@@ -27,6 +27,9 @@ Path::
 Output::
 
     /typo3/sysext/core/Resources/Public/Images/typo3_black.svg
+
+
+.. _typo3-core-normalizedurl_arguments:
 
 Arguments
 =========
