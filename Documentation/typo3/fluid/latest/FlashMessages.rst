@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-flashmessages:
 
-================================================
-flashMessages ViewHelper `<fluid:flashMessages>`
-================================================
+============================================
+flashMessages ViewHelper `<f:flashMessages>`
+============================================
 
 
 ViewHelper which renders the flash messages (if there are any) as an unsorted list.

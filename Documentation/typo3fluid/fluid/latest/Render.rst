@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-render:
 
-==================================
-render ViewHelper `<fluid:render>`
-==================================
+==============================
+render ViewHelper `<f:render>`
+==============================
 
 
 A ViewHelper to render a section, a partial, a specified section in a partial

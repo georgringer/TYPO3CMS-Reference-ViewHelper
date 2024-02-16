@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-security-ifauthenticated:
 
-============================================================================
-be.security.ifAuthenticated ViewHelper `<fluid:be.security.ifAuthenticated>`
-============================================================================
+========================================================================
+be.security.ifAuthenticated ViewHelper `<f:be.security.ifAuthenticated>`
+========================================================================
 
 
 This ViewHelper implements an ifAuthenticated/else condition for backend

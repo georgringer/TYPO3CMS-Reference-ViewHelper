@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-crop:
 
-============================================
-format.crop ViewHelper `<fluid:format.crop>`
-============================================
+========================================
+format.crop ViewHelper `<f:format.crop>`
+========================================
 
 
 Use this ViewHelper to crop the text between its opening and closing tags.

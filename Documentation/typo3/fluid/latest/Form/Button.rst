@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-button:
 
-============================================
-form.button ViewHelper `<fluid:form.button>`
-============================================
+========================================
+form.button ViewHelper `<f:form.button>`
+========================================
 
 
 Creates a button.

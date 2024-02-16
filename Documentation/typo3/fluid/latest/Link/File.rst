@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-link-file:
 
-========================================
-link.file ViewHelper `<fluid:link.file>`
-========================================
+====================================
+link.file ViewHelper `<f:link.file>`
+====================================
 
 
 A ViewHelper for creating links to a file (FAL).

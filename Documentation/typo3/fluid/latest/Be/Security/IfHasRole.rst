@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-security-ifhasrole:
 
-================================================================
-be.security.ifHasRole ViewHelper `<fluid:be.security.ifHasRole>`
-================================================================
+============================================================
+be.security.ifHasRole ViewHelper `<f:be.security.ifHasRole>`
+============================================================
 
 
 This ViewHelper implements an ifHasRole/else condition for backend users

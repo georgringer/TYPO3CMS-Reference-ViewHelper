@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-alias:
 
-================================
-alias ViewHelper `<fluid:alias>`
-================================
+============================
+alias ViewHelper `<f:alias>`
+============================
 
 
 Declares new variables which are aliases of other variables.

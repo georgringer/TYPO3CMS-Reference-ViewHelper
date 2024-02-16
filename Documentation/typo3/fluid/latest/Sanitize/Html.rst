@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-sanitize-html:
 
-================================================
-sanitize.html ViewHelper `<fluid:sanitize.html>`
-================================================
+============================================
+sanitize.html ViewHelper `<f:sanitize.html>`
+============================================
 
 
 Passes a given content through `typo3/html-sanitizer` to mitigate potential

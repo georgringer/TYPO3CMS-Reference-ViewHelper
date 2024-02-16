@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-uri-page:
 
-======================================
-uri.page ViewHelper `<fluid:uri.page>`
-======================================
+==================================
+uri.page ViewHelper `<f:uri.page>`
+==================================
 
 
 A ViewHelper for creating URIs to TYPO3 pages.

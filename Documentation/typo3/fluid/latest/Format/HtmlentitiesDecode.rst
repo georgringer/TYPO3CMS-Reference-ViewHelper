@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-htmlentitiesdecode:
 
-========================================================================
-format.htmlentitiesDecode ViewHelper `<fluid:format.htmlentitiesDecode>`
-========================================================================
+====================================================================
+format.htmlentitiesDecode ViewHelper `<f:format.htmlentitiesDecode>`
+====================================================================
 
 
 Applies :php:`html_entity_decode()` to a value.

@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-layout:
 
-==================================
-layout ViewHelper `<fluid:layout>`
-==================================
+==============================
+layout ViewHelper `<f:layout>`
+==============================
 
 
 With this tag, you can select a layout to be used for the current template.

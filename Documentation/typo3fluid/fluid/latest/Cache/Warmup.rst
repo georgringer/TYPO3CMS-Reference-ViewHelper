@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-cache-warmup:
 
-==============================================
-cache.warmup ViewHelper `<fluid:cache.warmup>`
-==============================================
+==========================================
+cache.warmup ViewHelper `<f:cache.warmup>`
+==========================================
 
 
 ViewHelper to insert variables which only apply during

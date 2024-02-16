@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-bytes:
 
-==============================================
-format.bytes ViewHelper `<fluid:format.bytes>`
-==============================================
+==========================================
+format.bytes ViewHelper `<f:format.bytes>`
+==========================================
 
 
 Formats an integer with a byte count into human readable form.

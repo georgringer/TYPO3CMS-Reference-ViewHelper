@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-variable:
 
-======================================
-variable ViewHelper `<fluid:variable>`
-======================================
+==================================
+variable ViewHelper `<f:variable>`
+==================================
 
 
 Variable assigning ViewHelper

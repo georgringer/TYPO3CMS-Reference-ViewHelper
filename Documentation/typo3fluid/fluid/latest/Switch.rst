@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-switch:
 
-==================================
-switch ViewHelper `<fluid:switch>`
-==================================
+==============================
+switch ViewHelper `<f:switch>`
+==============================
 
 
 Switch ViewHelper which can be used to render content depending on a value or expression.

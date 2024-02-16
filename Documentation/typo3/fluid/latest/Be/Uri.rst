@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-uri:
 
-==================================
-be.uri ViewHelper `<fluid:be.uri>`
-==================================
+==============================
+be.uri ViewHelper `<f:be.uri>`
+==============================
 
 
 A ViewHelper for creating URIs to modules.

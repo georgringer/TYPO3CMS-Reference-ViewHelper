@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-translate:
 
-========================================
-translate ViewHelper `<fluid:translate>`
-========================================
+====================================
+translate ViewHelper `<f:translate>`
+====================================
 
 
 Translate a key from locallang. The files are loaded from the folder

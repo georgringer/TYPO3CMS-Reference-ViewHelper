@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-format-htmlspecialchars:
 
-====================================================================
-format.htmlspecialchars ViewHelper `<fluid:format.htmlspecialchars>`
-====================================================================
+================================================================
+format.htmlspecialchars ViewHelper `<f:format.htmlspecialchars>`
+================================================================
 
 
 Applies PHP ``htmlspecialchars()`` escaping to a value.

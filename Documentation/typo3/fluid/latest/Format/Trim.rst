@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-trim:
 
-============================================
-format.trim ViewHelper `<fluid:format.trim>`
-============================================
+========================================
+format.trim ViewHelper `<f:format.trim>`
+========================================
 
 
 This ViewHelper strips whitespace (or other characters) from the beginning and end of a string.

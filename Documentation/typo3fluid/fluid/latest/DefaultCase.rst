@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-defaultcase:
 
-============================================
-defaultCase ViewHelper `<fluid:defaultCase>`
-============================================
+========================================
+defaultCase ViewHelper `<f:defaultCase>`
+========================================
 
 
 A ViewHelper which specifies the "default" case when used within the ``f:switch`` ViewHelper.
