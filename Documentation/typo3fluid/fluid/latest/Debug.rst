@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-debug:
 
-================================
-debug ViewHelper `<fluid:debug>`
-================================
+============================
+debug ViewHelper `<f:debug>`
+============================
 
 
 This ViewHelper is only meant to be used during development.

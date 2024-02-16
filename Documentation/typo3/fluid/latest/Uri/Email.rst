@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-uri-email:
 
-========================================
-uri.email ViewHelper `<fluid:uri.email>`
-========================================
+====================================
+uri.email ViewHelper `<f:uri.email>`
+====================================
 
 
 Email URI ViewHelper.

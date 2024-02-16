@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-cache-disable:
 
-================================================
-cache.disable ViewHelper `<fluid:cache.disable>`
-================================================
+============================================
+cache.disable ViewHelper `<f:cache.disable>`
+============================================
 
 
 ViewHelper to disable template compiling

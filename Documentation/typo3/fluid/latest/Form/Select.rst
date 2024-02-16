@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-select:
 
-============================================
-form.select ViewHelper `<fluid:form.select>`
-============================================
+========================================
+form.select ViewHelper `<f:form.select>`
+========================================
 
 
 This ViewHelper generates a :html:`<select>` dropdown list for the use with a form.

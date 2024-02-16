@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-number:
 
-================================================
-format.number ViewHelper `<fluid:format.number>`
-================================================
+============================================
+format.number ViewHelper `<f:format.number>`
+============================================
 
 
 Formats a number with custom precision, decimal point and grouped thousands.

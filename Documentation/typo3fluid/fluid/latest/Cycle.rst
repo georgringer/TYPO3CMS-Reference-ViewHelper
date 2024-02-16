@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-cycle:
 
-================================
-cycle ViewHelper `<fluid:cycle>`
-================================
+============================
+cycle ViewHelper `<f:cycle>`
+============================
 
 
 This ViewHelper cycles through the specified values.

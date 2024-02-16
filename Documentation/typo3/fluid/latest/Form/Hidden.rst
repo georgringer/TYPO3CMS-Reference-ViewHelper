@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-hidden:
 
-============================================
-form.hidden ViewHelper `<fluid:form.hidden>`
-============================================
+========================================
+form.hidden ViewHelper `<f:form.hidden>`
+========================================
 
 
 Renders an :html:`<input type="hidden" ...>` tag.

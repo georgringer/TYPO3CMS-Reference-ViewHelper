@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-uri-action:
 
-==========================================
-uri.action ViewHelper `<fluid:uri.action>`
-==========================================
+======================================
+uri.action ViewHelper `<f:uri.action>`
+======================================
 
 
 A ViewHelper for creating URIs to extbase actions.

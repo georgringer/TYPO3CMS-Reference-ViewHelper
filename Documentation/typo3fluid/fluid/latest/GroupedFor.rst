@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-groupedfor:
 
-==========================================
-groupedFor ViewHelper `<fluid:groupedFor>`
-==========================================
+======================================
+groupedFor ViewHelper `<f:groupedFor>`
+======================================
 
 
 Grouped loop ViewHelper.

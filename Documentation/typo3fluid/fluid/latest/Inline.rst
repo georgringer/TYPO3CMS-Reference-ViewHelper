@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-inline:
 
-==================================
-inline ViewHelper `<fluid:inline>`
-==================================
+==============================
+inline ViewHelper `<f:inline>`
+==============================
 
 
 Inline Fluid rendering ViewHelper

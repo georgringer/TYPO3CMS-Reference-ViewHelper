@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-asset-css:
 
-========================================
-asset.css ViewHelper `<fluid:asset.css>`
-========================================
+====================================
+asset.css ViewHelper `<f:asset.css>`
+====================================
 
 
 CssViewHelper

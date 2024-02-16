@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-padding:
 
-==================================================
-format.padding ViewHelper `<fluid:format.padding>`
-==================================================
+==============================================
+format.padding ViewHelper `<f:format.padding>`
+==============================================
 
 
 Formats a string using PHPs :php:`str_pad` function.

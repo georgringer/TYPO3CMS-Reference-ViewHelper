@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-case:
 
-==============================
-case ViewHelper `<fluid:case>`
-==============================
+==========================
+case ViewHelper `<f:case>`
+==========================
 
 
 Case ViewHelper that is only usable within the ``f:switch`` ViewHelper.

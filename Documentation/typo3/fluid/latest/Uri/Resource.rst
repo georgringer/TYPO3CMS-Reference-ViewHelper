@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-uri-resource:
 
-==============================================
-uri.resource ViewHelper `<fluid:uri.resource>`
-==============================================
+==========================================
+uri.resource ViewHelper `<f:uri.resource>`
+==========================================
 
 
 A ViewHelper for creating URIs to resources.

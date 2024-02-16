@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-format-printf:
 
-================================================
-format.printf ViewHelper `<fluid:format.printf>`
-================================================
+============================================
+format.printf ViewHelper `<f:format.printf>`
+============================================
 
 
 A ViewHelper for formatting values with printf. Either supply an array for

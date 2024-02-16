@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-cache-static:
 
-==============================================
-cache.static ViewHelper `<fluid:cache.static>`
-==============================================
+==========================================
+cache.static ViewHelper `<f:cache.static>`
+==========================================
 
 
 ViewHelper to force compiling to a static string

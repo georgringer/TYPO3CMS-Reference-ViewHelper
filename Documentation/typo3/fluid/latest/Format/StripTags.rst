@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-striptags:
 
-======================================================
-format.stripTags ViewHelper `<fluid:format.stripTags>`
-======================================================
+==================================================
+format.stripTags ViewHelper `<f:format.stripTags>`
+==================================================
 
 
 Removes tags from the given string (applying PHPs :php:`strip_tags()` function)

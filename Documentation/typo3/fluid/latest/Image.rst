@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-image:
 
-================================
-image ViewHelper `<fluid:image>`
-================================
+============================
+image ViewHelper `<f:image>`
+============================
 
 
 Resizes a given image (if required) and renders the respective img tag.

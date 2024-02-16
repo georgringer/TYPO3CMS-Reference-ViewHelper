@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-uri-external:
 
-==============================================
-uri.external ViewHelper `<fluid:uri.external>`
-==============================================
+==========================================
+uri.external ViewHelper `<f:uri.external>`
+==========================================
 
 
 A ViewHelper for creating URIs to external targets.

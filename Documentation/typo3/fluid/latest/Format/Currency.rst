@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-currency:
 
-====================================================
-format.currency ViewHelper `<fluid:format.currency>`
-====================================================
+================================================
+format.currency ViewHelper `<f:format.currency>`
+================================================
 
 
 Formats a given float to a currency representation.

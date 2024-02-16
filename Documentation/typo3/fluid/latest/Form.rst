@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form:
 
-==============================
-form ViewHelper `<fluid:form>`
-==============================
+==========================
+form ViewHelper `<f:form>`
+==========================
 
 
 Form ViewHelper. Generates a :html:`<form>` Tag.

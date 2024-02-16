@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-base:
 
-==============================
-base ViewHelper `<fluid:base>`
-==============================
+==========================
+base ViewHelper `<f:base>`
+==========================
 
 
 ViewHelper which creates a :html:`<base href="..."></base>` tag.

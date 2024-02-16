@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-link-action:
 
-============================================
-link.action ViewHelper `<fluid:link.action>`
-============================================
+========================================
+link.action ViewHelper `<f:link.action>`
+========================================
 
 
 A ViewHelper for creating links to extbase actions.

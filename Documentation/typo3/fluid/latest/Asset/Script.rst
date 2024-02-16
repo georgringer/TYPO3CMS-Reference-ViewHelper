@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-asset-script:
 
-==============================================
-asset.script ViewHelper `<fluid:asset.script>`
-==============================================
+==========================================
+asset.script ViewHelper `<f:asset.script>`
+==========================================
 
 
 ScriptViewHelper

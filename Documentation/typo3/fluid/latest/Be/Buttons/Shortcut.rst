@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-buttons-shortcut:
 
-============================================================
-be.buttons.shortcut ViewHelper `<fluid:be.buttons.shortcut>`
-============================================================
+========================================================
+be.buttons.shortcut ViewHelper `<f:be.buttons.shortcut>`
+========================================================
 
 
 ViewHelper which returns shortcut button with icon.

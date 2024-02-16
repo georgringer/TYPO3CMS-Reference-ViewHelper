@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-container:
 
-==============================================
-be.container ViewHelper `<fluid:be.container>`
-==============================================
+==========================================
+be.container ViewHelper `<f:be.container>`
+==========================================
 
 
 ViewHelper which allows you to create extbase based modules in the style of TYPO3 default modules.

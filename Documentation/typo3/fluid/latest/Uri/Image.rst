@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-uri-image:
 
-========================================
-uri.image ViewHelper `<fluid:uri.image>`
-========================================
+====================================
+uri.image ViewHelper `<f:uri.image>`
+====================================
 
 
 Resizes a given image (if required) and returns its relative path.

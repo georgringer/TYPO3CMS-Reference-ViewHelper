@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-or:
 
-==========================
-or ViewHelper `<fluid:or>`
-==========================
+======================
+or ViewHelper `<f:or>`
+======================
 
 
 If content is empty use alternative text

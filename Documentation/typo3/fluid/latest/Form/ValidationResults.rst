@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-validationresults:
 
-==================================================================
-form.validationResults ViewHelper `<fluid:form.validationResults>`
-==================================================================
+==============================================================
+form.validationResults ViewHelper `<f:form.validationResults>`
+==============================================================
 
 
 Validation results ViewHelper

@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-then:
 
-==============================
-then ViewHelper `<fluid:then>`
-==============================
+==========================
+then ViewHelper `<f:then>`
+==========================
 
 
 ``f:then`` only has an effect inside of ``f:if``. See the ``f:if`` ViewHelper for documentation.

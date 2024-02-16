@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-transform-html:
 
-==================================================
-transform.html ViewHelper `<fluid:transform.html>`
-==================================================
+==============================================
+transform.html ViewHelper `<f:transform.html>`
+==============================================
 
 
 Transforms HTML and substitutes internal link scheme aspects.

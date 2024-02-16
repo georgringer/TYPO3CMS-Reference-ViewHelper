@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-cobject:
 
-====================================
-cObject ViewHelper `<fluid:cObject>`
-====================================
+================================
+cObject ViewHelper `<f:cObject>`
+================================
 
 
 This ViewHelper renders CObjects from the global TypoScript configuration.

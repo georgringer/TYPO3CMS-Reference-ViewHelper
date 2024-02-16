@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-else:
 
-==============================
-else ViewHelper `<fluid:else>`
-==============================
+==========================
+else ViewHelper `<f:else>`
+==========================
 
 
 Else-Branch of a condition. Only has an effect inside of ``f:if``.

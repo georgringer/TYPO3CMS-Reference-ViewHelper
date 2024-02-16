@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-debug-render:
 
-==============================================
-debug.render ViewHelper `<fluid:debug.render>`
-==============================================
+==========================================
+debug.render ViewHelper `<f:debug.render>`
+==========================================
 
 
 Debuggable version of :ref:`f:render <typo3-fluid-render>` - performs the

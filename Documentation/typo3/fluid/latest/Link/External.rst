@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-link-external:
 
-================================================
-link.external ViewHelper `<fluid:link.external>`
-================================================
+============================================
+link.external ViewHelper `<f:link.external>`
+============================================
 
 
 A ViewHelper for creating links to external targets.

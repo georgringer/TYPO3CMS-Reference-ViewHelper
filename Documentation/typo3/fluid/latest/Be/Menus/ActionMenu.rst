@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-menus-actionmenu:
 
-============================================================
-be.menus.actionMenu ViewHelper `<fluid:be.menus.actionMenu>`
-============================================================
+========================================================
+be.menus.actionMenu ViewHelper `<f:be.menus.actionMenu>`
+========================================================
 
 
 ViewHelper which returns a select box, that can be used to switch between

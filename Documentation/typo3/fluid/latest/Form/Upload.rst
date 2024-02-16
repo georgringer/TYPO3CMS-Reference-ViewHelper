@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-upload:
 
-============================================
-form.upload ViewHelper `<fluid:form.upload>`
-============================================
+========================================
+form.upload ViewHelper `<f:form.upload>`
+========================================
 
 
 A ViewHelper which generates an :html:`<input type="file">` HTML element.

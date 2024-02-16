@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-case:
 
-============================================
-format.case ViewHelper `<fluid:format.case>`
-============================================
+========================================
+format.case ViewHelper `<f:format.case>`
+========================================
 
 
 Modifies the case of an input string to upper- or lowercase or capitalization.
