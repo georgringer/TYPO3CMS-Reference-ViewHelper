@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-asset-script:
 
-============
-asset.script
-============
+==============================================
+asset.script ViewHelper `<fluid:asset.script>`
+==============================================
 
 
 ViewHelper to add JavaScript to the TYPO3 AssetCollector. Either a file or inline JavaScript can be added.
@@ -27,6 +27,9 @@ times using the same identifier, the asset will only be served once (the last ad
 
 Some available attributes are defaults but do not make sense for this ViewHelper. Relevant attributes specific
 for this ViewHelper are: async, crossorigin, defer, integrity, nomodule, nonce, referrerpolicy, src, type.
+
+
+.. _typo3-fluid-asset-script_arguments:
 
 Arguments
 =========

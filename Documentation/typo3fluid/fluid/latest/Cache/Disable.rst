@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-cache-disable:
 
-=============
-cache.disable
-=============
+================================================
+cache.disable ViewHelper `<fluid:cache.disable>`
+================================================
 
 
 ViewHelper to disable template compiling
@@ -51,6 +51,9 @@ Container tag
     </f:cache.disable>
 
 Additional output is also not compilable because of the ViewHelper
+
+
+.. _typo3fluid-fluid-cache-disable_arguments:
 
 Arguments
 =========

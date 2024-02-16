@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form:
 
-====
-form
-====
+==============================
+form ViewHelper `<fluid:form>`
+==============================
 
 
 Form ViewHelper. Generates a :html:`<form>` Tag. Tailored for extbase plugins, uses extbase Request.
@@ -39,6 +39,9 @@ Binding a domain object to a form::
 
 This automatically inserts the value of ``{customer.name}`` inside the
 textarea and adjusts the name of the textarea accordingly.
+
+
+.. _typo3-fluid-form_arguments:
 
 Arguments
 =========

@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-nl2br:
 
-============
-format.nl2br
-============
+==============================================
+format.nl2br ViewHelper `<fluid:format.nl2br>`
+==============================================
 
 
 Wrapper for PHPs :php:`nl2br` function.
@@ -30,6 +30,9 @@ Inline notation
    {text_with_linebreaks -> f:format.nl2br()}
 
 Text with line breaks replaced by ``<br />``
+
+
+.. _typo3-fluid-format-nl2br_arguments:
 
 Arguments
 =========

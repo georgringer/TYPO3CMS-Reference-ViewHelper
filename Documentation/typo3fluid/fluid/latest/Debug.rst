@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-debug:
 
-=====
-debug
-=====
+================================
+debug ViewHelper `<fluid:debug>`
+================================
 
 
 This ViewHelper is only meant to be used during development.
@@ -33,6 +33,9 @@ Only output the type
 Output::
 
     the type or class name of {object}
+
+
+.. _typo3fluid-fluid-debug_arguments:
 
 Arguments
 =========

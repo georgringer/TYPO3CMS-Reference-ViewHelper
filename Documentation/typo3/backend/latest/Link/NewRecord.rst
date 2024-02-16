@@ -2,9 +2,9 @@
 
 .. _typo3-backend-link-newrecord:
 
-==============
-link.newRecord
-==============
+====================================================
+link.newRecord ViewHelper `<backend:link.newRecord>`
+====================================================
 
 
 Use this ViewHelper to provide 'create new record' links.
@@ -77,6 +77,9 @@ Output::
    <a href="/typo3/record/edit?edit[a_table][17]=new&returnUrl=foo/bar&defVals[a_table][a_field]=value">
        New record
    </a>
+
+
+.. _typo3-backend-link-newrecord_arguments:
 
 Arguments
 =========

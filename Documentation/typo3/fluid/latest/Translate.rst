@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-translate:
 
-=========
-translate
-=========
+========================================
+translate ViewHelper `<fluid:translate>`
+========================================
 
 
 Translate a key from locallang. The files are loaded from the folder
@@ -79,6 +79,9 @@ Inline notation with extension name
 
 Value of key ``someKey`` in the current website language.
 The locallang file of extension "some_extension_name" will be used.
+
+
+.. _typo3-fluid-translate_arguments:
 
 Arguments
 =========

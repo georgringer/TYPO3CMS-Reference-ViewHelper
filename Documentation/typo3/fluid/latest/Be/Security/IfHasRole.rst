@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-security-ifhasrole:
 
-=====================
-be.security.ifHasRole
-=====================
+================================================================
+be.security.ifHasRole ViewHelper `<fluid:be.security.ifHasRole>`
+================================================================
 
 
 This ViewHelper implements an ifHasRole/else condition for backend users
@@ -48,6 +48,9 @@ IfRole / then / else::
 Everything inside the :html:`<f:then></f:then>` tag is displayed if the
 logged in backend user belongs to the specified backend group.
 Otherwise, everything inside the :html:`<f:else></f:else>` tag is displayed.
+
+
+.. _typo3-fluid-be-security-ifhasrole_arguments:
 
 Arguments
 =========

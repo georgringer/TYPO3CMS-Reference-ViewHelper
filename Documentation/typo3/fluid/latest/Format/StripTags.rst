@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-striptags:
 
-================
-format.stripTags
-================
+======================================================
+format.stripTags ViewHelper `<fluid:format.stripTags>`
+======================================================
 
 
 Removes tags from the given string (applying PHPs :php:`strip_tags()` function)
@@ -55,6 +55,9 @@ Inline notation with allowedTags
    {text -> f:format.stripTags(allowedTags: "<p><span><div><script>")}
 
 Text with p, span, div and script Tags inside, all other tags are removed.
+
+
+.. _typo3-fluid-format-striptags_arguments:
 
 Arguments
 =========

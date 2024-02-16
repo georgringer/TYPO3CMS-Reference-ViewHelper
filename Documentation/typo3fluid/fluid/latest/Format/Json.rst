@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-format-json:
 
-===========
-format.json
-===========
+============================================
+format.json ViewHelper `<fluid:format.json>`
+============================================
 
 
 Wrapper for PHPs :php:`json_encode` function.
@@ -40,6 +40,9 @@ Non associative array with forced object
    {f:format.json(value: {0: 'bar', 1: 'baz'}, forceObject: true)}
 
 ``{"0":"bar","1":"baz"}``
+
+
+.. _typo3fluid-fluid-format-json_arguments:
 
 Arguments
 =========

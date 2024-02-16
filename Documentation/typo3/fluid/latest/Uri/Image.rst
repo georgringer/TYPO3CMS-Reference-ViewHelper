@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-uri-image:
 
-=========
-uri.image
-=========
+========================================
+uri.image ViewHelper `<fluid:uri.image>`
+========================================
 
 
 Resizes a given image (if required) and returns its relative path.
@@ -79,6 +79,9 @@ Non existing image
    <f:uri.image src="NonExistingImage.png" />
 
 ``Could not get image resource for "NonExistingImage.png".``
+
+
+.. _typo3-fluid-uri-image_arguments:
 
 Arguments
 =========

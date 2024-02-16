@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-security-ifhasrole:
 
-==================
-security.ifHasRole
-==================
+==========================================================
+security.ifHasRole ViewHelper `<fluid:security.ifHasRole>`
+==========================================================
 
 
 This ViewHelper implements an ifHasRole/else condition for frontend groups.
@@ -54,6 +54,9 @@ IfRole / then / else
 
 Everything inside the :html:`<f:then></f:then>` tag is displayed if the logged in FE user belongs to the specified role.
 Otherwise, everything inside the :html:`<f:else></f:else>` tag is displayed.
+
+
+.. _typo3-fluid-security-ifhasrole_arguments:
 
 Arguments
 =========

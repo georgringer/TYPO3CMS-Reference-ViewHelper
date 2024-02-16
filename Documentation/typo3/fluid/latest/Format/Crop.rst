@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-crop:
 
-===========
-format.crop
-===========
+============================================
+format.crop ViewHelper `<fluid:format.crop>`
+============================================
 
 
 Use this ViewHelper to crop the text between its opening and closing tags.
@@ -70,6 +70,9 @@ Inline notation
 
 ``someLongText cropped after 10 characters``
 Depending on the value of ``{someLongText}``.
+
+
+.. _typo3-fluid-format-crop_arguments:
 
 Arguments
 =========

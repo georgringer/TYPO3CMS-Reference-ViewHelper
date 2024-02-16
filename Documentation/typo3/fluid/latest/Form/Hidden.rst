@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-hidden:
 
-===========
-form.hidden
-===========
+============================================
+form.hidden ViewHelper `<fluid:form.hidden>`
+============================================
 
 
 Renders an :html:`<input type="hidden" ...>` tag.
@@ -22,6 +22,9 @@ Output::
 
 You can also use the "property" attribute if you have bound an object to the form.
 See :ref:`<f:form> <typo3-fluid-form>` for more documentation.
+
+
+.. _typo3-fluid-form-hidden_arguments:
 
 Arguments
 =========

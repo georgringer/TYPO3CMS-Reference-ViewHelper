@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-or:
 
-==
-or
-==
+==========================
+or ViewHelper `<fluid:or>`
+==========================
 
 
 Or ViewHelper
@@ -28,6 +28,9 @@ it might be more handy to use a ternary operator instead of f:or
 ::
 
     {emptyVariable ?: 'this is an alterative text'}
+
+
+.. _typo3fluid-fluid-or_arguments:
 
 Arguments
 =========

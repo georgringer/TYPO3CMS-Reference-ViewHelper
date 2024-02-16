@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-pagerenderer:
 
-===============
-be.pageRenderer
-===============
+====================================================
+be.pageRenderer ViewHelper `<fluid:be.pageRenderer>`
+====================================================
 
 
 ViewHelper to register backend module resources like CSS and JavaScript using the PageRenderer.
@@ -25,6 +25,9 @@ All options::
 
 This will load the specified css, js files and JavaScript modules, adds a custom js
 inline setting, and adds a resolved label to be used in js.
+
+
+.. _typo3-fluid-be-pagerenderer_arguments:
 
 Arguments
 =========

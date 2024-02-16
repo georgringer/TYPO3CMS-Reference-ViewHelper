@@ -2,12 +2,15 @@
 
 .. _typo3-backend-languagecolumn:
 
-==============
-languageColumn
-==============
+====================================================
+languageColumn ViewHelper `<backend:languageColumn>`
+====================================================
 
 
 
+
+
+.. _typo3-backend-languagecolumn_arguments:
 
 Arguments
 =========

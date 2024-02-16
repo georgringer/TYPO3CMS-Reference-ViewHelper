@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-media:
 
-=====
-media
-=====
+================================
+media ViewHelper `<fluid:media>`
+================================
 
 
 Render a given media file with the correct html tag.
@@ -47,6 +47,9 @@ MP4 Video Object with loop and autoplay option set
 Output::
 
    <video width="400" height="375" controls loop><source src="fileadmin/user_upload/my-video.mp4" type="video/mp4"></video>
+
+
+.. _typo3-fluid-media_arguments:
 
 Arguments
 =========

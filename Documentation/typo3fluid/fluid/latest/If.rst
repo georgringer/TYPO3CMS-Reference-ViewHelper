@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-if:
 
-==
-if
-==
+==========================
+if ViewHelper `<fluid:if>`
+==========================
 
 
 This ViewHelper implements an if/else condition.
@@ -89,6 +89,9 @@ Output::
 
     The value of the "then" attribute is displayed if the condition evaluates to TRUE.
     Otherwise, everything the value of the "else"-attribute is displayed.
+
+
+.. _typo3fluid-fluid-if_arguments:
 
 Arguments
 =========

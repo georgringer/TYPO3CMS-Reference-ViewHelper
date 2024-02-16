@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-format-printf:
 
-=============
-format.printf
-=============
+================================================
+format.printf ViewHelper `<fluid:format.printf>`
+================================================
 
 
 A ViewHelper for formatting values with printf. Either supply an array for
@@ -60,6 +60,9 @@ Inline notation
 Output::
 
     We love TYPO3
+
+
+.. _typo3fluid-fluid-format-printf_arguments:
 
 Arguments
 =========

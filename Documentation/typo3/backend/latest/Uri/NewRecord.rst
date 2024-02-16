@@ -2,9 +2,9 @@
 
 .. _typo3-backend-uri-newrecord:
 
-=============
-uri.newRecord
-=============
+==================================================
+uri.newRecord ViewHelper `<backend:uri.newRecord>`
+==================================================
 
 
 Use this ViewHelper to provide 'create new record' links.
@@ -51,6 +51,9 @@ Uri to create a new record of a_table on page 17 with a default value::
    <be:uri.newRecord table="a_table" returnUrl="foo/bar" pid="17" defaultValues="{a_table: {a_field: 'value'}}"/>
 
 ``/typo3/record/edit?edit[a_table][17]=new&returnUrl=foo/bar&defVals[a_table][a_field]=value``
+
+
+.. _typo3-backend-uri-newrecord_arguments:
 
 Arguments
 =========

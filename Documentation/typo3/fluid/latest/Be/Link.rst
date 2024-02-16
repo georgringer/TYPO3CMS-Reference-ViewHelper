@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-link:
 
-=======
-be.link
-=======
+====================================
+be.link ViewHelper `<fluid:be.link>`
+====================================
 
 
 A ViewHelper for creating URIs to modules.
@@ -17,6 +17,9 @@ URI to the web_ts module on page 92::
    <f:be.link route="web_ts" parameters="{id: 92}">Go to web_ts</f:be.link>
 
 ``<a href="/typo3/module/web/ts?token=b6e9c9f&id=92">Go to web_ts</a>``
+
+
+.. _typo3-fluid-be-link_arguments:
 
 Arguments
 =========

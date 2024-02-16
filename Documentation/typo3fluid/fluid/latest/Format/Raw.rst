@@ -2,9 +2,9 @@
 
 .. _typo3fluid-fluid-format-raw:
 
-==========
-format.raw
-==========
+==========================================
+format.raw ViewHelper `<fluid:format.raw>`
+==========================================
 
 
 Outputs an argument/value without any escaping. Is normally used to output
@@ -48,6 +48,9 @@ Inline notation
 Output::
 
     (Content of ``{string}`` without any conversion/escaping)
+
+
+.. _typo3fluid-fluid-format-raw_arguments:
 
 Arguments
 =========

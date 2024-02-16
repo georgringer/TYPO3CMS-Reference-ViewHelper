@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-link-external:
 
-=============
-link.external
-=============
+================================================
+link.external ViewHelper `<fluid:link.external>`
+================================================
 
 
 A ViewHelper for creating links to external targets.
@@ -33,6 +33,9 @@ Custom default scheme
 Output::
 
    <a href="ftp://typo3.org">external ftp link</a>
+
+
+.. _typo3-fluid-link-external_arguments:
 
 Arguments
 =========

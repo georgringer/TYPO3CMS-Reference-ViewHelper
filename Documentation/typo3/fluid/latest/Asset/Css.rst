@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-asset-css:
 
-=========
-asset.css
-=========
+========================================
+asset.css ViewHelper `<fluid:asset.css>`
+========================================
 
 
 ViewHelper to add CSS to the TYPO3 AssetCollector. Either a file or inline CSS can be added.
@@ -28,6 +28,9 @@ times using the same identifier, the asset will only be served once (the last ad
 Some available attributes are defaults but do not make sense for this ViewHelper. Relevant attributes specific
 for this ViewHelper are: as, crossorigin, disabled, href, hreflang, importance, integrity, media, referrerpolicy,
 sizes, type, nonce.
+
+
+.. _typo3-fluid-asset-css_arguments:
 
 Arguments
 =========

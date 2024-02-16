@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-urlencode:
 
-================
-format.urlencode
-================
+======================================================
+format.urlencode ViewHelper `<fluid:format.urlencode>`
+======================================================
 
 
 Encodes the given string according to http://www.faqs.org/rfcs/rfc3986.html
@@ -34,6 +34,9 @@ Inline notation
    {text -> f:format.urlencode()}
 
 Url encoded text :php:`rawurlencode()` applied.
+
+
+.. _typo3-fluid-format-urlencode_arguments:
 
 Arguments
 =========

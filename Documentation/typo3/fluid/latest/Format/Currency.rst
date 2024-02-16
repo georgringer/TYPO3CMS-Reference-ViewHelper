@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-currency:
 
-===============
-format.currency
-===============
+====================================================
+format.currency ViewHelper `<fluid:format.currency>`
+====================================================
 
 
 Formats a given float to a currency representation.
@@ -61,6 +61,9 @@ Use dash for decimals without value
 Output::
 
     123,-
+
+
+.. _typo3-fluid-format-currency_arguments:
 
 Arguments
 =========

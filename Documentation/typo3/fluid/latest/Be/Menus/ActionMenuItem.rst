@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-be-menus-actionmenuitem:
 
-=======================
-be.menus.actionMenuItem
-=======================
+====================================================================
+be.menus.actionMenuItem ViewHelper `<fluid:be.menus.actionMenuItem>`
+====================================================================
 
 
 ViewHelper which returns an option tag.
@@ -35,6 +35,9 @@ Localized::
    </f:be.menus.actionMenu>
 
 Localized select box.
+
+
+.. _typo3-fluid-be-menus-actionmenuitem_arguments:
 
 Arguments
 =========

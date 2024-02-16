@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-link-email:
 
-==========
-link.email
-==========
+==========================================
+link.email ViewHelper `<fluid:link.email>`
+==========================================
 
 
 Email link ViewHelper.
@@ -50,6 +50,9 @@ Output::
    <a href="mailto:foo@bar.tld?subject=Check%20out%20this%20website&amp;cc=foo%40example.com">some custom content</a>
 
 Depending on `spamProtectEmailAddresses`_ setting.
+
+
+.. _typo3-fluid-link-email_arguments:
 
 Arguments
 =========

@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-security-nonce:
 
-==============
-security.nonce
-==============
+==================================================
+security.nonce ViewHelper `<fluid:security.nonce>`
+==================================================
 
 
 This ViewHelper resolves the `nonce` attribute from the global server request object,
@@ -19,6 +19,9 @@ Basic usage
 ::
 
    <script nonce="{f:security.nonce()}">const inline = 'script';</script>
+
+
+.. _typo3-fluid-security-nonce_arguments:
 
 Arguments
 =========

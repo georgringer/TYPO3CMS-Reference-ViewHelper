@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-form-countryselect:
 
-==================
-form.countrySelect
-==================
+==========================================================
+form.countrySelect ViewHelper `<fluid:form.countrySelect>`
+==========================================================
 
 
 Renders a :html:`<select>` tag with all available countries as options.
@@ -61,6 +61,9 @@ Bind an object
 
 You can also use the "property" attribute if you have bound an object to the form.
 See :ref:`<f:form> <typo3-fluid-form>` for more documentation.
+
+
+.. _typo3-fluid-form-countryselect_arguments:
 
 Arguments
 =========

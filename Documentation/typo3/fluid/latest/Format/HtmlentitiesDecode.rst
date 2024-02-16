@@ -2,9 +2,9 @@
 
 .. _typo3-fluid-format-htmlentitiesdecode:
 
-=========================
-format.htmlentitiesDecode
-=========================
+========================================================================
+format.htmlentitiesDecode ViewHelper `<fluid:format.htmlentitiesDecode>`
+========================================================================
 
 
 Applies :php:`html_entity_decode()` to a value.
@@ -34,6 +34,9 @@ Text containing the following escaped signs: ``&amp;`` ``&quot;`` ``&#039;`` ``&
 These will result in: ``&`` ``"`` ``'`` ``<`` ``>``.
 
 But encoded as ISO-8859-1.
+
+
+.. _typo3-fluid-format-htmlentitiesdecode_arguments:
 
 Arguments
 =========
